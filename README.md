@@ -12,6 +12,8 @@ Click the Git icon in the left sidebar.
 
 Enter a description of the changes in the text box, and click Commit to save the changes to Git.
 
+Then synchronise the changes to your GitHub repository by clicking Sync.
+
 
 
 # [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
