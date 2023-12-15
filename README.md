@@ -1,3 +1,19 @@
+# Construct LiangLab website
+
+1. Go to the [template’s GitHub page](https://hugoblox.com/templates/details/research-group/) and click Edit.
+
+Then, in the Repository Name field, enter jiminliang.github.io.
+
+2. In the new repository, click Code > Codespaces > Create codespace on main to edit the new website.
+
+3. Publish
+
+Click the Git icon in the left sidebar.
+
+Enter a description of the changes in the text box, and click Commit to save the changes to Git.
+
+
+
 # [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
 
 [![Screenshot](./preview.png)](https://hugoblox.com/hugo-themes/)
