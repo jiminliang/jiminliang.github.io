@@ -1,12 +1,18 @@
 # Construct LiangLab website
 
-1. Go to the [template’s GitHub page](https://hugoblox.com/templates/details/research-group/) and click Edit.
+## Create the repository
+
+Go to the [template’s GitHub page](https://hugoblox.com/templates/details/research-group/) and click Edit.
 
 Then, in the Repository Name field, enter jiminliang.github.io.
 
-2. In the new repository, click Code > Codespaces > Create codespace on main to edit the new website.
+## Create the codespace
 
-3. Publish
+In the new repository, click Code > Codespaces > Create codespace on main to edit the new website.
+
+## Edit the webpages
+
+## Publish
 
 Click the Git icon in the left sidebar.
 
@@ -14,7 +20,7 @@ Enter a description of the changes in the text box, and click Commit to save the
 
 Then synchronise the changes to your GitHub repository by clicking Sync.
 
-4. View website
+## View website
 
 In the web browser, go to the website’s GitHub repository.
 
