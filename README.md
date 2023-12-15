@@ -14,6 +14,20 @@ Enter a description of the changes in the text box, and click Commit to save the
 
 Then synchronise the changes to your GitHub repository by clicking Sync.
 
+4. View website
+
+In the web browser, go to the website’s GitHub repository.
+
+Tell GitHub that you want to use GitHub Pages to host your website by clicking Settings > Pages > Source and then choosing GitHub Actions.
+
+Now head to Actions > Deploy Website > Run workflow and click the Run workflow button to publish the site with GitHub Pages hosting.
+
+GitHub will now build your website - this can take a minute or two.
+
+Once GitHub has built the website, a green tick should appear on the Actions page.
+
+
+
 
 
 # [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
