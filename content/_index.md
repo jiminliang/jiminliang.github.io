@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: machines4U.png
+            filename: AI_Eye_1.jpg
             filters:
               brightness: 0.5
           position: right
