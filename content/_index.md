@@ -19,26 +19,24 @@ sections:
           position: right
           color: '#666'
         link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: More ...
+          text: Current Studies
           url: ../research/
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Research in progress
+        content: 'Our current research focuses on brain-computer fusion for advanced computer vision, human behaviour analysis, and performance evaluation of AI-based systems, with an emphasis on tackling data limitations using AIGC techniques.'
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: colormeans.jpg
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: Previous studies
+        content: 'Our previous studies include optical tomography for molecular imaging and auroral image analysis.'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: aurora.jpg
             filters:
               brightness: 0.5
           position: center
