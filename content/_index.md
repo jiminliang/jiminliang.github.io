@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the IntelliVision Research Group
+      - title:  IntelliVision Research Group
         content: Take a look at what we're working on...
         align: center
         background:
