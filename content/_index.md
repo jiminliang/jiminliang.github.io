@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: AI_Eye_1.jpg
+            filename: image-human-eye-process-scanning.jpg
             filters:
               brightness: 0.7
           position: right
