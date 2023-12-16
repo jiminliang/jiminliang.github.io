@@ -23,7 +23,7 @@ sections:
         #   url: ../research/
       - title: Research in progress
         content: 'Our current research focuses on brain-computer fusion for advanced computer vision, human behaviour analysis, and performance evaluation of AI-based systems, with an emphasis on tackling data limitations using AIGC techniques.'
-        align: left
+        align: center
         background:
           image:
             filename: BCI4.png
@@ -33,7 +33,7 @@ sections:
           color: '#555'
       - title: Previous studies
         content: 'Our previous studies focused on optical tomography for molecular imaging and auroral image analysis.'
-        align: left
+        align: center
         background:
           image:
             filename: aurora.jpg
