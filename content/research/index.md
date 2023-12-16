@@ -1,6 +1,6 @@
 ---
 title: Research
-date: 2023-12-17
+date: 2023-12-16
 
 type: landing
 
