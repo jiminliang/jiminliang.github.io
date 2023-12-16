@@ -26,9 +26,9 @@ sections:
         align: left
         background:
           image:
-            filename: BCI.jpg
+            filename: BCI4.png
             filters:
-              brightness: 0.5
+              brightness: 0.7
           position: center
           color: '#555'
       - title: Previous studies
