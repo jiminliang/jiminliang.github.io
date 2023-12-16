@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Research
 date: 2023-12-17
 
 type: landing
