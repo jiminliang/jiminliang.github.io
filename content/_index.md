@@ -26,14 +26,14 @@ sections:
         align: left
         background:
           image:
-            filename: colormeans.jpg
+            filename: BCI.jpg
             filters:
               brightness: 0.7
           position: center
           color: '#555'
       - title: Previous studies
         content: 'Our previous studies focused on optical tomography for molecular imaging and auroral image analysis.'
-        align: right
+        align: left
         background:
           image:
             filename: aurora.jpg
