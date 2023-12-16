@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: machines4U.jpg
+            filename: machines4U.png
             filters:
               brightness: 0.7
           position: right
