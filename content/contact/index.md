@@ -10,7 +10,7 @@ sections:
       title: Contact
       text: |-
         Please leave a message if you have any questions.
-      email: jiminliang AT gmail.com
+      email: jiminliang@gmail.com
       phone: +86-29-88202251
       address:
         street: 2 South Taibai Road
@@ -47,23 +47,23 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: AI_Eye.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: AI_Eye.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
+  #     css_class: fullscreen
 ---
