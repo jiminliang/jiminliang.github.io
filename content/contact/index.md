@@ -13,15 +13,15 @@ sections:
       email: jiminliang@gmail.com
       phone: +86-2988202251
       address:
-        street: 2 South Taibai Road
-        city: Xi'an
-        region: Shaanxi
-        postcode: '710071'
-        country: China
-        country_code: CN
+        street: 450 Serra Mall
+        city: Stanford
+        region: CA
+        postcode: '94305'
+        country: United States
+        country_code: US
       coordinates:
-        latitude: '34.14'
-        longitude: '108.55'
+        latitude: '37.4275'
+        longitude: '-122.1697'
       directions: Office 234, the administration building.
       office_hours:
         - 'Monday 10:00 to 13:00'
@@ -56,7 +56,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: colormeans.jpg
+          filename: AI_eye.jpg
           filters:
             brightness: 1
           parallax: false

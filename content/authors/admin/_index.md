@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jimin Liang 梁继民
+title: Jimin Liang
 
 # Full Name (for SEO)
 first_name: Jimin
