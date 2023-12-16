@@ -15,7 +15,7 @@ sections:
           image:
             filename: AI_Eye_1.jpg
             filters:
-              brightness: 0.5
+              brightness: 0.7
           position: right
           color: '#666'
         link:
