@@ -28,7 +28,7 @@ sections:
           image:
             filename: BCI.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.5
           position: center
           color: '#555'
       - title: Previous studies
