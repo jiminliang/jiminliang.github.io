@@ -9,7 +9,7 @@ sections:
     content:
       slides:
       - title:  AI for Science and Engineering
-        content: We develop and apply novel artificial intelligence techniques for signal sensing, target detection and recognition, and behavioural understanding in a variety of scenarios using optics, electromagnetism and electronics. 
+        content: We develop and apply novel artificial intelligence methods to see the unseen using optics, electromagnetism and electronics, and to understand what is seen. 
         align: center
         background:
           image:
