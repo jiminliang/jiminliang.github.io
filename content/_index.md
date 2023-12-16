@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title:  IntelliVision Research Group
-        content: Take a look at what we're working on...
+      - title:  AI for Science and Engineering
+        content: We develop and apply novel artificial intelligence techniques for signal sensing, target detection and recognition, and behavioural understanding in a variety of scenarios using optics, electromagnetism and electronics. 
         align: center
         background:
           image:
