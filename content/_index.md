@@ -32,13 +32,13 @@ sections:
           position: center
           color: '#555'
       - title: Previous studies
-        content: 'Our previous studies include optical tomography for molecular imaging and auroral image analysis.'
+        content: 'Our previous studies focused on optical tomography for molecular imaging and auroral image analysis.'
         align: right
         background:
           image:
             filename: aurora.jpg
             filters:
-              brightness: 0.5
+              brightness: 0.7
           position: center
           color: '#333'
     design:
