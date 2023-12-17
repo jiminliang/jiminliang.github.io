@@ -22,12 +22,12 @@ organizations:
     url: 'https://faculty.xidian.edu.cn/GUOKAITAI/zh_CN/index.htm'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include broad-spectrum substance identification, microwave imaging, and artificial intelligence.
+bio: My research interests include broad-spectrum substance identification, microwave and infrared imaging, and system simulation and evaluation.
 
 interests:
-  - Broad-spectrum Substance Identification
-  - Microwave Imaging
-  - Aritifical Intelligence
+  - Ion Mobility Spectrometry
+  - System simulation and evaluation
+  - Microwave and infrared imaging
 
 education:
   courses:
@@ -70,4 +70,4 @@ user_groups:
   - Researchers
 ---
 
-Kaitai Guo is an assistant professor of electronic engineering at the Xidian University. His research interests include broad-spectrum substance identification, microwave imaging, and artificial intelligence.
+Kaitai Guo is an assistant professor of electronic engineering at the Xidian University. He received the B.Sc. degree in the School of Mechanical and Electrical Engineering from Xidian University, Xi'an, China, in 2013. He received the Ph.D. in the Department of Precision Instrument from Tsinghua University, Beijing, China, in 2019. He worked as a Grade 8 System Engineer in Shenzhen Mindray Bio-Medical Electronics Co., Ltd. from 2019-2021. He joined the School of Electronic Engineering, Xidian University in 2021, engaging in theoretical and applied research on broad-spectrum substance identification, microwave imaging, and artificial intelligence. He has authored or coauthored more than 10 journal papers and 10 granted patents on those topics. He was awarded the third prize in the theory category and the third prize in the experimental category of the Xidian University's Young Teachers' Lecture Competition in 2021-2023, the first prize in the theory category and the first prize in the experimental category of the College of Electronic Engineering's Young Teachers' Lecture Competition.
