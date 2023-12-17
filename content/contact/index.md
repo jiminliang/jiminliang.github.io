@@ -10,7 +10,7 @@ sections:
       title: Contact
       # text: |-
       #   Please leave a message if you have any questions.
-      email: jiminliang AT gmail.com
+      email: jiminliang AT gmail.com, jimleung AT mail.xidian.edu.cn
       phone: +86-29-88202251
       address:
         street: 2 South Taibai Road, P.O.Box 131, Xidian University
