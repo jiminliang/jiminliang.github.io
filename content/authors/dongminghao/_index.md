@@ -31,10 +31,10 @@ interests:
 
 education:
   courses:
-    - course: PhD in Biomedical Engineering
+    - course: Ph.D. in Biomedical Engineering
       institution: Xidian University
       year: 2013
-    - course: BSc in Electronic Engineering
+    - course: B.Sc. in Electronic Engineering
       institution: Xidian University
       year: 2009
 

@@ -31,10 +31,10 @@ interests:
 
 education:
   courses:
-    - course: PhD in Instrumentation Science and Technology
+    - course: Ph.D. in Instrumentation Science and Technology
       institution: Tsinghua University
       year: 2019
-    - course: BSc in Measurement and Control Technology and Instrumentation
+    - course: B.Sc. in Measurement and Control Technology and Instrumentation
       institution: Xidian University
       year: 2013
 

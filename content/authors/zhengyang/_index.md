@@ -31,10 +31,10 @@ interests:
 
 education:
   courses:
-    - course: PhD in Signal and Information Processing
+    - course: Ph.D. in Signal and Information Processing
       institution: University of Chinese Academy of Sciences
       year: 2021
-    - course: BSc in Electronic Science and Technology
+    - course: B.Sc. in Electronic Science and Technology
       institution: Xidian University
       year: 2015
 
