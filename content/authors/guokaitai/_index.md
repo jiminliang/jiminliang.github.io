@@ -19,15 +19,15 @@ role: Assistant Professor of Electronic Engineering
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://web.xidian.edu.cn/mhdong/'
+    url: 'https://faculty.xidian.edu.cn/GUOKAITAI/zh_CN/index.htm'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include intelligent human-computer interaction, brain science and neuroimaging.
+bio: My research interests include broad-spectrum substance identification, microwave imaging, and artificial intelligence.
 
 interests:
-  - Human-Computer Interaction
-  - Brain Science
-  - Neuroimaging
+  - Broad-spectrum Substance Identification
+  - Microwave Imaging
+  - Aritifical Intelligence
 
 education:
   courses:
@@ -45,13 +45,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:dminghao@xidian.edu.cn'
+    link: 'mailto:ktguo@xidian.edu.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=VknVYI8AAAAJ
+    link: https://scholar.google.com/citations?user=C5NUoyIAAAAJ
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen
@@ -70,4 +70,4 @@ user_groups:
   - Researchers
 ---
 
-Minghao Dong is a professor of biomedical engineering at the Xidian University. His research interests include intelligent human-computer interaction, brain science and neuroimaging.
+Kaitai Guo is an assistant professor of electronic engineering at the Xidian University. His research interests include broad-spectrum substance identification, microwave imaging, and artificial intelligence.

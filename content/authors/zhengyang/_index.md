@@ -19,7 +19,7 @@ role: Assistant Professor of Electronic Engineering
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://web.xidian.edu.cn/mhdong/'
+    url: 'https://faculty.xidian.edu.cn/ZHENGYANG/zh_CN/index.htm'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include intelligent human-computer interaction, brain science and neuroimaging.
@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:dminghao@xidian.edu.cn'
+    link: 'mailto:zhengy@xidian.edu.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
