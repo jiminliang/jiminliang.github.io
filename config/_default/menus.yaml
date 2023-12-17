@@ -4,18 +4,21 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: Home
+    url: 'https://jiminliang.github.io/'
+    weight: 10
   - name: News
     url: post
-    weight: 10
+    weight: 20
   - name: People
     url: people
-    weight: 20
+    weight: 30
   - name: Research
     url: research
-    weight: 30
+    weight: 40
   - name: Publications
     url: publication
-    weight: 40
+    weight: 50
   - name: Contact
     url: contact
-    weight: 50
+    weight: 60
