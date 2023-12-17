@@ -27,13 +27,13 @@ interests:
 
 education:
   courses:
-    - course: PhD in Circuit and System
+    - course: Ph.D. in Circuit and System
       institution: Xidian University
       year: 2000
-    - course: MS in Signal and Information Processing
+    - course: M.Sc. in Signal and Information Processing
       institution: Xidian University
       year: 1995
-    - course: BSc in Automatic Control
+    - course: B.Sc. in Automatic Control
       institution: Xidian University
       year: 1992
 
@@ -74,6 +74,6 @@ user_groups:
   - Principal Investigators
 ---
 
-Jimin Liang is a professor at the Xidian University. He leads the IntelliVision research group, which develops novel artificial intelligence methods for microwave and infrared imaging, medical imaging, and image analysis. He received the B.S., M.S. and Ph. D. degrees in electronic engineering from Xidian University, Xi'an, China, in 1992, 1995 and 2000, respectively. He joined Xidian University in 1995, where he is now a full professor in the School of Electronic Engineering. From 2009-2019, he was with the School of Life Science and Technology, Xidian University. In the year of 2002, he was a research associate professor at the Electrical and Computer Engineering Department, University of Tennessee, Knoxville, USA. He was the deputy director of Shaanxi Society of Biomedical Engineering from 2018-2023, and is a member of IEEE. His general areas of research are in artificial intelligence, machine learning, computer vision, biomedical imaging, and microwave imaging.  He has authored or coauthored more than 200 journal papers and 30 granted patents on those topics. He was the recipient of 2010 Progress Award in Science and Technology of the Ministry of Education of China, 2012 National Invention Award of China, and 2019 Natural Science Award of Shaanxi Province. 
+Jimin Liang is a professor at the Xidian University. He leads the IntelliVision research group, which develops novel artificial intelligence methods for microwave and infrared imaging, medical imaging, and image analysis. He received the B.Sc., M.Sc. and Ph. D. degrees in electronic engineering from Xidian University, Xi'an, China, in 1992, 1995 and 2000, respectively. He joined Xidian University in 1995, where he is now a full professor in the School of Electronic Engineering. From 2009-2019, he was with the School of Life Science and Technology, Xidian University. In the year of 2002, he was a research associate professor at the Electrical and Computer Engineering Department, University of Tennessee, Knoxville, USA. He was the deputy director of Shaanxi Society of Biomedical Engineering from 2018-2023, and is a member of IEEE. His general areas of research are in artificial intelligence, machine learning, computer vision, biomedical imaging, and microwave imaging.  He has authored or coauthored more than 200 journal papers and 30 granted patents on those topics. He was the recipient of 2010 Progress Award in Science and Technology of the Ministry of Education of China, 2012 National Invention Award of China, and 2019 Natural Science Award of Shaanxi Province. 
 
 
