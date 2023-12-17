@@ -5,23 +5,23 @@ image:
   focal_point: 'top'
 ---
 
-# Start the new website from the [Hugo Research Group Theme](https://github.com/HugoBlox/theme-research-group)
+Start the new website from the [Hugo Research Group Theme](https://github.com/HugoBlox/theme-research-group)
 
 <!--more-->
 
-## Create the repository
+(1) Create the repository
 
 Go to the [template’s GitHub page](https://hugoblox.com/templates/details/research-group/) and click Edit.
 
 Then, in the Repository Name field, enter jiminliang.github.io.
 
-## Create the codespace
+(2) Create the codespace
 
 In the new repository, click Code > Codespaces > Create codespace on main to edit the new website.
 
-## Edit the webpages
+(3) Edit the webpages
 
-## Publish
+(4) Publish
 
 Click the Git icon in the left sidebar.
 
@@ -29,7 +29,7 @@ Enter a description of the changes in the text box, and click Commit to save the
 
 Then synchronise the changes to your GitHub repository by clicking Sync.
 
-## View website
+(5) View website
 
 In the web browser, go to the website’s GitHub repository.
 
