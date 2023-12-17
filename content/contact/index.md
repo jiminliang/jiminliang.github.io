@@ -13,7 +13,7 @@ sections:
       email: jiminliang AT gmail.com
       phone: +86-29-88202251
       address:
-        street: 2 South Taibai Road, P.O.Box 131, Xidian University.
+        street: 2 South Taibai Road, P.O.Box 131, Xidian University
         city: Xi'an
         region: Shaanxi
         postcode: '710071'
