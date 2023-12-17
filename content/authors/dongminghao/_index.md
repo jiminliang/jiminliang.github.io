@@ -67,7 +67,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Principal Investigators
 ---
 
 Minghao Dong is a professor of biomedical engineering at the Xidian University. His research interests include intelligent human-computer interaction, brain science and neuroimaging.

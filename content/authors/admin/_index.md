@@ -71,7 +71,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Principal Investigators
 ---
 
 Jimin Liang is a professor at the Xidian University. His research interests include artificial intelligence and computer vision. He leads the IntelliVision research group, which develops novel artificial intelligence methods for microwave and infrared imaging, medical imaging and image analysis.
