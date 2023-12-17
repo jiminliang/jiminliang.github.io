@@ -13,16 +13,16 @@ sections:
       email: jiminliang AT gmail.com
       phone: +86-29-88202251
       address:
-        street: 2 South Taibai Road
+        street: 2 South Taibai Road, P.O.Box 131, Xidian University.
         city: Xi'an
         region: Shaanxi
         postcode: '710071'
         country: China
         country_code: CN
       coordinates:
-        latitude: '34.14'
-        longitude: '108.55'
-      directions: Office 234, the administration building.
+        latitude: '34.23433'
+        longitude: '108.9162'
+      # directions: Office 234, the administration building.
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
