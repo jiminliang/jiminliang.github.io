@@ -22,6 +22,7 @@ bio: My research interests include artificial intelligence and computer vision.
 
 interests:
   - Brain-machine fusion
+  - Computer vision
   - Microwave and infrared imaging
   - System simulation and evaluation
 
