@@ -31,12 +31,12 @@ interests:
 
 education:
   courses:
-    - course: PhD in Biomedical Engineering
+    - course: PhD in Instrumentation Science and Technology
+      institution: Tsinghua University
+      year: 2019
+    - course: BSc in Measurement and Control Technology and Instrumentation
       institution: Xidian University
       year: 2013
-    - course: BSc in Electronic Engineering
-      institution: Xidian University
-      year: 2009
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -51,7 +51,7 @@ social:
   #   link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=C5NUoyIAAAAJ
+    link: https://scholar.google.com/citations?user=r3K5XGQAAAAJ&hl
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen

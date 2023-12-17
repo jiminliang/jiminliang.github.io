@@ -19,10 +19,10 @@ role: Assistant Professor of Electronic Engineering
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://faculty.xidian.edu.cn/ZHENGYANG/zh_CN/index.htm'
+    url: 'https://web.xidian.edu.cn/zhengyang/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include intelligent human-computer interaction, brain science and neuroimaging.
+bio: My research interests include human behaviour analysis for intelligent diagnosis of developmental coordination disorder, aritifical intelligence, and computer vision.
 
 interests:
   - Human-Computer Interaction
@@ -31,12 +31,12 @@ interests:
 
 education:
   courses:
-    - course: PhD in Biomedical Engineering
+    - course: PhD in Signal and Information Processing
+      institution: University of Chinese Academy of Sciences
+      year: 2021
+    - course: BSc in Electronic Science and Technology
       institution: Xidian University
-      year: 2013
-    - course: BSc in Electronic Engineering
-      institution: Xidian University
-      year: 2009
+      year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -70,4 +70,4 @@ user_groups:
   - Researchers
 ---
 
-Yang Zheng is an assistant professor of electronic engineering at the Xidian University. His research interests include aritifical intelligence, computer vision, and human behaviour analysis for intelligent diagnosis of developmental coordination disorder
+Yang Zheng is an assistant professor of electronic engineering at the Xidian University. His research interests include human behaviour analysis for intelligent diagnosis of developmental coordination disorder, aritifical intelligence, and computer vision.
