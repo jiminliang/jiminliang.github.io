@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: 'https://jiminliang.github.io/'
+    url: content
     weight: 10
   - name: News
     url: post
