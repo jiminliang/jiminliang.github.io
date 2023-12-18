@@ -1,0 +1,13 @@
+@article{TangYiping_2023_PR,
+ abstract = {Video representation is of significant importance for temporal action detection. The two sub-tasks of temporal action detection, i.e., action classification and action localization, have different requirements for video representation. Specifically, action classification requires video representations to be highly discriminative, so that action features and background features are as dissimilar as possible. For action localization, it is crucial to obtain information about the action itself and the surrounding context for accurate prediction of action boundaries. However, the previous methods failed to extract the optimal representations for the two sub-tasks, whose representations for both sub-tasks are obtained in a similar way. In this paper, a Global-Local Attention (GLA) mechanism is proposed to produce a more powerful video representation for temporal action detection without introducing additional parameters. The global attention mechanism predicts each action category by integrating features in the entire video that are similar to the action while suppressing other features, thus enhancing the discriminability of video representation during the training process. The local attention mechanism uses a Gaussian weighting function to integrate each action and its surrounding contextual information, thereby enabling precise localization of the action. The effectiveness of GLA is demonstrated on THUMOS’14 and ActivityNet-1.3 with a simple one-stage action detection network, achieving state-of-the-art performance among the methods using only RGB images as input. The inference speed of the proposed model reaches 1373 FPS on a single Nvidia Titan Xp GPU. The generalizability of GLA to other detection architectures is verified using R-C3D and Decouple-SSAD, both of which achieve consistent improvements. The experimental results demonstrate that designing representations with different properties for the two sub-tasks leads to better performance for temporal action detection compared to the representations obtained in a similar way.},
+ author = {Yiping Tang and Yang Zheng and Chen Wei and Kaitai Guo and Haihong Hu and Jimin Liang},
+ doi = {https://doi.org/10.1016/j.patcog.2022.109135},
+ issn = {0031-3203},
+ journal = {Pattern Recognition},
+ keywords = {Temporal action detection, Video representation, Untrimmed video analysis},
+ pages = {109135},
+ title = {Video representation learning for temporal action detection using global-local attention},
+ url = {https://www.sciencedirect.com/science/article/pii/S003132032200615X},
+ volume = {134},
+ year = {2023}
+}

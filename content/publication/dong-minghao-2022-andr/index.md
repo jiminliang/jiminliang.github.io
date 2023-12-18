@@ -1,0 +1,59 @@
+---
+title: 'Identifying neuroimaging biomarkers for psychogenic erectile dysfunction by
+  fusing multi-level brain information: A resting-state functional magnetic resonance
+  imaging study'
+authors:
+- Xiaoyan Zhang
+- Min Guan
+- Xin Chen
+- Peiming Zhang
+- Jia Wu
+- Xiangsheng Zhang
+- Minghao Dong
+date: '2022-01-01'
+publishDate: '2023-12-18T09:50:18.671808Z'
+publication_types:
+- article-journal
+publication: '*Andrology*'
+doi: https://doi.org/10.1111/andr.13238
+abstract: Abstract Background Psychogenic erectile dysfunction (pED) patients who
+  are under their 40s in China consist of a major component of erectile dysfunction.
+  Existing neuroimaging studies have demonstrated that pED is a functional disorder
+  with aberrant neural representations on the local level, the regional level, and
+  the global level, respectively. Therefore, it is reasonable to incorporate brain
+  information from all these levels simultaneously into consideration when identifying
+  neuroimaging biomarkers for pED. However, no such endeavors have been made in previous
+  studies to fully disclose the central mechanism of pED. Method To incorporate multi-level
+  brain features to fully explore the neural representation of pED, a novel machine
+  learning framework was proposed in the current study. Specifically, we used amplitude
+  of low-frequency fluctuation, regional homogeneity, and degree centrality as indices
+  for local, regional, and global brain activity, respectively. A fully data-driven
+  method, that is, support vector machine (SVM) with recursive feature elimination
+  analyses, was used to investigate discriminative brain map between 48 pED patients
+  and 39 healthy control subjects for resting state functional magnetic resonance
+  imaging (rs-fMRI) data. Results By fusing multi-level brain features, our method
+  led to a superb classification accuracy of 95.12% between two groups. Interestingly,
+  the right anterior cingulate gyrus and the left precuneus showed abnormal representations
+  at different levels simultaneously in pED patients, which also explicated highest
+  discriminative power between groups. Moreover, the right insular, the left fusiform
+  gyrus, the right inferior temporal gyrus, the right superior frontal gyrus, the
+  right precentral gyrus, the bilateral parahippocampal gyrus, and the bilateral inferior
+  frontal gyrus were discriminative for pED. Also, correlation analysis explicated
+  that several core brain regions were associated with the clinical manifestations
+  in pED patients. Conclusion This is one of the first study investigating brain alterations
+  on different levels simultaneously in pED patients. Our results suggested that pED
+  involves multi-level aberrant brain representations in multi-dimensional neurobehavioral
+  components, which closely interrelated with cognitive and psychosocial factors,
+  that is, attention, appraisal, emotion, and sensorimotor. Our findings are likely
+  to help foster new insights into the pathophysiological mechanisms of pED and the
+  aberrant brain regions may serve as potential therapeutic targets for targeted therapy
+  for brain.
+tags:
+- machine learning
+- multi-level brain information
+- psychogenic erectile dysfunction
+- resting state functional magnetic resonance imaging
+links:
+- name: URL
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/andr.13238
+---
