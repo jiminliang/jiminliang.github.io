@@ -1,0 +1,397 @@
+// 2024 ==========================================================
+
+@article{ChenFei_2024_BSPC,
+    title = {Positive-unlabeled learning for coronary artery segmentation in CCTA images},
+    journal = {Biomedical Signal Processing and Control},
+    volume = {87},
+    pages = {105473},
+    year = {2024},
+    issn = {1746-8094},
+    doi = {https://doi.org/10.1016/j.bspc.2023.105473},
+    url = {https://www.sciencedirect.com/science/article/pii/S1746809423009060},
+    author = {Fei Chen and Sulei Li and Chen Wei and Yue Zhang and Kaitai Guo and Yang Zheng and Feng Cao and Jimin Liang},
+    keywords = {Coronary artery segmentation, Positive-unlabeled learning, Self-training, Pseudo-negative labels, Teacher-student framework},
+    abstract = {Accurate three-dimensional (3D) segmentation of the coronary artery is an essential step in the quantitative analysis of the coronary arteries. However, due to the small size and complex morphology of the coronary arteries, voxel-by-voxel labeling of the complete coronary artery in 3D computed coronary tomography angiography images is both difficult and laborious. To alleviate the workload of annotating, it is possible to randomly label only a fraction of the positive samples and leave all remaining instances unlabeled, known as the positive-unlabeled (PU) learning problem. Due to the presence of coronary artery-like structures and the absence of negative annotations, we propose a novel sample-selection-based PU learning method for coronary artery segmentation. Specifically, only pseudo-negative labels (PNLs) are generated during the self-training process, and all data are further exploited implicitly using the teacher-student (TS) framework. To address the difficulty of detecting tiny coronary artery branches, we propose a post-processing method by exploiting the variance of multi-scale features in the inference stage. Extensive experiments were conducted on a self-constructed dataset and the publicly available ASOCA dataset. The results demonstrate that our proposed method performs better than baseline supervised and state-of-the-art PU learning methods. Notably, even in extreme cases where more than 80% of annotations are missing, our method still achieves significant gains. When the proportion of missing annotations is relatively low, our method even outperforms the backbone trained with ground truth annotations.}
+}
+
+
+// 2023 ==========================================================
+
+@article{WeiChen_2023_TNNLS,
+  author={Wei, Chen and Niu, Chuang and Tang, Yiping and Wang, Yue and Hu, Haihong and Liang, Jimin},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={NPENAS: Neural Predictor Guided Evolution for Neural Architecture Search}, 
+  year={2023},
+  volume={34},
+  number={11},
+  pages={8441-8455},
+  doi={10.1109/TNNLS.2022.3151160},
+  url={https://ieeexplore.ieee.org/document/9723446},
+  abstract = {Neural architecture search (NAS) adopts a search strategy to explore the predefined search space to find superior architecture with the minimum searching costs. Bayesian optimization (BO) and evolutionary algorithms (EA) are two commonly used search strategies, but they suffer from being computationally expensive, challenging to implement, and exhibiting inefficient exploration ability. In this article, we propose a neural predictor guided EA to enhance the exploration ability of EA for NAS (NPENAS) and design two kinds of neural predictors. The first predictor is a BO acquisition function for which we design a graph-based uncertainty estimation network as the surrogate model. The second predictor is a graph-based neural network that directly predicts the performance of the input neural architecture. The NPENAS using the two neural predictors are denoted as NPENAS-BO and NPENAS-NP, respectively. In addition, we introduce a new random architecture sampling method to overcome the drawbacks of the existing sampling method. Experimental results on five NAS search spaces indicate that NPENAS-BO and NPENAS-NP outperform most existing NAS algorithms, with NPENAS-NP achieving state-of-the-art performance on four of the five search spaces.}
+}
+
+@article{TangYiping_2023_InfoS,
+    title = {Towards better utilization of pseudo labels for weakly supervised temporal action localization},
+    journal = {Information Sciences},
+    volume = {623},
+    pages = {693-708},
+    year = {2023},
+    issn = {0020-0255},
+    doi = {https://doi.org/10.1016/j.ins.2022.12.044},
+    url = {https://www.sciencedirect.com/science/article/pii/S0020025522015390},
+    author = {Yiping Tang and Junyao Ge and Kaitai Guo and Yang Zheng and Haihong Hu and Jimin Liang},
+    keywords = {Untrimmed video analysis, Temporal action detection, Weakly supervised learning, Pseudo label},
+    abstract = {Weakly supervised temporal action localization (WS-TAL) aims to simultaneously recognize and localize action instances of interest in untrimmed videos with the use of the video-level label only. Some works have demonstrated that pseudo labels play an important role for performance improvement in WS-TAL. Since pseudo labels are inevitably inaccurate, direct adoption of noisy labels can lead to inappropriate knowledge transfer. Although some previous studies have shown the benefits of using only “reliable” pseudo labels, performance improvement is still limited. In this work, we experimentally analyze how the noise in pseudo labels affects model performance within the self-distillation framework. Motivated by the finding that incorrect pseudo labels with large confidence scores have a significant impact on performance, we propose the overconfidence suppression (OCS) strategy to mitigate the effect of the overconfident pseudo labels, and thus prevent over-fitting of the student model. In addition, a simplified contrast learning method is utilized to fine-tune the feature representation by increasing the separation of the foreground and background snippets. Equipped with the proposed methods, the benefits of pseudo labels can be better exploited and allow the model to achieve state-of-the-art performance on THUMOS’14 and ActivityNet-1.2 benchmarks.}
+}
+
+@article{TangYiping_2023_PR,
+    title = {Video representation learning for temporal action detection using global-local attention},
+    journal = {Pattern Recognition},
+    volume = {134},
+    pages = {109135},
+    year = {2023},
+    issn = {0031-3203},
+    doi = {https://doi.org/10.1016/j.patcog.2022.109135},
+    url = {https://www.sciencedirect.com/science/article/pii/S003132032200615X},
+    author = {Yiping Tang and Yang Zheng and Chen Wei and Kaitai Guo and Haihong Hu and Jimin Liang},
+    keywords = {Temporal action detection, Video representation, Untrimmed video analysis},
+    abstract = {Video representation is of significant importance for temporal action detection. The two sub-tasks of temporal action detection, i.e., action classification and action localization, have different requirements for video representation. Specifically, action classification requires video representations to be highly discriminative, so that action features and background features are as dissimilar as possible. For action localization, it is crucial to obtain information about the action itself and the surrounding context for accurate prediction of action boundaries. However, the previous methods failed to extract the optimal representations for the two sub-tasks, whose representations for both sub-tasks are obtained in a similar way. In this paper, a Global-Local Attention (GLA) mechanism is proposed to produce a more powerful video representation for temporal action detection without introducing additional parameters. The global attention mechanism predicts each action category by integrating features in the entire video that are similar to the action while suppressing other features, thus enhancing the discriminability of video representation during the training process. The local attention mechanism uses a Gaussian weighting function to integrate each action and its surrounding contextual information, thereby enabling precise localization of the action. The effectiveness of GLA is demonstrated on THUMOS’14 and ActivityNet-1.3 with a simple one-stage action detection network, achieving state-of-the-art performance among the methods using only RGB images as input. The inference speed of the proposed model reaches 1373 FPS on a single Nvidia Titan Xp GPU. The generalizability of GLA to other detection architectures is verified using R-C3D and Decouple-SSAD, both of which achieve consistent improvements. The experimental results demonstrate that designing representations with different properties for the two sub-tasks leads to better performance for temporal action detection compared to the representations obtained in a similar way.}
+}
+
+
+@Article{PangSiqi_2023_RS,
+    AUTHOR = {Pang, Siqi and Ge, Junyao and Hu, Lei and Guo, Kaitai and Zheng, Yang and Zheng, Changli and Zhang, Wei and Liang, Jimin},
+    TITLE = {RTV-SIFT: Harnessing Structure Information for Robust Optical and SAR Image Registration},
+    JOURNAL = {Remote Sensing},
+    VOLUME = {15},
+    YEAR = {2023},
+    NUMBER = {18},
+    ARTICLE-NUMBER = {4476},
+    URL = {https://www.mdpi.com/2072-4292/15/18/4476},
+    ISSN = {2072-4292},
+    ABSTRACT = {Registration of optical and synthetic aperture radar (SAR) images is challenging because extracting located identically and unique features on both images are tricky. This paper proposes a novel optical and SAR image registration method based on relative total variation (RTV) and scale-invariant feature transform (SIFT), named RTV-SIFT, to extract feature points on the edges of structures and construct structural edge descriptors to improve the registration accuracy. First, a novel RTV-Harris feature point detection method by combining the RTV and the multiscale Harris algorithm is proposed to extract feature points on both images&rsquo; significant structures. This ensures a high repetition rate of the feature points. Second, the feature point descriptors are constructed on enhanced phase congruency edge (EPCE), which combines the Sobel operator and maximum moment of phase congruency (PC) to extract edges from structured images that enhance robustness to nonlinear intensity differences and speckle noise. Finally, after coarse registration, the position and orientation Euclidean distance (POED) between feature points is utilized to achieve fine feature point matching to improve the registration accuracy. The experimental results demonstrate the superiority of the proposed RTV-SIFT method in different scenes and image capture conditions, indicating its robustness and effectiveness in optical and SAR image registration.},
+    DOI = {10.3390/rs15184476}
+}
+
+@Article{GeJunyao_2023_RS,
+    AUTHOR = {Ge, Junyao and Tang, Yiping and Guo, Kaitai and Zheng, Yang and Hu, Haihong and Liang, Jimin},
+    TITLE = {KeyShip: Towards High-Precision Oriented SAR Ship Detection Using Key Points},
+    JOURNAL = {Remote Sensing},
+    VOLUME = {15},
+    YEAR = {2023},
+    NUMBER = {8},
+    ARTICLE-NUMBER = {2035},
+    URL = {https://www.mdpi.com/2072-4292/15/8/2035},
+    ISSN = {2072-4292},
+    ABSTRACT = {Synthetic Aperture Radar (SAR) is an all-weather sensing technology that has proven its effectiveness for ship detection. However, detecting ships accurately with oriented bounding boxes (OBB) on SAR images is challenging due to arbitrary ship orientations and misleading scattering. In this article, we propose a novel anchor-free key-point-based detection method, KeyShip, for detecting orientated SAR ships with high precision. Our approach uses a shape descriptor to model a ship as a combination of three types of key points located at the short-edge centers, long-edge centers, and the target center. These key points are detected separately and clustered based on predicted shape descriptors to construct the final OBB detection results. To address the boundary problem that arises with the shape descriptor representation, we propose a soft training target assignment strategy that facilitates successful shape descriptor training and implicitly learns the shape information of the targets. Our experimental results on three datasets (SSDD, RSDD, and HRSC2016) demonstrate our proposed method&rsquo;s high performance and robustness.},
+    DOI = {10.3390/rs15082035}
+}
+
+@Article{WeiChen_2023_Sensors,
+    AUTHOR = {Wei, Chen and Ren, Shenghan and Guo, Kaitai and Hu, Haihong and Liang, Jimin},
+    TITLE = {High-Resolution Swin Transformer for Automatic Medical Image Segmentation},
+    JOURNAL = {Sensors},
+    VOLUME = {23},
+    YEAR = {2023},
+    NUMBER = {7},
+    ARTICLE-NUMBER = {3420},
+    URL = {https://www.mdpi.com/1424-8220/23/7/3420},
+    PubMedID = {37050479},
+    ISSN = {1424-8220},
+    ABSTRACT = {The resolution of feature maps is a critical factor for accurate medical image segmentation. Most of the existing Transformer-based networks for medical image segmentation adopt a U-Net-like architecture, which contains an encoder that converts the high-resolution input image into low-resolution feature maps using a sequence of Transformer blocks and a decoder that gradually generates high-resolution representations from low-resolution feature maps. However, the procedure of recovering high-resolution representations from low-resolution representations may harm the spatial precision of the generated segmentation masks. Unlike previous studies, in this study, we utilized the high-resolution network (HRNet) design style by replacing the convolutional layers with Transformer blocks, continuously exchanging feature map information with different resolutions generated by the Transformer blocks. The proposed Transformer-based network is named the high-resolution Swin Transformer network (HRSTNet). Extensive experiments demonstrated that the HRSTNet can achieve performance comparable with that of the state-of-the-art Transformer-based U-Net-like architecture on the 2021 Brain Tumor Segmentation dataset, the Medical Segmentation Decathlon&rsquo;s liver dataset, and the BTCV multi-organ segmentation dataset.},
+    DOI = {10.3390/s23073420}
+}
+
+// 2022 ==========================================================
+
+@ARTICLE{ZhangYue_2022_TBME,
+    author={Zhang, Yue and Du, Getao and Zhan, Yonghua and Guo, Kaitai and Zheng, Yang and Tang, Liang and Guo, Jianzhong and Liang, Jimin},
+    journal={IEEE Transactions on Biomedical Engineering}, 
+    title={Muscle Atrophy Evaluation via Radiomics Analysis Using Ultrasound Images: A Cohort Data Study}, 
+    year={2022},
+    volume={69},
+    number={10},
+    pages={3163-3174},
+    doi={10.1109/TBME.2022.3162223},
+    url={https://ieeexplore.ieee.org/document/9741346},
+    abstract={Objective: Existing methods for muscle atrophy evaluation based on muscle size measures from ultrasound images are inadequate in precision. Radiomics has been widely used in various medical studies, but its validity for the evaluation of muscle atrophy has not been fully explored. Methods: This study presents a radiomics analysis for muscle atrophy evaluation using ultrasound images. The hindlimb unloading rat model was developed to simulate weightlessness muscle atrophy and ultrasound images of the hind limbs were acquired for both the hindlimb unloaded (HU) and control groups during a 21-day HU period. A total of 368 radiomics features were extracted and the stable and informative features were selected through a two-stage feature selection procedure. The feature change trajectory of the stable features was analyzed using the hierarchical clustering method. Finally, an adaptive longitudinal feature selection and grading network, ALNet, was developed to evaluate muscle atrophy. Results: The clustering trajectories of ultrasound image features showed similar trends to the changes in muscle atrophy at the molecular level. The best grading accuracy achieved by the ALNet was 79.5% for the Soleus (Sol) muscle and 82.6% for the Gastrocnemius (Gas) muscle. Conclusion: The test-retest is essential in performing radiomics analysis on ultrasound images. The longitudinal feature selection is important for muscle atrophy grading. The ultrasound image features of the Gas muscle have better discrimination ability than that of the Sol muscle. This study proves for the first time the capability of ultrasound image features for muscle atrophy evaluation.}
+  }
+
+  @ARTICLE{HuLei_2022_JSTARS,
+    author={Hu, Lei and Niu, Chuang and Ren, Shenghan and Dong, Minghao and Zheng, Changli and Zhang, Wei and Liang, Jimin},
+    journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+    title={Discriminative Context-Aware Network for Target Extraction in Remote Sensing Imagery}, 
+    year={2022},
+    volume={15},
+    number={},
+    pages={700-715},
+    doi={10.1109/JSTARS.2021.3138187},
+    url={https://ieeexplore.ieee.org/document/9663014},
+    abstract={Extracting objects of interest from remote sensing imagery is an essential part in various practical applications. The objects that people pay attention to in the remote sensing scene mainly include buildings, roads, vehicles, etc. In this article, extracting the aforementioned objects are collectively referred to as the target extraction task. Arising from object scale variation, appearance similarity between adjacent patches, diversity of imaging orientation, and complexity of background, it is difficult to extract complete objects from cluttered backgrounds. Deep neural network has made great achievement in dense prediction for target extraction. However, most of the previous works are still faced with a formidable challenge in discriminative context feature representation to extract targets of various categories and correctly classify pixels around the boundary. In this article, we propose a target extraction neural network, named discriminative context-aware network, to focus on discriminative high-level context features and preserve spatial information. First, a discriminative context-aware feature module is designed to generate the feature maps in the top layer, which not only captures the rich image context information but also aggregates the contrasted local information at multiple scales. Second, a refine decoder module is adopted to preserve spatial information from low-level layers and enhance the feature representation, leading to precise segmentation results. We conducted extensive experiments on building and road extraction benchmarks, including WHU building dataset and Massachusetts road dataset, together with a self-constructed dataset for vehicle extraction in SAR images. Our method achieves state-of-the-art results with fewer parameters and faster inference.}
+}
+
+@ARTICLE{TangYiping_2022_GRSL,
+    author={Tang, Yiping and Guo, Kaitai and Wei, Chen and Zheng, Yang and Ren, Shenghan and Liang, Jimin},
+    journal={IEEE Geoscience and Remote Sensing Letters}, 
+    title={Poleward-Motion Aware Network for Poleward Moving Auroral Forms Recognition}, 
+    year={2022},
+    volume={19},
+    number={},
+    pages={1-5},
+    doi={10.1109/LGRS.2022.3147464},
+    url={https://ieeexplore.ieee.org/document/9696327},
+    abstract={Poleward moving auroral forms (PMAFs) are a common dayside auroral phenomenon, and the study of PMAFs has important implications for the exploration of the near-earth space physical processes for geosciences. In the all-sky imager (ASI) image sequence, PMAFs show a tendency to move northward in the northern hemisphere. Therefore, this particular motion pattern can be used for PMAF recognition. Previous works for automatic recognition of PMAFs tend to rely on optical flow. However, both the traditional and the deep learning-based optical flow estimation methods are time- and memory-expensive. In view of the large number of auroral images generated every year, it is impractical to estimate the optical flow for all auroral data with limited computational resources. In this letter, a poleward-motion aware network (PA-Net) is proposed to extract the motion features directly from ASI images. PA-Net computes the correlation between each point in an image and the points at the poleward direction in the following image by means of a poleward-motion aware operation (PA-Operation), to verify whether the point under consideration has undergone poleward motion. In addition, a channel attention mechanism is applied to the features obtained by PA-Operation to suppress information less helpful for recognizing PMAFs. The PA-Net achieves the best performance on the PMAFs recognition dataset over other commonly used action recognition models, validating the superiority of our approach. More importantly, the complicated optical flow estimation is avoided, making it possible to apply the proposed method to large-scale auroral data.}
+}
+
+@article{WangZiyu_2022_NS,
+    title = {Effects of Anodal tDCS Stimulation in Predictable and Unpredictable Task Switching Performance: The Possible Involvement of the Parietal Cortex},
+    journal = {Neuroscience},
+    volume = {494},
+    pages = {132-139},
+    year = {2022},
+    issn = {0306-4522},
+    doi = {https://doi.org/10.1016/j.neuroscience.2022.05.013},
+    url = {https://www.sciencedirect.com/science/article/pii/S0306452222002494},
+    author = {Ziyu Wang and Ziye Kong and Chenlin Li and Jimin Liang and Xuqun You},
+    keywords = {task switching, transcranial direct current stimulation (tDCS), parietal cortex},
+    abstract = {Transcranial direct current stimulation (tDCS) has been used to explore the causal relationship between specific brain regions and task switching. However, most studies have focused on the frontal cortex, and only few have examined other related cortices, e.g., the parietal cortex. So far, no prior study has systematically explored the tDCS-induced effect of the parietal cortex in different task switching types. Therefore, the current study mainly used the unilateral anodal-tDCS (a-tDCS) stimulation setting to investigate the possible involvement of the parietal cortex in predictable and unpredictable task switching. It was noted that compared with sham group, significantly higher switch cost reaction time of right anode tDCS (RA) group was found in predictable task but not unpredictable task. No interaction effect was observed between congruence and tDCS groups in predictable task. These findings suggested that a-tDCS over right parietal cortex could markedly decrease the predictable task-switching performance in both congruent and incongruent trials, and indicated that parietal cortex is more likely to be involved in the proactive cognitive processes, such as endogenous preparation.}
+}
+
+@article{DuGetao_2022_BSPC,
+    title = {Automated segmentation of the gastrocnemius and soleus in shank ultrasound images through deep residual neural network},
+    journal = {Biomedical Signal Processing and Control},
+    volume = {73},
+    pages = {103447},
+    year = {2022},
+    issn = {1746-8094},
+    doi = {https://doi.org/10.1016/j.bspc.2021.103447},
+    url = {https://www.sciencedirect.com/science/article/pii/S1746809421010442},
+    author = {Getao Du and Yonghua Zhan and Yue Zhang and Jianzhong Guo and Xueli Chen and Jimin Liang and Heng Zhao},
+    keywords = {Muscle atrophy, Segmentation, Deep learning, Deep residual neural network, Dilated convolution},
+    abstract = {Segmentation of the shank gastrocnemius (Gas) and soleus (Sol) muscles in ultrasound (US) images allows to extract the muscle features, which are important for the early diagnosis of muscle atrophy. The automatic segmentation of the muscles is a challenging task, and deep learning (DL) provides a solution to this problem, which can effectively extract representative features from the muscle regions and background of the images. In this study, we propose ResTU-net, an automatic segmentation method based on improved U-net network, to segment the Gas and Sol muscles in shank US images. This network uses the deep residual neural network (Resnet) as the sublayer unit of each layer of a U-net, and can effectively combine the features of each layer with those of the next layer to meet the challenges of poor US image quality and low contrast. In addition, dilated convolution is used instead of the pooling layer in the network to prevent information loss during training. Experiments were performed on 3350 shank US images from 23 Sprague Dawley (SD) rats, among them, 2650 shank US images were used for network training and 700 for network validation. Compared with state-of-the-art networks, the experimental results show that the method can achieved the best segmentation capability results and a mean Dice similarity coefficient (DSC) of the Gas and Sol muscles of 94.82% and 90.72%, respectively. This work indicates that the proposed fully automatic segmentation method may be accurately and efficiently applied to Gas and Sol muscles segmentation in shank US images.}
+}
+
+@article{GuoKaitai_2022_SABC,
+    title = {Spatial ion density change in the electrostatic field and sensitivity improvement of ion mobility spectrometer},
+    journal = {Sensors and Actuators B: Chemical},
+    volume = {354},
+    pages = {131249},
+    year = {2022},
+    issn = {0925-4005},
+    doi = {https://doi.org/10.1016/j.snb.2021.131249},
+    url = {https://www.sciencedirect.com/science/article/pii/S0925400521018177},
+    author = {Chong Zhang and Kaitai Guo and Jiyao Wang and Tian Wang and Xiaohao Wang and Kai Ni},
+    keywords = {Ion mobility spectrometry, Sensitivity, Ion density, Anti-dilution, Ion shutter, UV-IMS},
+    abstract = {Many designs have been proposed to improve the sensitivity of ion mobility spectrometry (IMS) by modifying its electric field in recent years. However, most of them have shown severe differences between the theoretical predictions and the experimental results. In this work, the effect of electric field on the drifting process was studied from the perspective of spatial ion density. Theoretical derivation illustrated that the nonuniform electric field has no direct influence on the spatial ion density in free space, and the mean spatial ion density was difficult to increase but easy to decrease when crossing grids. Therefore, to improve the sensitivity, a denser ion swarm should be produced in the reaction zone and dilution should be prevented when crossing the ion shutter. Based on this principle, an optimized design was proposed to improve the sensitivity of IMS equipping a UV radiation ionization source. A denser ion swarm was produced by reducing the electric field strength of the reaction zone, and a tri-grid ion shutter was adopted to realize the anti-dilution function. Experimental results showed an impressive improvement, and the SNR of dimethyl methylphosphonate (DMMP) dimer peak increased by 22.6 times without any loss in the resolving power.}
+}
+
+@ARTICLE{GuoKaitai_2022_fchem,
+    AUTHOR={Guo, Kaitai and Zheng, Yang and Hu, Haihong and Liang, Jimin},   
+    TITLE={Simulation study of inverse diffusion counterbalance method for super-resolution ion mobility spectrometry},      
+    JOURNAL={Frontiers in Chemistry},      
+    VOLUME={10},           
+    YEAR={2022},       
+    URL={https://www.frontiersin.org/articles/10.3389/fchem.2022.1004615},      
+    DOI={10.3389/fchem.2022.1004615}, 
+    ISSN={2296-2646},   
+    ABSTRACT={Ion mobility spectrometer (IMS) is a powerful chemical composition analysis tool working at atmospheric pressure that can be used to separate complex samples and study molecular structures. Resolution is a key parameter for evaluating the performance of IMS. However, for the pulsed sampling technique used by drift tube IMS, there is an upper limit to the resolution due to the diffusion between ions and the drift gas. In this work, an inverse diffusion counterbalance method is proposed to break the resolution limit. The method is inspired by the stimulated emission depletion (STED). In optical microscopy systems, STED is used to break the optical diffraction limit by a ring of depleted light to counteract diffraction effects of the excited light. We modified this strategy and applied it to an IMS system for counteracting the diffusion effect of the pulsed ion packet. The method can increase the resolution up to 1.55 times through theoretical analysis, and the improvement is verified by simulations. The simulation results find that the initial width of the ion packet has an influence on the effectiveness of the method, and the narrower the initial width, the better the effect. The proposed inverse counterbalance strategy may also be applied to other spectral analysis instruments to break the resolution limit.}
+}
+
+@article{GuoKaitai_2022_RSI,
+    author = {Guo, Kaitai and Zhang, Chong and Ni, Kai and Wang, Xiaohao},
+    title = "{Modeling the modulation characteristics of the Bradbury-Nielsen gate in ion mobility spectrometers}",
+    journal = {Review of Scientific Instruments},
+    volume = {93},
+    number = {8},
+    pages = {084101},
+    year = {2022},
+    month = {08},
+    abstract = "{The Bradbury-Nelson gate (BNG) is a common device used for ion control in time-of-flight mass spectrometry and ion mobility spectrometry (IMS). A dual-location control model was employed in order to better understand the behavior of ions around a modulated BNG. This model illustrated that the ions are released from the starting location and truncated at the cutoff location. The shapes of the starting and cutoff locations are both curved with similar curvature, and the cutoff location is situated further back. Therefore, the distance between the two locations is a key parameter leading to the ion loss during modulation and is influenced by the gating voltage difference. Through simulations and experiments, the ion loss is verified to increase with the increase in the gating voltage difference. Taking a Fourier transform IMS as an example, by reducing the gating voltage difference from 150 to 50 V, the signal-to-noise ratio of the time domain result was improved from 91.7 to 386.5 and the resolving power was improved from 40.9 to 63.6. In addition, the superposition effect of multicycle modulation is shown and explained by the model. When the modulated frequency is too rapid and the closing time is insufficient for all the ions to be consumed, some ions continue to exist between the two locations, and the residual ions then enter the drift region during the next few cycles. This phenomenon needs to be avoided because the total number of ions entering the drift region will then increase uncontrollably.}",
+    issn = {0034-6748},
+    doi = {10.1063/5.0074709},
+    url = {https://doi.org/10.1063/5.0074709},
+    eprint = {https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/5.0074709/16615808/084101\_1\_online.pdf},
+}
+
+@ARTICLE{DongMinghao_2022_fnins,
+    AUTHOR={Su, Jiaxi and Zhang, Xiaoyan and Zhang, Ziyuan and Wang, Hongmei and Wu, Jia and Shi, Guangming and Jin, Chenwang and Dong, Minghao},   
+    TITLE={Real-World Visual Experience Alters Baseline Brain Activity in the Resting State: A Longitudinal Study Using Expertise Model of Radiologists},      
+    JOURNAL={Frontiers in Neuroscience},      
+    VOLUME={16},           
+    YEAR={2022},      
+    URL={https://www.frontiersin.org/articles/10.3389/fnins.2022.904623},       
+    DOI={10.3389/fnins.2022.904623},      
+    ISSN={1662-453X},   
+    ABSTRACT={Visual experience modulates the intensity of evoked brain activity in response to training-related stimuli. Spontaneous fluctuations in the restful brain actively encode previous learning experience. However, few studies have considered how real-world visual experience alters the level of baseline brain activity in the resting state. This study aimed to investigate how short-term real-world visual experience modulates baseline neuronal activity in the resting state using the amplitude of low-frequency (<0.08 Hz) fluctuation (ALFF) and a visual expertise model of radiologists, who possess fine-level visual discrimination skill of homogeneous stimuli. In detail, a group of intern radiologists (n = 32) were recruited. The resting-state fMRI data and the behavioral data regarding their level of visual expertise in radiology and face recognition were collected before and after 1 month of training in the X-ray department in a local hospital. A machine learning analytical method, i.e., support vector machine, was used to identify subtle changes in the level of baseline brain activity. Our method led to a superb classification accuracy of 86.7% between conditions. The brain regions with highest discriminative power were the bilateral cingulate gyrus, the left superior frontal gyrus, the bilateral precentral gyrus, the bilateral superior parietal lobule, and the bilateral precuneus. To the best of our knowledge, this study is the first to investigate baseline neurodynamic alterations in response to real-world visual experience using longitudinal experimental design. These results suggest that real-world visual experience alters the resting-state brain representation in multidimensional neurobehavioral components, which are closely interrelated with high-order cognitive and low-order visual factors, i.e., attention control, working memory, memory, and visual processing. We propose that our findings are likely to help foster new insights into the neural mechanisms of visual expertise.}
+}
+
+@article{DongMinghao_2022_andr,
+    author = {Zhang, Xiaoyan and Guan, Min and Chen, Xin and Zhang, Peiming and Wu, Jia and Zhang, Xiangsheng and Dong, Minghao},
+    title = {Identifying neuroimaging biomarkers for psychogenic erectile dysfunction by fusing multi-level brain information: A resting-state functional magnetic resonance imaging study},
+    journal = {Andrology},
+    volume = {10},
+    number = {7},
+    pages = {1398-1410},
+    keywords = {machine learning, multi-level brain information, psychogenic erectile dysfunction, resting state functional magnetic resonance imaging},
+    doi = {https://doi.org/10.1111/andr.13238},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/andr.13238},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/andr.13238},
+    abstract = {Abstract Background Psychogenic erectile dysfunction (pED) patients who are under their 40s in China consist of a major component of erectile dysfunction. Existing neuroimaging studies have demonstrated that pED is a functional disorder with aberrant neural representations on the local level, the regional level, and the global level, respectively. Therefore, it is reasonable to incorporate brain information from all these levels simultaneously into consideration when identifying neuroimaging biomarkers for pED. However, no such endeavors have been made in previous studies to fully disclose the central mechanism of pED. Method To incorporate multi-level brain features to fully explore the neural representation of pED, a novel machine learning framework was proposed in the current study. Specifically, we used amplitude of low-frequency fluctuation, regional homogeneity, and degree centrality as indices for local, regional, and global brain activity, respectively. A fully data-driven method, that is, support vector machine (SVM) with recursive feature elimination analyses, was used to investigate discriminative brain map between 48 pED patients and 39 healthy control subjects for resting state functional magnetic resonance imaging (rs-fMRI) data. Results By fusing multi-level brain features, our method led to a superb classification accuracy of 95.12\% between two groups. Interestingly, the right anterior cingulate gyrus and the left precuneus showed abnormal representations at different levels simultaneously in pED patients, which also explicated highest discriminative power between groups. Moreover, the right insular, the left fusiform gyrus, the right inferior temporal gyrus, the right superior frontal gyrus, the right precentral gyrus, the bilateral parahippocampal gyrus, and the bilateral inferior frontal gyrus were discriminative for pED. Also, correlation analysis explicated that several core brain regions were associated with the clinical manifestations in pED patients. Conclusion This is one of the first study investigating brain alterations on different levels simultaneously in pED patients. Our results suggested that pED involves multi-level aberrant brain representations in multi-dimensional neurobehavioral components, which closely interrelated with cognitive and psychosocial factors, that is, attention, appraisal, emotion, and sensorimotor. Our findings are likely to help foster new insights into the pathophysiological mechanisms of pED and the aberrant brain regions may serve as potential therapeutic targets for targeted therapy for brain.},
+    year = {2022}
+}
+
+
+
+// 2021 ==========================================================
+
+@ARTICLE{WeiChen_2021_CIM,
+    author={Wei, Chen and Tang, Yiping and Chuang Niu, Chuang Niu and Hu, Haihong and Wang, Yue and Liang, Jimin},
+    journal={IEEE Computational Intelligence Magazine}, 
+    title={Self-Supervised Representation Learning for Evolutionary Neural Architecture Search}, 
+    year={2021},
+    volume={16},
+    number={3},
+    pages={33-49},
+    doi={10.1109/MCI.2021.3084415},
+    url={https://ieeexplore.ieee.org/document/9492145},
+    abstract={Recently proposed neural architecture search (NAS) algorithms adopt neural predictors to accelerate architecture search. The capability of neural predictors to accurately predict the performance metrics of the neural architecture is critical to NAS, but obtaining training datasets for neural predictors is often time-consuming. How to obtain a neural predictor with high prediction accuracy using a small amount of training data is a central problem to neural predictor-based NAS. Here, a new architecture encoding scheme is first devised to calculate the graph edit distance of neural architectures, which overcomes the drawbacks of existing vector-based architecture encoding schemes. To enhance the predictive performance of neural predictors, two self-supervised learning methods are proposed to pre-train the architecture embedding part of neural predictors to generate a meaningful representation of neural architectures. The first method designs a graph neural network-based model with two independent branches and utilizes the graph edit distance of two different neural architectures as a supervision to force the model to generate meaningful architecture representations. Inspired by contrastive learning, the second method presents a new contrastive learning algorithm that utilizes a central feature vector as a proxy to contrast positive pairs against negative pairs. Experimental results illustrate that the pre-trained neural predictors can achieve comparable or superior performance compared with their supervised counterparts using only half of the training samples. The effectiveness of the proposed methods is further validated by integrating the pre-trained neural predictors into a neural predictor guided evolutionary neural architecture search (NPENAS) algorithm, which achieves stateof-the-art performance on NASBench-101, NASBench-201, and DARTS benchmarks.}
+}
+
+@article{WangYue_2021_HBM,
+    author = {Wang, Yue and Jin, Chenwang and Yin, Zhongliang and Wang, Hongmei and Ji, Ming and Dong, Minghao and Liang, Jimin},
+    title = {Visual experience modulates whole-brain connectivity dynamics: A resting-state fMRI study using the model of radiologists},
+    journal = {Human Brain Mapping},
+    volume = {42},
+    number = {14},
+    pages = {4538-4554},
+    keywords = {brain plasticity, radiologists, resting state fMRI, spontaneous dynamic interactions, visual expertise},
+    doi = {https://doi.org/10.1002/hbm.25563},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25563},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.25563},
+    abstract = {Abstract Visual expertise refers to proficiency in visual recognition. It is attributed to accumulated visual experience in a specific domain and manifests in widespread neural activities that extend well beyond the visual cortex to multiple high-level brain areas. An extensive body of studies has centered on the neural mechanisms underlying a distinctive domain of visual expertise, while few studies elucidated how visual experience modulates resting-state whole-brain connectivity dynamics. The current study bridged this gap by modeling the subtle alterations in interregional spontaneous connectivity patterns with a group of superior radiological interns. Functional connectivity analysis was based on functional brain segmentation, which was derived from a data-driven clustering approach to discriminate subtle changes in connectivity dynamics. Our results showed there was radiographic visual experience accompanied with integration within brain circuits supporting visual processing and decision making, integration across brain circuits supporting high-order functions, and segregation between high-order and low-order brain functions. Also, most of these alterations were significantly correlated with individual nodule identification performance. Our results implied that visual expertise is a controlled, interactive process that develops from reciprocal interactions between the visual system and multiple top-down factors, including semantic knowledge, top-down attentional control, and task relevance, which may enhance participants' local brain functional integration to promote their acquisition of specific visual information and modulate the activity of some regions for lower-order visual feature processing to filter out nonrelevant visual details. The current findings may provide new ideas for understanding the central mechanism underlying the formation of visual expertise.},
+    year = {2021}
+}
+
+@ARTICLE{YinZhongliang_2021_fnins,
+    AUTHOR={Yin, Zhongliang and Wang, Yue and Dong, Minghao and Ren, Shenghan and Hu, Haihong and Yin, Kuiying and Liang, Jimin},   
+    TITLE={Special Patterns of Dynamic Brain Networks Discriminate Between Face and Non-face Processing: A Single-Trial EEG Study},      
+    JOURNAL={Frontiers in Neuroscience},      
+    VOLUME={15},           
+    YEAR={2021},      
+    URL={https://www.frontiersin.org/articles/10.3389/fnins.2021.652920},       
+    DOI={10.3389/fnins.2021.652920},      
+    ISSN={1662-453X},   
+    ABSTRACT={Face processing is a spatiotemporal dynamic process involving widely distributed and closely connected brain regions. Although previous studies have examined the topological differences in brain networks between face and non-face processing, the time-varying patterns at different processing stages have not been fully characterized. In this study, dynamic brain networks were used to explore the mechanism of face processing in human brain. We constructed a set of brain networks based on consecutive short EEG segments recorded during face and non-face (ketch) processing respectively, and analyzed the topological characteristic of these brain networks by graph theory. We found that the topological differences of the backbone of original brain networks (the minimum spanning tree, MST) between face and ketch processing changed dynamically. Specifically, during face processing, the MST was more line-like over alpha band in 0-100 ms time window after stimuli onset, and more star-like over theta and alpha bands in 100–200 and 200–300 ms time windows. The results indicated that the brain network was more efficient for information transfer and exchange during face processing compared with non-face processing. In the MST, the nodes with significant differences of betweenness centrality and degree were mainly located in the left frontal area and ventral visual pathway, which were involved in the face-related regions. In addition, the special MST patterns can discriminate between face and ketch processing by an accuracy of 93.39%. Our results suggested that special MST structures of dynamic brain networks reflected the potential mechanism of face processing in human brain.}
+}
+
+@ARTICLE{WangYue_2021_fnins,
+    AUTHOR={Wang, Yue and Yan, Jianpu and Yin, Zhongliang and Ren, Shenghan and Dong, Minghao and Zheng, Changli and Zhang, Wei and Liang, Jimin},   
+    TITLE={How Native Background Affects Human Performance in Real-World Visual Object Detection: An Event-Related Potential Study},      
+    JOURNAL={Frontiers in Neuroscience},      
+    VOLUME={15},           
+    YEAR={2021},      
+    URL={https://www.frontiersin.org/articles/10.3389/fnins.2021.665084},       
+    DOI={10.3389/fnins.2021.665084},      
+    ISSN={1662-453X},   
+    ABSTRACT={Visual processing refers to the process of perceiving, analyzing, synthesizing, manipulating, transforming, and thinking of visual objects. It is modulated by both stimulus-driven and goal-directed factors and manifested in neural activities that extend from visual cortex to high-level cognitive areas. Extensive body of studies have investigated the neural mechanisms of visual object processing using synthetic or curated visual stimuli. However, synthetic or curated images generally do not accurately reflect the semantic links between objects and their backgrounds, and previous studies have not provided answers to the question of how the native background affects visual target detection. The current study bridged this gap by constructing a stimulus set of natural scenes with two levels of complexity and modulating participants' attention to actively or passively attend to the background contents. Behaviorally, the decision time was elongated when the background was complex or when the participants' attention was distracted from the detection task, and the object detection accuracy was decreased when the background was complex. The results of event-related potentials (ERP) analysis explicated the effects of scene complexity and attentional state on the brain responses in occipital and centro-parietal areas, which were suggested to be associated with varied attentional cueing and sensory evidence accumulation effects in different experimental conditions. Our results implied that efficient visual processing of real-world objects may involve a competition process between context and distractors that co-exist in the native background, and extensive attentional cues and fine-grained but semantically irrelevant scene information were perhaps detrimental to real-world object detection.}
+}
+
+@article{XuZhenzhen_2021_QIMS,
+    author = {Zhenzhen Xu and Bo Tao and Chuanbin Liu and Dong Han and Jibin Zhang and Junsong Liu and Sulei Li and Weijie Li and Jing Wang and Jimin Liang and Feng Cao},
+    title = {Three-dimensional quantitative assessment of myocardial infarction via multimodality fusion imaging: methodology, validation, and preliminary clinical application},
+    journal = {Quantitative Imaging in Medicine and Surgery},
+    volume = {11},
+    number = {7},
+    year = {2021},
+    keywords = {},
+    abstract = {},
+    issn = {2223-4306},	
+    url = {https://qims.amegroups.org/article/view/68033},
+    abstract={Background: The precise assessment of myocardial infarction (MI) is crucial both for therapeutic interventions in old MI and the development of new and effective techniques to repair injured myocardium. A novel method was developed to assess left ventricular (LV) quantitatively infarction through three-dimensional (3D) multimodality fusion based on computed tomography angiography (CTA) and technetium-99m methoxyisobutylisonitrile (99mTc-MIBI) single-photon emission computed tomography (SPECT) images. This study sought to develop a 3D quantitative method for MI for pre-clinical study and clinical application. Methods: Three months after the MI models were established in 20 minipigs, CTA and SPECT images were acquired separately, which were then aligned automatically with the constraints of the shape and the whole heart and LV myocardium position. Infarct ratios were quantified based on the 3D fusion images. The quantitative assessment was then experimentally validated via an ex vivo histology analysis using triphenyl-tetrazolium-chloride staining and subsequently applied to post-MI patients (n=8). Results: The location of an infarct identified by the SPECT was consistent with that identified by an ex vivo heart in a 3D space. Infarct size determined by CTA-SPECT was correlated with infarct size assessed by triphenyl-tetrazolium-chloride pathology {27.6% [interquartile range (IQR) 17.1-34.7%] vs. 24.1% (IQR 14.7-32.5%), r2=0.99, P<0.01}. In clinical cases, the CTA-SPECT 3D fusion quantitative results were significantly correlated with the quantitative perfusion SPECT results (r=0.976, P<0.01). Conclusions: The proposed 3D fusion quantitative assessment method provides reliable and intuitive evaluations of infarction. This novel quantification technique enables whole heart quantification for the pre-operation evaluation and post-diagnosis management of old MI patients. It could also be applied to the design of 3D-printed cardiac patches.}
+}
+
+@article{ZhengYang_2021_PR,
+    title = {Deep neural network oriented evolutionary parametric eye modeling},
+    journal = {Pattern Recognition},
+    volume = {113},
+    pages = {107755},
+    year = {2021},
+    issn = {0031-3203},
+    doi = {https://doi.org/10.1016/j.patcog.2020.107755},
+    url = {https://www.sciencedirect.com/science/article/pii/S0031320320305586},
+    author = {Yang Zheng and Hong Fu and Ruimin Li and Tai-Chiu Hsung and Zongxi Song and Desheng Wen},
+    keywords = {Parametric eye modeling, Deep neural network, Evolutionary search, Fitness evaluation},
+    abstract = {Comprehensive and accurate eye modeling is crucial to a variety of applications, including human-computer interaction, assistive technologies, and medical diagnosis. However, most studies focus on the localization of one or two components of eyes, such as pupil or iris, lacking a comprehensive eye model. We propose to model an eye image by a set of parametric curves. The set of curves are plotted on an eye image to form a Contour-Eye image. A deep neural network is trained to evaluate the fitness of the Contour-Eye image. Then an evolutionary process is conducted to search the best fitting curve set, guided by the trained deep neural network. Finally, an accurate eye model with optimized parametric curves is obtained. For the algorithm evaluation, a finely annotated eye dataset denoted as FAED-50 is established by us, which contains 2,498 eye images from 50 subjects. The experimental results on the FAED-50 and the relabeled CASIA datasets and comparison with the state-of-the-art methods demonstrate the effectiveness and accuracy of the proposed parametric model.}
+}
+
+// 2020 ==========================================================
+
+@article{YinZhongliang_2020_IJP,
+    title = {Short-range and long-range neuronal oscillatory coupling in multiple frequency bands during face perception},
+    journal = {International Journal of Psychophysiology},
+    volume = {152},
+    pages = {26-35},
+    year = {2020},
+    issn = {0167-8760},
+    doi = {https://doi.org/10.1016/j.ijpsycho.2020.04.003},
+    url = {https://www.sciencedirect.com/science/article/pii/S0167876020300702},
+    author = {Zhongliang Yin and Ying Wang and Minghao Dong and Yubo Wang and Shenghan Ren and Jimin Liang},
+    keywords = {Face perception, Neuronal oscillatory coupling, Short-range coupling, Long-range coupling},
+    abstract = {Neuronal oscillatory activity has been considered to play a key role in face processing through its functional effect on information flow and exchange in human brain. Specifically, most neuronal oscillatory activity is measured in different rhythm based on the electrophysiological signal at single channel level. Although, the neuronal oscillatory coupling between neuronal assembles is associated with the information flow and exchange between brain regions, few studies focus on this type of neuronal oscillatory activity in face processing. In this study, the neuronal oscillatory coupling was investigated based on electroencephalographic (EEG) data of 20 participants, which were recorded when the participants were in a face/non-face perceptual task. The phase lag index (PLI) was used to assess the neuronal oscillatory coupling between brain regions in typical frequency bands. Enhanced short-range coupling was observed in theta (4-8 Hz) and alpha (8-12 Hz) band over the frontal region, in gamma1 (30-49 Hz) band over the left posterior and occipito-temporal regions, and in gamma2 (51-75 Hz) over the right temporal region during face perception compared with non-face perception. Long-range coupling was increased in theta and gamma band over the right hemisphere during face perception. Moreover, increased long-range coupling was observed in alpha band over the left and right hemisphere respectively during face perception. The results suggested that frequency-specific neuronal oscillatory coupling within and between regions of frontal cortex and the ventral visual pathway played an important role in face perception, which might reflect underlying neural mechanism of face perception.}
+}
+
+@InProceedings{NiuChuang_2020_ECCV,
+    author="Niu, Chuang
+    and Zhang, Jun
+    and Wang, Ge
+    and Liang, Jimin",
+    editor="Vedaldi, Andrea
+    and Bischof, Horst
+    and Brox, Thomas
+    and Frahm, Jan-Michael",
+    title="GATCluster: Self-supervised Gaussian-Attention Network for Image Clustering",
+    booktitle="Computer Vision -- ECCV 2020",
+    year="2020",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="735--751",
+    abstract="We propose a self-supervised Gaussian ATtention network for image Clustering (GATCluster). Rather than extracting intermediate features first and then performing traditional clustering algorithms, GATCluster directly outputs semantic cluster labels without further post-processing. We give a Label Feature Theorem to guarantee that the learned features are one-hot encoded vectors and the trivial solutions are avoided. Based on this theorem, we design four self-learning tasks with the constraints of transformation invariance, separability maximization, entropy analysis, and attention mapping. Specifically, the transformation invariance and separability maximization tasks learn the relations between samples. The entropy analysis task aims to avoid trivial solutions. To capture the object-oriented semantics, we design a self-supervised attention mechanism that includes a Gaussian attention module and a soft-attention loss. Moreover, we design a two-step learning algorithm that is memory-efficient for clustering large-size images. Extensive experiments demonstrate the superiority of our proposed method in comparison with the state-of-the-art image clustering benchmarks.",
+    isbn="978-3-030-58595-2"
+}
+
+@ARTICLE{ChenXueli_2020_TBME,
+    author={Chen, Xueli and Zhu, Shouping and Wang, Huiyuan and Bao, Cuiping and Yang, Defu and Zhang, Chi and Lin, Peng and Cheng, Ji-Xin and Zhan, Yonghua and Liang, Jimin and Tian, Jie},
+    journal={IEEE Transactions on Biomedical Engineering}, 
+    title={Accelerated Stimulated Raman Projection Tomography by Sparse Reconstruction From Sparse-View Data}, 
+    year={2020},
+    volume={67},
+    number={5},
+    pages={1293-1302},
+    doi={10.1109/TBME.2019.2935301},
+    url={https://ieeexplore.ieee.org/document/8798710},
+    abstract={Objective: Stimulated Raman projection tomography (SRPT), a recently developed label-free volumetric chemical imaging technology, has been reported to quantitatively reconstruct the distribution of chemicals in a three-dimensional (3D) complex system. The current image reconstruction scheme used in SRPT is based on a filtered back projection (FBP) algorithm that requires at least 180 angular-dependent projections to rebuild a reasonable SRPT image, resulting in a long total acquisition time. This is a big limitation for longitudinal studies on live systems. Methods: We present a sparse-view data-based sparse reconstruction scheme, in which sparsely sampled projections at 180 degrees were used to reconstruct the volumetric information. In the scheme, the simultaneous algebra reconstruction technique (SART), combined with total variation regularization, was used for iterative reconstruction. To better describe the projection process, a pixel vertex driven model (PVDM) was developed to act as projectors, whose performance was compared with those of the distance driven model (DDM). Results: We evaluated our scheme with numerical simulations and validated it for SRPT by mapping lipid contents in adipose cells. Simulation results showed that the PVDM performed better than the DDM in the case of using sparse-view data. Our scheme could maintain the quality of the reconstructed images even when the projection number was reduced to 15. The cell-based experimental results demonstrated that the proposed scheme can improve the imaging speed of the current FBP-based SRPT scheme by a factor of 9-12 without sacrificing discernible imaging details. Conclusion: Our proposed scheme significantly reduces the total acquisition time required for SRPT at a speed of one order of magnitude faster than the currently used scheme. This significant improvement in imaging speed would potentially promote the applicability of SRPT for imaging living organisms.}
+}
+
+@article{DuGetao_2020_MedIS,
+    title={Medical Image Segmentation based on U-Net: A Review},
+    author={Getao Du and Xu Cao and Jimin Liang and Xueli Chen and Yonghua Zhan},
+    journal={Journal of Imaging Science and Technology},
+    year={2020},
+    volume={64},
+    pages={20508-1-20508-12},
+    url={https://library.imaging.org/jist/articles/64/2/jist0710},
+    abstract={Medical image analysis is performed by analyzing images obtained by medical imaging systems to solve clinical problems. The purpose is to extract effective information and improve the level of clinical diagnosis. In recent years, automatic segmentation based on deep learning (DL) methods has been widely used, where a neural network can automatically learn image features, which is in sharp contrast with the traditional manual learning method. U-net is one of the most important semantic segmentation frameworks for a convolutional neural network (CNN). It is widely used in the medical image analysis domain for lesion segmentation, anatomical segmentation, and classification. The advantage of this network framework is that it can not only accurately segment the desired feature target and effectively process and objectively evaluate medical images but also help to improve accuracy in the diagnosis by medical images. Therefore, this article presents a literature review of medical image segmentation based on U-net, focusing on the successful segmentation experience of U-net for different lesion regions in six medical imaging systems. Along with the latest advances in DL, this article introduces the method of combining the original U-net architecture with deep learning and a method for improving the U-net network.}
+}
+
+@ARTICLE{MengFanzhen_2020_TRPMS,
+    author={Meng, Fanzhen and Zhu, Shouping and Cheng, Jian and Cao, Xu and Qin, Wei and Liang, Jimin},
+    journal={IEEE Transactions on Radiation and Plasma Medical Sciences}, 
+    title={System Response Matrix Calculation Based on Distance-Driven Model and Solid Angle Model for Dual-Head PET System}, 
+    year={2020},
+    volume={4},
+    number={1},
+    pages={81-90},
+    doi={10.1109/TRPMS.2019.2926580},
+    url={https://ieeexplore.ieee.org/document/8755473},
+    abstract={The dual-head positron emission tomography (PET) systems have an importance role in the preclinical and clinical applications. This paper focuses on developing a simplified model based on distance-driven (DD) and solid angle method to calculate the system response matrix (SRM) for the dual-head PET system. The subsampling schemes, including the subvoxel scheme and multi-DD scheme were introduced. The full width at half maximum (FWHM), coefficient of variation (COV), and contrast were computed and compared with that of using the Monte Carlo (MC)-based and multiray methods. In this paper, the dual-head PET system is configured with a 5 cm separation and 52x104 mm^3 detection area of each head. The size of each crystal is 13x1.89x1.89 mm^3. The results indicate that the rods with 1.0 mm diameter are resolved basically with the 100th iteration when the voxel is virtually divided into 2x2x2 and 4x4x4 subvoxels, which is comparable to that with the MC-based SRM. When the voxel is divided into four cuboid-shaped subvoxels, the rods with 1.0 mm diameter are resolved with the 80th iteration and the COV performs well in the simulation experiment. Overall, the proposed SRM model achieves a good compromise between image quality and calculation time.}
+}
