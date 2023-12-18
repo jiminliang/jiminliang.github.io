@@ -17,8 +17,10 @@ How to manage the publication list
 
 This will generate separate subfolds for each publication in \content\publication, each includes a cite.bib and an index.md.
 
-(4) In the codespace, sync the changes.
+(4) In the github repository, Pull requests -> confirm the pull request.
 
-(5) In the github repository, click Actions -> pages-build-deployment to publish the website.
+(5) In the codespace, sync the changes.
+
+(6) In the github repository, click Actions -> pages-build-deployment to publish the website.
 
 
