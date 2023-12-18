@@ -23,6 +23,8 @@ Wait until a new pull request shown in Pull requests.
 
 This will generate separate subfolds for each publication in \content\publication, each includes a cite.bib and an index.md.
 
+Wait until the action is done.
+
 (4) In the github codespace, sync the changes.
 
 
