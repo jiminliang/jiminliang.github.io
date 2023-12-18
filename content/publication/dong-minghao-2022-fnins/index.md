@@ -1,0 +1,46 @@
+---
+title: 'Real-World Visual Experience Alters Baseline Brain Activity in the Resting
+  State: A Longitudinal Study Using Expertise Model of Radiologists'
+authors:
+- Jiaxi Su
+- Xiaoyan Zhang
+- Ziyuan Zhang
+- Hongmei Wang
+- Jia Wu
+- Guangming Shi
+- Chenwang Jin
+- Minghao Dong
+date: '2022-01-01'
+publishDate: '2023-12-18T09:50:18.663942Z'
+publication_types:
+- article-journal
+publication: '*Frontiers in Neuroscience*'
+doi: 10.3389/fnins.2022.904623
+abstract: Visual experience modulates the intensity of evoked brain activity in response
+  to training-related stimuli. Spontaneous fluctuations in the restful brain actively
+  encode previous learning experience. However, few studies have considered how real-world
+  visual experience alters the level of baseline brain activity in the resting state.
+  This study aimed to investigate how short-term real-world visual experience modulates
+  baseline neuronal activity in the resting state using the amplitude of low-frequency
+  (<0.08 Hz) fluctuation (ALFF) and a visual expertise model of radiologists, who
+  possess fine-level visual discrimination skill of homogeneous stimuli. In detail,
+  a group of intern radiologists (n = 32) were recruited. The resting-state fMRI data
+  and the behavioral data regarding their level of visual expertise in radiology and
+  face recognition were collected before and after 1 month of training in the X-ray
+  department in a local hospital. A machine learning analytical method, i.e., support
+  vector machine, was used to identify subtle changes in the level of baseline brain
+  activity. Our method led to a superb classification accuracy of 86.7% between conditions.
+  The brain regions with highest discriminative power were the bilateral cingulate
+  gyrus, the left superior frontal gyrus, the bilateral precentral gyrus, the bilateral
+  superior parietal lobule, and the bilateral precuneus. To the best of our knowledge,
+  this study is the first to investigate baseline neurodynamic alterations in response
+  to real-world visual experience using longitudinal experimental design. These results
+  suggest that real-world visual experience alters the resting-state brain representation
+  in multidimensional neurobehavioral components, which are closely interrelated with
+  high-order cognitive and low-order visual factors, i.e., attention control, working
+  memory, memory, and visual processing. We propose that our findings are likely to
+  help foster new insights into the neural mechanisms of visual expertise.
+links:
+- name: URL
+  url: https://www.frontiersin.org/articles/10.3389/fnins.2022.904623
+---
