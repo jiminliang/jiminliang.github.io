@@ -1,13 +1,52 @@
 @article{ChenFei_2024_BSPC,
-title = {Positive-unlabeled learning for coronary artery segmentation in CCTA images},
-journal = {Biomedical Signal Processing and Control},
-volume = {87},
-pages = {105473},
-year = {2024},
-issn = {1746-8094},
-doi = {https://doi.org/10.1016/j.bspc.2023.105473},
-url = {https://www.sciencedirect.com/science/article/pii/S1746809423009060},
-author = {Fei Chen and Sulei Li and Chen Wei and Yue Zhang and Kaitai Guo and Yang Zheng and Feng Cao and Jimin Liang},
-keywords = {Coronary artery segmentation, Positive-unlabeled learning, Self-training, Pseudo-negative labels, Teacher–student framework},
-abstract = {Accurate three-dimensional (3D) segmentation of the coronary artery is an essential step in the quantitative analysis of the coronary arteries. However, due to the small size and complex morphology of the coronary arteries, voxel-by-voxel labeling of the complete coronary artery in 3D computed coronary tomography angiography images is both difficult and laborious. To alleviate the workload of annotating, it is possible to randomly label only a fraction of the positive samples and leave all remaining instances unlabeled, known as the positive-unlabeled (PU) learning problem. Due to the presence of coronary artery-like structures and the absence of negative annotations, we propose a novel sample-selection-based PU learning method for coronary artery segmentation. Specifically, only pseudo-negative labels (PNLs) are generated during the self-training process, and all data are further exploited implicitly using the teacher–student (TS) framework. To address the difficulty of detecting tiny coronary artery branches, we propose a post-processing method by exploiting the variance of multi-scale features in the inference stage. Extensive experiments were conducted on a self-constructed dataset and the publicly available ASOCA dataset. The results demonstrate that our proposed method performs better than baseline supervised and state-of-the-art PU learning methods. Notably, even in extreme cases where more than 80% of annotations are missing, our method still achieves significant gains. When the proportion of missing annotations is relatively low, our method even outperforms the backbone trained with ground truth annotations.}
+    title = {Positive-unlabeled learning for coronary artery segmentation in CCTA images},
+    journal = {Biomedical Signal Processing and Control},
+    volume = {87},
+    pages = {105473},
+    year = {2024},
+    issn = {1746-8094},
+    doi = {https://doi.org/10.1016/j.bspc.2023.105473},
+    url = {https://www.sciencedirect.com/science/article/pii/S1746809423009060},
+    author = {Fei Chen and Sulei Li and Chen Wei and Yue Zhang and Kaitai Guo and Yang Zheng and Feng Cao and Jimin Liang},
+    keywords = {Coronary artery segmentation, Positive-unlabeled learning, Self-training, Pseudo-negative labels, Teacher–student framework},
+    abstract = {Accurate three-dimensional (3D) segmentation of the coronary artery is an essential step in the quantitative analysis of the coronary arteries. However, due to the small size and complex morphology of the coronary arteries, voxel-by-voxel labeling of the complete coronary artery in 3D computed coronary tomography angiography images is both difficult and laborious. To alleviate the workload of annotating, it is possible to randomly label only a fraction of the positive samples and leave all remaining instances unlabeled, known as the positive-unlabeled (PU) learning problem. Due to the presence of coronary artery-like structures and the absence of negative annotations, we propose a novel sample-selection-based PU learning method for coronary artery segmentation. Specifically, only pseudo-negative labels (PNLs) are generated during the self-training process, and all data are further exploited implicitly using the teacher–student (TS) framework. To address the difficulty of detecting tiny coronary artery branches, we propose a post-processing method by exploiting the variance of multi-scale features in the inference stage. Extensive experiments were conducted on a self-constructed dataset and the publicly available ASOCA dataset. The results demonstrate that our proposed method performs better than baseline supervised and state-of-the-art PU learning methods. Notably, even in extreme cases where more than 80% of annotations are missing, our method still achieves significant gains. When the proportion of missing annotations is relatively low, our method even outperforms the backbone trained with ground truth annotations.}
+}
+
+@article{TangYiping_2023_InformationSciences,
+    title = {Towards better utilization of pseudo labels for weakly supervised temporal action localization},
+    journal = {Information Sciences},
+    volume = {623},
+    pages = {693-708},
+    year = {2023},
+    issn = {0020-0255},
+    doi = {https://doi.org/10.1016/j.ins.2022.12.044},
+    url = {https://www.sciencedirect.com/science/article/pii/S0020025522015390},
+    author = {Yiping Tang and Junyao Ge and Kaitai Guo and Yang Zheng and Haihong Hu and Jimin Liang},
+    keywords = {Untrimmed video analysis, Temporal action detection, Weakly supervised learning, Pseudo label},
+    abstract = {Weakly supervised temporal action localization (WS-TAL) aims to simultaneously recognize and localize action instances of interest in untrimmed videos with the use of the video-level label only. Some works have demonstrated that pseudo labels play an important role for performance improvement in WS-TAL. Since pseudo labels are inevitably inaccurate, direct adoption of noisy labels can lead to inappropriate knowledge transfer. Although some previous studies have shown the benefits of using only “reliable” pseudo labels, performance improvement is still limited. In this work, we experimentally analyze how the noise in pseudo labels affects model performance within the self-distillation framework. Motivated by the finding that incorrect pseudo labels with large confidence scores have a significant impact on performance, we propose the overconfidence suppression (OCS) strategy to mitigate the effect of the overconfident pseudo labels, and thus prevent over-fitting of the student model. In addition, a simplified contrast learning method is utilized to fine-tune the feature representation by increasing the separation of the foreground and background snippets. Equipped with the proposed methods, the benefits of pseudo labels can be better exploited and allow the model to achieve state-of-the-art performance on THUMOS’14 and ActivityNet-1.2 benchmarks.}
+}
+
+@article{TangYiping_2023_PR,
+    title = {Video representation learning for temporal action detection using global-local attention},
+    journal = {Pattern Recognition},
+    volume = {134},
+    pages = {109135},
+    year = {2023},
+    issn = {0031-3203},
+    doi = {https://doi.org/10.1016/j.patcog.2022.109135},
+    url = {https://www.sciencedirect.com/science/article/pii/S003132032200615X},
+    author = {Yiping Tang and Yang Zheng and Chen Wei and Kaitai Guo and Haihong Hu and Jimin Liang},
+    keywords = {Temporal action detection, Video representation, Untrimmed video analysis},
+    abstract = {Video representation is of significant importance for temporal action detection. The two sub-tasks of temporal action detection, i.e., action classification and action localization, have different requirements for video representation. Specifically, action classification requires video representations to be highly discriminative, so that action features and background features are as dissimilar as possible. For action localization, it is crucial to obtain information about the action itself and the surrounding context for accurate prediction of action boundaries. However, the previous methods failed to extract the optimal representations for the two sub-tasks, whose representations for both sub-tasks are obtained in a similar way. In this paper, a Global-Local Attention (GLA) mechanism is proposed to produce a more powerful video representation for temporal action detection without introducing additional parameters. The global attention mechanism predicts each action category by integrating features in the entire video that are similar to the action while suppressing other features, thus enhancing the discriminability of video representation during the training process. The local attention mechanism uses a Gaussian weighting function to integrate each action and its surrounding contextual information, thereby enabling precise localization of the action. The effectiveness of GLA is demonstrated on THUMOS’14 and ActivityNet-1.3 with a simple one-stage action detection network, achieving state-of-the-art performance among the methods using only RGB images as input. The inference speed of the proposed model reaches 1373 FPS on a single Nvidia Titan Xp GPU. The generalizability of GLA to other detection architectures is verified using R-C3D and Decouple-SSAD, both of which achieve consistent improvements. The experimental results demonstrate that designing representations with different properties for the two sub-tasks leads to better performance for temporal action detection compared to the representations obtained in a similar way.}
+}
+
+@article{WeiChen_2023_TNNLS,
+  author={Wei, Chen and Niu, Chuang and Tang, Yiping and Wang, Yue and Hu, Haihong and Liang, Jimin},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={NPENAS: Neural Predictor Guided Evolution for Neural Architecture Search}, 
+  year={2023},
+  volume={34},
+  number={11},
+  pages={8441-8455},
+  doi={10.1109/TNNLS.2022.3151160}
 }
