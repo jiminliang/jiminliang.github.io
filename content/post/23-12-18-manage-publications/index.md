@@ -17,14 +17,12 @@ The bib file shuld be named exactly the same as publications.bib. It will be upl
 
 (2) In the github repository, click Code -> Add file -> Upload files and upload the publications.bib. 
 
-(3) In the github repository, click Actions -> Import Publications from BibTex.
-
 Wait until a new pull request shown in Pull requests.
 
-(4) In the github repository, Pull requests -> confirm the pull request.
+(3) In the github repository, Pull requests -> confirm the pull request.
 
 This will generate separate subfolds for each publication in \content\publication, each includes a cite.bib and an index.md.
 
-(5) In the codespace, sync the changes.
+(4) In the codespace, sync the changes.
 
 
