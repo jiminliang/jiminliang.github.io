@@ -31,4 +31,4 @@ Wait until the action is done.
 
 (5) In the github codespace, sync the changes.
 
-
+Please note: If you have imported a paper and a subfolder for that paper has been created, the paper's record in publications.bib will not be processed when you import publications.bib. If you want to update a paper, delete its subfolder before importing.
