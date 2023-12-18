@@ -13,7 +13,7 @@ Read the docs [Auto Import Publications](https://docs.hugoblox.com/tutorial/resu
 
 (1) Prepare the publications.bib. 
 
-The bib file shuld be named exactly the same as publications.bib. It will be uploaded to the github repository, but do not edit it inside the github workspace. Every time it is modified, you shuld delete the publications.bib in the repository and do the following steps again. 
+The bib file shuld be named exactly the same as publications.bib. It will be uploaded to the github repository, but do not edit it inside the github workspace. Every time it is modified, you should delete the publications.bib in the repository and do the following steps again. 
 
 (2) In the github repository, click Code -> Add file -> Upload files and upload the publications.bib. 
 
@@ -23,6 +23,6 @@ Wait until a new pull request shown in Pull requests.
 
 This will generate separate subfolds for each publication in \content\publication, each includes a cite.bib and an index.md.
 
-(4) In the codespace, sync the changes.
+(4) In the github codespace, sync the changes.
 
 
