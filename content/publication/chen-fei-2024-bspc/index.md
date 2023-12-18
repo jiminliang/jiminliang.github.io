@@ -1,0 +1,47 @@
+---
+title: Positive-unlabeled learning for coronary artery segmentation in CCTA images
+authors:
+- Fei Chen
+- Sulei Li
+- Chen Wei
+- Yue Zhang
+- Kaitai Guo
+- Yang Zheng
+- Feng Cao
+- Jimin Liang
+date: '2024-01-01'
+publishDate: '2023-12-18T02:10:09.034915Z'
+publication_types:
+- article-journal
+publication: '*Biomedical Signal Processing and Control*'
+doi: https://doi.org/10.1016/j.bspc.2023.105473
+abstract: Accurate three-dimensional (3D) segmentation of the coronary artery is an
+  essential step in the quantitative analysis of the coronary arteries. However, due
+  to the small size and complex morphology of the coronary arteries, voxel-by-voxel
+  labeling of the complete coronary artery in 3D computed coronary tomography angiography
+  images is both difficult and laborious. To alleviate the workload of annotating,
+  it is possible to randomly label only a fraction of the positive samples and leave
+  all remaining instances unlabeled, known as the positive-unlabeled (PU) learning
+  problem. Due to the presence of coronary artery-like structures and the absence
+  of negative annotations, we propose a novel sample-selection-based PU learning method
+  for coronary artery segmentation. Specifically, only pseudo-negative labels (PNLs)
+  are generated during the self-training process, and all data are further exploited
+  implicitly using the teacher–student (TS) framework. To address the difficulty of
+  detecting tiny coronary artery branches, we propose a post-processing method by
+  exploiting the variance of multi-scale features in the inference stage. Extensive
+  experiments were conducted on a self-constructed dataset and the publicly available
+  ASOCA dataset. The results demonstrate that our proposed method performs better
+  than baseline supervised and state-of-the-art PU learning methods. Notably, even
+  in extreme cases where more than 80% of annotations are missing, our method still
+  achieves significant gains. When the proportion of missing annotations is relatively
+  low, our method even outperforms the backbone trained with ground truth annotations.
+tags:
+- Coronary artery segmentation
+- Positive-unlabeled learning
+- Self-training
+- Pseudo-negative labels
+- Teacher–student framework
+links:
+- name: URL
+  url: https://www.sciencedirect.com/science/article/pii/S1746809423009060
+---
