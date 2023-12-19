@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yang Zheng
+title: Dr. Yang Zheng
 
 # Full name (for SEO)
 first_name: Yang

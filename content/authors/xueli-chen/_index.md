@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Xueli Chen
+title: Dr. Xueli Chen
 
 # Full name (for SEO)
 first_name: Xueli
