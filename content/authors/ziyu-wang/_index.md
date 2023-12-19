@@ -25,9 +25,9 @@ organizations:
 bio: My research interests include conitive enhancement, brain science and brain-machine fusion.
 
 interests:
-  - Cognitive Enhancement
-  - Brain Science
-  - Brain-Machine Fusion
+  - Cognitive enhancement
+  - Brain science
+  - Brain-machine fusion
 
 education:
   courses:
