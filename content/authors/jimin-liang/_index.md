@@ -32,7 +32,7 @@ interests:
 
 education:
   courses:
-    - course: Ph.D. in Circuit and System
+    - course: Ph.D. in Circuits and Systems
       institution: Xidian University
       year: 2000
     - course: M.Sc. in Signal and Information Processing
