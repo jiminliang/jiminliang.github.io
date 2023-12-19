@@ -72,3 +72,5 @@ user_groups:
 ---
 
 Yang Zheng received the B.Eng. degree in Electronic Science and Technology from Xidian University, Xi'an, China, in 2015. He received Ph. D. degree in Signal and Information Processing from University of Chinese Academy of Sciences, Beijing, China, in 2021. He joined Xidian University in 2021, where he is now an assistant professor in the School of Electronic Engineering. He is a member of CSIG, and a member of the Professional Committee of Visual Sensing of CSIG. His research interests include human behaviour analysis for intelligent diagnosis of developmental coordination disorder (DCD), intelligent systems and algorithms, eye tracking, aritifical intelligence, and computer vision. He has authored or coauthored more than 10 journal papers. He was the recipient of Gold Medal, Geneva International Invention Award at 2023 Geneva International Invention Exhibition.
+
+My name in Chinese is 郑洋.

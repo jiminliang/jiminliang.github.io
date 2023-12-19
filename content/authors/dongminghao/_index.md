@@ -71,3 +71,5 @@ user_groups:
 ---
 
 Minghao Dong is a professor of biomedical engineering at the Xidian University. His research interests include intelligent human-computer interaction, brain science and neuroimaging.
+
+My name in Chinese is 董明皓.
