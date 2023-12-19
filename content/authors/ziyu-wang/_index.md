@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Ziyu Wang
+title: Ziyu Wang
 
 # Full name (for SEO)
 first_name: Ziyu

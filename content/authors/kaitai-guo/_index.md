@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Kaitai Guo
+title: Kaitai Guo
 
 # Full name (for SEO)
 first_name: Kaitai

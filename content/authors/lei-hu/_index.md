@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Lei Hu
+title: Lei Hu
 
 # Full name (for SEO)
 first_name: Lei

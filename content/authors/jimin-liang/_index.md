@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Jimin Liang
+title: Jimin Liang
 
 # Full Name (for SEO)
 first_name: Jimin

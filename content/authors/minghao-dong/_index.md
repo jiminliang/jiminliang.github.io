@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Minghao Dong
+title: Minghao Dong
 
 # Full name (for SEO)
 first_name: Minghao
