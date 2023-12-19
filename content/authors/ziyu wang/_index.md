@@ -8,7 +8,7 @@ last_name: Wang
 
 # Username (this should match the folder name)
 authors:
-  - haihong-hu
+  - ziyu-wang
 
 # Is this the primary user of the site?
 superuser: false
