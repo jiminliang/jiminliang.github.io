@@ -14,12 +14,12 @@ last_name: Wang
 superuser: false
 
 # Role/position
-role: Postdoc of Psychology
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    # url: 'https://web.xidian.edu.cn/zhengyang/'
+    url: 'https://web.xidian.edu.cn/zhengyang/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include human behaviour analysis for intelligent diagnosis of developmental coordination disorder, aritifical intelligence, and computer vision.
