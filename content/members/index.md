@@ -5,7 +5,7 @@ date: 2023-12-18
 type: landing
 
 sections:
-  - block: members
+  - block: people
     content:
       title: Our Research Team
       # Choose which groups/teams of users to display.
