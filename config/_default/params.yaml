@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Visionary AI Research (VAR).'
+    notice: '© {year} VAR Group'
     license:
       # enable: ture
       # allow_derivatives: false
