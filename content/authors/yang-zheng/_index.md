@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant Professor of Electronic Engineering
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
