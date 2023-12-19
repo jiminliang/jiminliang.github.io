@@ -19,7 +19,8 @@ role: Professor of Electronic Engineering
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://faculty.xidian.edu.cn/jiminliang/zh_CN/index.htm'
+    # url: 'https://faculty.xidian.edu.cn/jiminliang/zh_CN/index.htm'
+    url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include artificial intelligence and computer vision.

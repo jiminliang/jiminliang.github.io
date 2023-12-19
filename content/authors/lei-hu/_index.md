@@ -19,7 +19,8 @@ role: Associate Research Fellow
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://scholar.google.com/citations?user=llqsPF8AAAAJ&hl'
+    # url: 'https://scholar.google.com/citations?user=llqsPF8AAAAJ&hl'
+    url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning, computer vision and remote sensing.

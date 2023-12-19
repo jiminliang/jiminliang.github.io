@@ -19,7 +19,8 @@ role: Associate Professor
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://web.xidian.edu.cn/hhhu/'
+    # url: 'https://web.xidian.edu.cn/hhhu/'
+    url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include signal and image processing.

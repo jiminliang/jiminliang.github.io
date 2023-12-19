@@ -19,7 +19,8 @@ role: Postdoc Research Associate
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://scholar.google.com/citations?hl=en&user=zW69Tx8AAAAJ'
+    # url: 'https://scholar.google.com/citations?hl=en&user=zW69Tx8AAAAJ'
+    url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include conitive enhancement, brain science and brain-machine fusion.

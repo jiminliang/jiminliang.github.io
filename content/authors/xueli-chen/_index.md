@@ -19,7 +19,8 @@ role: Professor of Biomedical Engineering
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://web.xidian.edu.cn/chenxueli/index.html'
+    # url: 'https://web.xidian.edu.cn/chenxueli/index.html'
+    url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include biomedical imaging, brain cognition and intelligent health.

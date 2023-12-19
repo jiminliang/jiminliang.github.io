@@ -19,7 +19,8 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://faculty.xidian.edu.cn/GUOKAITAI/zh_CN/index.htm'
+    # url: 'https://faculty.xidian.edu.cn/GUOKAITAI/zh_CN/index.htm'
+    url: 'https://www.xidian.edu.cn/'    
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include broad-spectrum substance identification, microwave and infrared imaging, and system simulation and evaluation.

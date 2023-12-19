@@ -19,7 +19,8 @@ role: Professor of Biomedical Engineering
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://web.xidian.edu.cn/mhdong/'
+    # url: 'https://web.xidian.edu.cn/mhdong/'
+    url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include intelligent human-computer interaction, brain science and neuroimaging.
