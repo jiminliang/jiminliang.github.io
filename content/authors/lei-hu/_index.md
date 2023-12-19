@@ -1,42 +1,45 @@
 ---
 # Display name
-title: Haihong Hu
+title: Lei Hu
 
 # Full name (for SEO)
-first_name: Haihong
+first_name: Lei
 last_name: Hu
 
 # Username (this should match the folder name)
 authors:
-  - haihong-hu
+  - lei-hu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Associate Professor
+role: Associate Research Fellow
 
 # Organizations/Affiliations
 organizations:
   - name: Xidian University
-    url: 'https://web.xidian.edu.cn/hhhu/'
+    url: 'https://scholar.google.com/citations?user=llqsPF8AAAAJ&hl'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include signal and image processing.
+bio: My research interests include deep learning, computer vision and remote sensing.
 
 interests:
-  - Signal processing
-  - Image processing
+  - Deep learning
   - Computer vision
+  - Remote sensing
 
 education:
   courses:
-    - course: M.Sc. in Communications and information systems
+    - course: Ph.D. in Information and Communication Engineering
       institution: Xidian University
-      year: 2001
-    - course: B.Eng. in Image Transfer and Processing
-      institution: Beijing University of Posts and Telecommunications
-      year: 1994
+      year: 2022
+    - course: M.Sc. in Computer Software and Theory
+      institution: Northwest University
+      year: 2011  
+    - course: B.Eng. in Computer Science and Technology
+      institution: Xi’an University of Architecture and Technology
+      year: 2005
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -45,13 +48,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:haihonghu@xidian.edu.cn'
+    link: 'mailto:hulei@xidian.edu.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=C5NUoyIAAAAJ
+    link: https://scholar.google.com/citations?user=llqsPF8AAAAJ&hl
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen
@@ -70,6 +73,6 @@ user_groups:
   - Researchers
 ---
 
-Haihong Hu received her B.Eng. degree from Beijing University of Posts and Telecommunications in 1994 and M.Sc. degree from Xidian University in 2001. Her research interests include signal and image processing.
+Lei Hu received his B.Eng. degree from Xi’an University of Architecture and Technology in 2005, the M.Sc. degree from Northwest University in 2011, and the Ph.D. from Xidian University in 2022. His research interests include deep learning, computer vision and remote sensing image analysis.
 
-My name in Chinese is 胡海虹.
+My name in Chinese is 胡磊.
