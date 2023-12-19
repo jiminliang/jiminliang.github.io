@@ -45,12 +45,12 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} IntelliVision. This work is licensed under {license}'
+    notice: '© {year} Visionary AI Research (VAR).'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      # enable: ture
+      # allow_derivatives: false
+      # share_alike: true
+      # allow_commercial: false
 
 # Localization
 
