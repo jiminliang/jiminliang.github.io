@@ -16,8 +16,8 @@ sections:
           - Grad Students
           - Administration
           - Alumni
-      # sort_by: Params.last_name
-      # sort_ascending: false
+      sort_by: Params.last_name
+      sort_ascending: false
     design:
       show_interests: false
       show_role: true
