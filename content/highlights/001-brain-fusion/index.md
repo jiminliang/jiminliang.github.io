@@ -14,6 +14,16 @@ Harnessing the complementarity between the brain and artificial neural networks 
 
 {{< /spoiler >}}
 
+<!-- ------------------------------------------------------- -->
+{{< spoiler text="**Contributions**" >}}
+
+- We investigated the similarities and differences between the image representations of brain responses and image features computed by DCNNs using a rhesus monkey dataset, demonstrating that there are complementarities between the two, and thus there is a potential to improve the system performance through information fusion.
+
+- We developed a brain-machine information fusion model with a siamese network architecture and propose a multimodal supervised contrastive learning method to jointly learn the image representations for the brain responses and DCNNs, which not only improves the generalization ability of the downstream image classifier, but also enables it to be applied in a brain-out-of-the-loop manner.
+
+- The proposed brain-machine fusion method was validated on a self-built human vehicle detection dataset through extensive cross-subject and cross-task analyses. Its effectiveness demonstrates the feasibility and potential of brain-out-of-the-loop application of the brain-machine fusion models.
+
+{{< /spoiler >}}
 
 <!-- ------------------------------------------------------- -->
 {{< spoiler text="**Datasets**" >}}
@@ -66,7 +76,7 @@ Notably, we found that the shallow DCNNs are better at capturing the IT response
 {{< /spoiler >}}
 
 <!-- ------------------------------------------------------- -->
-{{< spoiler text="**Brain-machine information fusion model**" >}}
+{{< spoiler text="**Brain-machine fusion model**" >}}
 
 To explore the cross-modal complementarity between brain responses and DCNN features, we proposed a brain-machine information fusion model. The fusion model adopts a siamese network architecture to incorporate brain responses into the feature learning phase, which is pre-trained using the supervised contrastive learning strategy to learn the structured joint embeddings between the brain responses and DCNN features. After training, the fusion model can be applied to the downstream classification tasks in multimodal fusion setting or unimodal setting. The later enables the brain-out-of-the-loop application of the fusion model.
 
@@ -94,5 +104,23 @@ From the experimental results, we can draw the following conclusions for both th
 The second experiment tested whether the brain-image joint representation learning could improve the cross-subject generalization of the EEG data. Specifically, each subject's model was tested on other subjects' data and then averaged to evaluate the model's generalization performance. We employed two settings for cross-subject analysis: zero-shot transfer and full-shot transfer. Compared to the counterpart results, the accuracy of cross-subject testing is significantly decreased, indicating the large variations in the EEG data between the subjects. The performance of full-shot transfer is better than that of zero-shot transfer. This is mainly attributed to the fact that the training and test data of the SVM classifiers come from the same subjects in the case of full-shot transfer, whereas the training and test data are from different subjects in the case of zero-shot transfer. In both cases, the EEG features obtained using joint representation learning significantly improve the performance of cross-subject classification, demonstrating that brain-machine fusion yields a better representation of the EEG data.
 
 The third experiment tested whether the brain-image joint representation learning could improve the cross-task generalization of the DCNN image representations, where the image representations and the SVM classifiers trained on the simple scene images were tested on the complex scene images, and vise versa. Similar to the learning settings in the second experiment, we conducted the zero-shot and full-shot transfer experiments. From the results, similar conclusions can be drawn as in above experiments. The image features jointly learnt with the brain responses can better decode the object information than that learnt from the image data alone. More importantly, our results demonstrate the practicability of brain-in-the-loop modeling and brain-out-of-the-loop application. The elimination of the need for brain data in model testing greatly broadens the application scenarios of the models.
+
+{{< /spoiler >}}
+
+<!-- ------------------------------------------------------- -->
+{{< spoiler text="**Conclusion**" >}}
+
+We have proposed a brain-machine fusion method for object classification that exploits the complementary nature between image representations of the brain and DCNN. We developed a multimodal supervised contrastive learning model to jointly learn the brain and DCNN representations of the images, which significantly improves the generalization ability of the downstream classifiers. Most importantly, the proposed brain-machine fusion model is able to be applied in a brain-out-of-the-loop manner due to the adoption of a siamese network architecture, thus overcoming the difficulties faced by the human-involved brain-in-the-loop approaches. Our brain-out-of-the-loop strategy can maximize the automation advantages of brain-machine fusion models and broaden their application scenarios. The results in this paper are significant for the research and design of brain-machine information fusion systems, and provide new ideas for the cross-study of computer vision and cognitive science.
+
+{{< /spoiler >}}
+
+<!-- ------------------------------------------------------- -->
+{{< spoiler text="**Contributions**" >}}
+
+- We investigated the similarities and differences between the image representations of brain responses and image features computed by DCNNs using a rhesus monkey dataset, demonstrating that there are complementarities between the two, and thus there is a potential to improve the system performance through information fusion.
+
+- We developed a brain-machine information fusion model with a siamese network architecture and propose a multimodal supervised contrastive learning method to jointly learn the image representations for the brain responses and DCNNs, which not only improves the generalization ability of the downstream image classifier, but also enables it to be applied in a brain-out-of-the-loop manner.
+
+- The proposed brain-machine fusion method was validated on a self-built human vehicle detection dataset through extensive cross-subject and cross-task analyses. Its effectiveness demonstrates the feasibility and potential of brain-out-of-the-loop application of the brain-machine fusion models.
 
 {{< /spoiler >}}
