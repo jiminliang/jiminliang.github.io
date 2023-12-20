@@ -52,7 +52,7 @@ social:
   #   link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=C5NUoyIAAAAJ
+    link: https://scholar.google.com/citations?user=YUTnwikAAAAJ&hl
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen
