@@ -82,7 +82,7 @@ To explore the cross-modal complementarity between brain responses and DCNN feat
 
 {{< figure src="Fig2.png" id="diagram" >}}
 <!-- The figure can now be cross-referenced with a link in the form [A Figure](#figure-hello) -->
-Fig. 2. Schematic diagram of the proposed brain-machine information fusion method
+Fig. 3. Schematic diagram of the proposed brain-machine information fusion method
 
 The fusion model employs two encoders to project the EEG data and stimulus images into a common embedding space. The EEG encoder adopts the EEGNet architecture by replacing its softmax classification layer with a linear layer that projects the learnt features into a one-dimensional feature vector. The image encoder is constructed using the DCNN models including the AlexNet, VGG, GoogLeNet, and ResNet, respectively, with the output layer replaced by a linear layer, i.e., the linear probes of the DCNN models.
 
