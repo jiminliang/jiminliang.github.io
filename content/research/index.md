@@ -18,7 +18,7 @@ sections:
   
   - block: collection
     content:
-      title: Latest News
+      title: Research Highlights
       subtitle:
       text:
       count: 5
@@ -30,7 +30,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: highlights
+      page_type: research
     design:
       view: card
       columns: '1'
