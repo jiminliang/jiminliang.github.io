@@ -5,7 +5,7 @@ image:
   focal_point: 'top'
 ---
 
-Start the new website from the [Hugo Research Group Theme](https://github.com/HugoBlox/theme-research-group)
+Brain-machine fusion: from brain-in-the-loop to brain-out-of-the-loop
 
 <!--more-->
 
