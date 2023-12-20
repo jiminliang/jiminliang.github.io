@@ -23,7 +23,7 @@ organizations:
     url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include signal and image processing.
+bio: My research interests include signal and image processing and computer vision.
 
 interests:
   - Signal processing
@@ -71,6 +71,6 @@ user_groups:
   - Researchers
 ---
 
-Haihong Hu received her B.Eng. degree from Beijing University of Posts and Telecommunications in 1994 and M.Sc. degree from Xidian University in 2001. Her research interests include signal and image processing.
+Haihong Hu received her B.Eng. degree from Beijing University of Posts and Telecommunications in 1994 and M.Sc. degree from Xidian University in 2001. Her research interests include signal and image processing and computer vision.
 
 My name in Chinese is 胡海虹.
