@@ -1,11 +1,11 @@
 ---
-title: Cognitive Training
-date: 2023-12-19
+title: Cognitive Training: Exercise your brain like a muscle
+date: 
 image:
   focal_point: 'top'
 ---
 
-Exercise your brain like a muscle
+
 
 <!--more-->
 

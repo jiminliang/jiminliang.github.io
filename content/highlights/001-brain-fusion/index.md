@@ -1,11 +1,11 @@
 ---
-title: Brain-Machine Fusion
-date: 2023-12-20
+title: Brain-Machine Fusion: From brain-in-the-loop to brain-out-of-the-loop
+date: 
 image:
   focal_point: 'top'
 ---
 
-Brain-machine fusion: from brain-in-the-loop to brain-out-of-the-loop
+
 
 <!--more-->
 
