@@ -32,7 +32,7 @@ sections:
       order: desc
       page_type: highlights
     design:
-      view: stream
+      view: compact
       columns: '1'
   
   # - block: markdown
