@@ -16,6 +16,8 @@ Harnessing the complementarity between the brain and artificial neural networks 
 <!-- The figure can now be cross-referenced with a link in the form [A Figure](#figure-hello) -->
 {{< /spoiler >}}
 
+
+<!-- ------------------------------------------------------- -->
 {{< spoiler text="**Datasets**" >}}
 Two datasets were used in this study. A rhesus monkey dataset was used for complementary analysis between the brain responses and the DCNN image features, and a self-built human vehicle detection dataset was used for brain-image fusion modeling and application in real scenarios.
 
@@ -29,7 +31,7 @@ Visual stimulus images for the vehicle detection experiment were collected from 
 
 The above screening procedure eventually yielded 1800 patches, including 450 patches of each of the four types: simple scene with vehicle (simple-scene target), simple scene without vehicle (simple-scene non-target), complex scene with vehicle (complex-scene target), and complex scene without vehicle (complex-scene non-target).
 
-The experiment comprised two vehicle detection tasks respectively in simple scene and complex scene, totally lasted two hours including preparation work. The experimental paradigm is illustrated in [Fig. 1](#figure-Fig1). During the experiment, the participants were cued to perform a practicing block to adapt to the experimental environment and familiar with the experimental process before the experiment officially began. For each of the two tasks, 900 visual stimulus images containing two categories (450 targets and 450 non-targets) were partitioned into 30 sets of 30 images each for block design. In one block, the set of 30 images contained approximately 40\% to 60\% target images and were randomly permuted. The order of the blocks was also randomly permuted. The participants were asked to fully focus on vehicle detection when the monitor flashed the images of each stimulus for a period of 0.75 second during each block. A black crosshair was displayed in the center of the monitor for 0.75–1 second as the inter-stimulus interval between two adjacent images. At the end of each block, the participants made keystroke judgments about the number of target patches in the block. 
+The experiment comprised two vehicle detection tasks respectively in simple scene and complex scene, totally lasted two hours including preparation work. During the experiment, the participants were cued to perform a practicing block to adapt to the experimental environment and familiar with the experimental process before the experiment officially began. For each of the two tasks, 900 visual stimulus images containing two categories (450 targets and 450 non-targets) were partitioned into 30 sets of 30 images each for block design. In one block, the set of 30 images contained approximately 40\% to 60\% target images and were randomly permuted. The order of the blocks was also randomly permuted. The participants were asked to fully focus on vehicle detection when the monitor flashed the images of each stimulus for a period of 0.75 second during each block. A black crosshair was displayed in the center of the monitor for 0.75–1 second as the inter-stimulus interval between two adjacent images. At the end of each block, the participants made keystroke judgments about the number of target patches in the block. 
 
 We acquired continuous EEG data using an ActiCHamp EEG system supplied by the Brain Products Company. Sixty-four channels including one reference channel (channel Iz) were positioned on the head according to the international standard 10-10 system. The EEG data were sampled at a rate of 1,000 Hz and the impedance of each electrode was kept below 5 k$\Omega$ prior to the beginning of recording. The raw EEG data were preprocessed offline in MATLAB using the EEGLAB toolbox (version 13.6.5b).
 
@@ -37,5 +39,21 @@ We acquired continuous EEG data using an ActiCHamp EEG system supplied by the Br
 {{< figure src="Fig1.png" id="Fig1" >}}
 <!-- The figure can now be cross-referenced with a link in the form [A Figure](#figure-hello) -->
 Fig. 1. Left: the generation of stimulus set and statistical results between targets (T) and non-target (nT) stimuli in simple and complex scene groups. Right: the temporal structure of stimulus presentation. Both simple and complex stimulus task shared the same experimental procedure.
+
+<!-- The experimental paradigm is illustrated in [Fig. 1](#figure-Fig1). -->
+
+{{< /spoiler >}}
+
+<!-- ------------------------------------------------------- -->
+
+{{< spoiler text="**Complementarity between the image representations of brain and DCNN**" >}}
+We employed the representational similarity analysis (RSA) method to analyze the similarity between the brain responses and the DCNN features. The basis of RSA is the representational dissimilarity matrices (RDMs), and we calculated the RDMs for brain responses and DCNN features separately using the Euclidean distance. Specifically, the RDMs were calculated from three levels of granularity, including the image level (RDM shape of 3200 × 3200), the object (subclass) level (RDM shape of 64 × 64), and the class level (RDM shape of 8 × 8). The similarities between the RDMs were then evaluated using Spearman's correlation, and the retest consistency of brain responses between the multiple presentations of the same stimulus image at different levels was used as the noise-limited upper bound.
+
+To investigate the capacity of DCNN features to fit the brain responses, the partial least squares (PLS) was used to predict the brain responses of individual electrodes from the image features.
+
+To investigate whether the differences in the image representations of brain responses and DCNN features are related to image complexity, we used the classification sensitivity index ($d^{'}$) in Rajalingham et. al. (Journal of Neuroscience 38(33), 2018) to estimate the sample separability in different feature spaces. The higher the sensitivity index, the better the separability. The sensitivity indices of the brain responses and DCNN features for each stimulus image were computed separately. 
+
+{{< figure src="Fig3.png" id="diagram" >}}
+Fig. 2. Complementarity analysis between the image representations of brain responses and DCNNs. (A) Visualization of RDMs at different levels of classification granularity, and similarity between the RDMs of the brain responses and the DCNN image features. ``V4 Consistency`` and ``IT Consistency`` represent the retest consistencies of V4 and IT brain responses, respectively. (B) Fitting ability of V4 brain responses and DCNN features to predict the IT responses. (C) Effects of object and scene complexity on classification performance (averaged sensitivity indices) of the brain responses and DCNN features for all stimulus images.
 
 {{< /spoiler >}}
