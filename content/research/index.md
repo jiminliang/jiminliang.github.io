@@ -30,7 +30,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: research
+      page_type: highlights
     design:
       view: card
       columns: '1'
