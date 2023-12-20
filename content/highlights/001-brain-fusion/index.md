@@ -1,6 +1,7 @@
 ---
 title: |
         Brain-Machine Fusion
+        <br>
         From brain-in-the-loop to brain-out-of-the-loop
 date: 2023-12-20
 image:
