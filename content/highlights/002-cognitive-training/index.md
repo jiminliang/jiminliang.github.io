@@ -1,5 +1,5 @@
 ---
-title: Cognitive Training: Exercise your brain like a muscle
+title: Cognitive Training - Exercise your brain like a muscle
 date: 
 image:
   focal_point: 'top'

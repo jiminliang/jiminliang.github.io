@@ -1,5 +1,5 @@
 ---
-title: Brain-Machine Fusion: From brain-in-the-loop to brain-out-of-the-loop
+title: Brain-Machine Fusion - From brain-in-the-loop to brain-out-of-the-loop
 date: 
 image:
   focal_point: 'top'
