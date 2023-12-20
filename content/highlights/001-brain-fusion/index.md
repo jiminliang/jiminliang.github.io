@@ -54,7 +54,7 @@ Fig. 1. Left: the generation of stimulus set and statistical results between tar
 
 <!-- ------------------------------------------------------- -->
 
-{{< spoiler text="**Complementarity between the image representations of brain and DCNN**" >}}
+{{< spoiler text="**Complementarity between brain and DCNN**" >}}
 
 - Methods
 
