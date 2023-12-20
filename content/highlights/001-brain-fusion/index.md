@@ -113,14 +113,3 @@ The third experiment tested whether the brain-image joint representation learnin
 We have proposed a brain-machine fusion method for object classification that exploits the complementary nature between image representations of the brain and DCNN. We developed a multimodal supervised contrastive learning model to jointly learn the brain and DCNN representations of the images, which significantly improves the generalization ability of the downstream classifiers. Most importantly, the proposed brain-machine fusion model is able to be applied in a brain-out-of-the-loop manner due to the adoption of a siamese network architecture, thus overcoming the difficulties faced by the human-involved brain-in-the-loop approaches. Our brain-out-of-the-loop strategy can maximize the automation advantages of brain-machine fusion models and broaden their application scenarios. The results in this paper are significant for the research and design of brain-machine information fusion systems, and provide new ideas for the cross-study of computer vision and cognitive science.
 
 {{< /spoiler >}}
-
-<!-- ------------------------------------------------------- -->
-{{< spoiler text="**Contributions**" >}}
-
-- We investigated the similarities and differences between the image representations of brain responses and image features computed by DCNNs using a rhesus monkey dataset, demonstrating that there are complementarities between the two, and thus there is a potential to improve the system performance through information fusion.
-
-- We developed a brain-machine information fusion model with a siamese network architecture and propose a multimodal supervised contrastive learning method to jointly learn the image representations for the brain responses and DCNNs, which not only improves the generalization ability of the downstream image classifier, but also enables it to be applied in a brain-out-of-the-loop manner.
-
-- The proposed brain-machine fusion method was validated on a self-built human vehicle detection dataset through extensive cross-subject and cross-task analyses. Its effectiveness demonstrates the feasibility and potential of brain-out-of-the-loop application of the brain-machine fusion models.
-
-{{< /spoiler >}}
