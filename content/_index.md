@@ -16,7 +16,7 @@ sections:
             filename: image-human-eye-process-scanning.jpg
             filters:
               brightness: 0.7
-          position: right
+          position: center
           color: '#666'
         # link:
         #   text: Current Studies
