@@ -8,5 +8,3 @@ image:
 Boosting brain-computer interface performance through cognitive training
 
 <!--more-->
-
-## Boosting brain-computer interface performance through cognitive training
