@@ -18,8 +18,8 @@ sections:
   
   - block: collection
     content:
-      title: Research Highlights
-      subtitle:
+      title: Brain-Machine Fusion
+      subtitle: From brain-in-the-loop to brain-out-of-the-loop
       text:
       count: 5
       filters:
@@ -35,6 +35,44 @@ sections:
       view: compact
       columns: '1'
   
+  - block: collection
+    content:
+      title: Computer Vision
+      subtitle: 
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: highlights-cv
+    design:
+      view: compact
+      columns: '1'
+
+  - block: collection
+    content:
+      title: Medical Image Analysis
+      subtitle: 
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: highlights-mia
+    design:
+      view: compact
+      columns: '1'
+
   # - block: markdown
   #   content:
   #     title: Brain-Machine Fusion
@@ -56,12 +94,12 @@ sections:
   #       padding: ['20px', '0', '20px', '0']
   #     css_class: fullscreen
   
-  - block: markdown
-    content:
-      title: Brain-Machine Fusion
-      subtitle: From brain-in-the-loop to brain-out-of-the-loop
-      text: |
-        {{% cta cta_link="./highlights-fusion.html" cta_text="Research Highlights →" %}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Brain-Machine Fusion
+  #     subtitle: From brain-in-the-loop to brain-out-of-the-loop
+  #     text: |
+  #       {{% cta cta_link="./highlights-fusion.html" cta_text="Research Highlights →" %}}
+  #   design:
+  #     columns: '1'
 ---

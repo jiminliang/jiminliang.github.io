@@ -1,5 +1,5 @@
 ---
-title: Computer Vision
+title: Research Highlights on Medical Image Analysis
 
 # Listing view
 view: compact
