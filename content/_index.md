@@ -54,6 +54,6 @@ sections:
     content:
       title: What is VAR? See the answer of copilot.
       text: |
-        ![What is VAR?](WhatisVAR-Copilot.jpg)
+        ![What is VAR?](WhatisVAR-Copilot.jpg#center)
 # {{< figure src="WhatisVAR-Copilot.jpg" >}}
 ---
