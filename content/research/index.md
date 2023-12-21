@@ -38,8 +38,8 @@ sections:
   - block: markdown
     content:
       title: Brain-Machine Fusion
-      subtitle: 'abstract here'
-      text:
+      subtitle: From brain-in-the-loop to brain-out-of-the-loop
+      text: abstract here
     design:
       columns: '1'
       background:
@@ -51,9 +51,9 @@ sections:
           position: center
           size: cover
           text_color_light: true
-          link:
-            text: Current Studies
-            url: ./highlights/          
+        link:
+          text: Current Studies
+          url: ./highlights/          
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
