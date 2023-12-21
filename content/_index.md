@@ -54,5 +54,7 @@ sections:
     content:
       title: What is VAR? See the answer of copilot.
       text: |
+        <div align="center">
         ![](WhatisVAR-Copilot.jpg)
+        </div>
 ---
