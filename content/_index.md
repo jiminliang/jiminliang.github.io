@@ -18,9 +18,9 @@ sections:
               brightness: 0.7
           position: center
           color: '#666'
-        # link:
-        #   text: Current Studies
-        #   url: ../research/
+        link:
+          text: Current Studies
+          url: ../research/
       - title: Research in progress
         content: 'Our current research focuses on brain-machine fusion for advanced computer vision, human behaviour analysis for intelligent diagnosis of developmental coordination disorder, and performance evaluation of AI-based systems, with an emphasis on tackling data limitations using AIGC techniques.'
         align: center
