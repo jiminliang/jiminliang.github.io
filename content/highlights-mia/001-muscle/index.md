@@ -19,5 +19,3 @@ The studies were conducted in collaboration with Professor Jianzhong Guo of Shaa
 </h3>
 
 <!-- ------------------------------------------------------- -->
-
-<!-- {{< cite page="/publication/zhang-yue-2022-tbme" view="citation" >}} -->
