@@ -24,20 +24,6 @@ sections:
       text: |
         <br>
         See copilot's answer.
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: WhatisVAR-Copilot.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: collection
     content:
