@@ -16,7 +16,7 @@ sections:
         
   #       The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
   
-  - block: hero
+  - block: markdown
     content:
       title: What is VAR
       image:
@@ -37,7 +37,7 @@ sections:
           text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
-      # css_class: fullscreen
+      css_class: fullscreen
 
   - block: collection
     content:
