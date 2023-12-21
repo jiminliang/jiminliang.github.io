@@ -52,7 +52,8 @@ sections:
 
   - block: markdown
     content:
-      title: What is VAR? See copilot's answer.
-      text: |
-      # {{< figure src="WhatisVAR-Copilot.jpg" >}}
+      title: What is VAR? See the answer of copilot.
+      # text: |
+      
+{{< figure src="WhatisVAR-Copilot.jpg" >}}
 ---
