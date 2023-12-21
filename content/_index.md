@@ -55,5 +55,4 @@ sections:
       title: What is VAR? See copilot's answer.
       text: |
       {{< figure src="WhatisVAR-Copilot.jpg" >}}
-
 ---
