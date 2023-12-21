@@ -53,9 +53,12 @@ sections:
   - block: markdown
     content:
       title: What is VAR? See the answer of copilot.
-      text: |
-        {{< figure src="WhatisVAR-Copilot.jpg" align="center" >}}
+      image: WhatisVAR-Copilot.jpg
+      position: center
 
 ---
+
+      text: |
+        {{< figure src="WhatisVAR-Copilot.jpg" align="center" >}}
 
         ![](WhatisVAR-Copilot.jpg)
