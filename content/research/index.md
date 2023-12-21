@@ -24,9 +24,6 @@ sections:
       text: |
         <br>
         See copilot's answer.
-    design:
-      view: card
-      columns: '1'
 
   - block: collection
     content:
