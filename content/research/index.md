@@ -30,7 +30,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: highlights
+      page_type: 'highlights/fusion'
     design:
       view: compact
       columns: '1'
