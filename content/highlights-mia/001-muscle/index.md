@@ -19,7 +19,7 @@ The studies were conducted in collaboration with Professor Jianzhong Guo of Shaa
 
 <!-- ------------------------------------------------------- -->
 
-**Ultrasound radiomics for longitudinal evaluation of muscle atrophy** 
+**Ultrasound Radiomics for Longitudinal Evaluation of Muscle Atrophy** 
 
 This study demonstrates for the first time the capability of radiomics analysis in the evaluation of muscle atrophy using ultrasound images. The stability and informativeness of ultrasound image features were evaluated through a two-stage feature selection procedure. An adaptive longitudinal feature selection and grading network was developed for muscle atrophy evaluation. The results demonstrated the necessity and feasibility of constructing a graded model by fusing multi-stage models in the longitudinal evaluation of muscle atrophy.
 
@@ -29,5 +29,9 @@ Analysis workflow. (a) Development of hindlimb unloading (HU) rat model and acqu
 Read our paper for more details:
 
 Yue Zhang, Getao Du, Yonghua Zhan, Kaitai Guo, Yang Zheng, Liang Tang, Jianzhong Guo, and Jimin Liang*, [Muscle Atrophy Evaluation via Radiomics Analysis using Ultrasound Images: A Cohort Data Study](https://ieeexplore.ieee.org/document/9741346), IEEE Transactions on Biomedical Engineering, 69(10):3163-3174, 2022.
+
+**Contrastive Disentanglement for Quantitative Ultrasound Muscle Atrophy Evaluation**
+
+A research paper on this work has been submitted to IEEE Transactions on Biomedical Engineering.
 
 </font>
