@@ -53,16 +53,7 @@ sections:
   - block: markdown
     content:
       title: What is VAR? See copilot's answer.
-
+      text: |
       {{< figure src="WhatisVAR-Copilot.jpg" >}}
 
-      # image:
-      #   filename: WhatisVAR-Copilot.jpg
-      # text: |
-      #   <br>
-        
-      #   See copilot's answer.
-      #   <br>
-
-      #   {{% staticref "uploads/WhatisVAR-Copilot.jpg" "newtab" %}}View the large image {{% /staticref %}}
 ---
