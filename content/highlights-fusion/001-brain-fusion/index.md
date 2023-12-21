@@ -19,11 +19,11 @@ Harnessing the complementarity between the brain and artificial neural networks 
 <!-- ------------------------------------------------------- -->
 {{< spoiler text="**Contributions**" >}}
 
-- We investigated the similarities and differences between the image representations of brain responses and image features computed by DCNNs using a rhesus monkey dataset, demonstrating that there are complementarities between the two, and thus there is a potential to improve the system performance through information fusion.
+We investigated the similarities and differences between the image representations of brain responses and image features computed by DCNNs using a rhesus monkey dataset, demonstrating that there are complementarities between the two, and thus there is a potential to improve the system performance through information fusion.
 
-- We developed a brain-machine information fusion model with a siamese network architecture and propose a multimodal supervised contrastive learning method to jointly learn the image representations for the brain responses and DCNNs, which not only improves the generalization ability of the downstream image classifier, but also enables it to be applied in a brain-out-of-the-loop manner.
+We developed a brain-machine information fusion model with a siamese network architecture and propose a multimodal supervised contrastive learning method to jointly learn the image representations for the brain responses and DCNNs, which not only improves the generalization ability of the downstream image classifier, but also enables it to be applied in a brain-out-of-the-loop manner.
 
-- The proposed brain-machine fusion method was validated on a self-built human vehicle detection dataset through extensive cross-subject and cross-task analyses. Its effectiveness demonstrates the feasibility and potential of brain-out-of-the-loop application of the brain-machine fusion models.
+The proposed brain-machine fusion method was validated on a self-built human vehicle detection dataset through extensive cross-subject and cross-task analyses. Its effectiveness demonstrates the feasibility and potential of brain-out-of-the-loop application of the brain-machine fusion models.
 
 {{< /spoiler >}}
 
@@ -31,11 +31,11 @@ Harnessing the complementarity between the brain and artificial neural networks 
 {{< spoiler text="**Datasets**" >}}
 Two datasets were used in this study. A rhesus monkey dataset was used for complementary analysis between the brain responses and the DCNN image features, and a self-built human vehicle detection dataset was used for brain-image fusion modeling and application in real scenarios.
 
-- Rhesus monkey dataset
+**Rhesus monkey dataset**
 
 The rhesus monkey dataset is obtained from the [Brain-Score platform](https://www.brain-score.org/) including both the stimulus images and EEG brain responses. The stimulus images were synthesised artificially by overlapping the two-dimensional (2D) projections of three-dimensional (3D) objects on random backgrounds. There are 8 object categories, where each category contains 8 subcategories, 50 images per subcategory, for a total of 3200 images. The EEG brain responses were collected from the visual cortex ventral stream region of two trained adult rhesus monkeys, by implanting 168 and 128 (publicly available data only 88) electrodes in the inferior temporal lobe (IT) and V4, respectively. For brain responses acquisition, groups of 5-10 stimulus images were presented sequentially with each image presenting for 100 ms, followed by a 100 ms blank to keep the monkeys focused. Each stimulus image was presented at least 28 times, with an average of 50 times. The publicly available brain responses from the Brain-Score platform were averaged in both the dimension of image presentation times and brain responses time for 70-170 ms after presentation. Thus, the EEG brain responses of IT and V4 are 168- and 88-dimensional vectors respectively, in which each vector element represents the averaged brain response intensity of an electrode.
 
-- Self-built human vehicle detection dataset
+**Self-built human vehicle detection dataset**
 
 Visual stimulus images for the vehicle detection experiment were collected from the VEDAI dataset in the publicly available [Utah AGRC database](http://gis.utah.gov/). In order to exclude the influence of color, we only used large-size (1,024 × 1,024 pixel$^{2}$) infrared image in this study. From the infrared images, we manually cropped patches containing at least two vehicles and of similar size. Totally 2,030 patches (1,015 target patches and 1,015 non-target patches) were obtained, and then resized to 300 ×300 pixel$^{2}$. Considering that the patches were designed to be viewed by human subjects, the scene complexity was first visually inspected based on the type, number, distribution, and similarity of background items. Patches with high confidence were assigned to the simple or complex group, while other indistinguishable patches were excluded. Thereafter, quantitative evaluation in terms of brightness and scene complexity was performed for each patch. The brightness was measured as the average intensity, and the scene complexity was measured by information entropy and gray-level homogeneity indices. Outliers exceeding 1.5 times the interquartile range of these measure were sequentially excluded from the stimulus set. 
 
@@ -58,7 +58,7 @@ Fig. 1. Left: the generation of stimulus set and statistical results between tar
 
 {{< spoiler text="**Complementarity between brain and DCNN**" >}}
 
-- Methods
+Methods
 
 The rhesus monkey dataset was used for complementary analysis between the brain responses and the DCNN image features. We employed the representational similarity analysis (RSA) method to analyze the similarity between the brain responses and the DCNN features. The basis of RSA is the representational dissimilarity matrices (RDMs), and we calculated the RDMs for brain responses and DCNN features separately using the Euclidean distance. Specifically, the RDMs were calculated from three levels of granularity, including the image level (RDM shape of 3200 × 3200), the object (subclass) level (RDM shape of 64 × 64), and the class level (RDM shape of 8 × 8). The similarities between the RDMs were then evaluated using Spearman's correlation, and the retest consistency of brain responses between the multiple presentations of the same stimulus image at different levels was used as the noise-limited upper bound.
 
@@ -69,7 +69,7 @@ To investigate whether the differences in the image representations of brain res
 {{< figure src="Fig3.png" id="Fig3" >}}
 Fig. 2. Complementarity analysis between the image representations of brain responses and DCNNs. (A) Visualization of RDMs at different levels of classification granularity, and similarity between the RDMs of the brain responses and the DCNN image features. V4 Consistency and IT Consistency represent the retest consistencies of V4 and IT brain responses, respectively. (B) Fitting ability of V4 brain responses and DCNN features to predict the IT responses. (C) Effects of object and scene complexity on classification performance (averaged sensitivity indices) of the brain responses and DCNN features for all stimulus images.
 
-- Results
+Results
 
 We found that the brain responses in the primate ventral visual pathway and the DCNN-based visual features show high similarity at the object and class levels, while significant differences existed at the image level. This is consistent with previous behavioural previous studies on DCNN and primate image classification, in which they found that DCNN could accurately predict the primate's classification patterns at the object level, but hardly at the image level. It can therefore be inferred that the DCNN models can be compared to primate vision at coarse-grained object level and class level, but cannot fully account for the fine-grained image-level representations. When using the V4 responses and DCNN features to predict the IT responses, our results indicated that the shallow DCNNs (AlexNet and VGG) could capture more information about IT responses than the deeper DCNNs (GoogLeNet and ResNet), but neither V4 nor various DCNNs could fully represent the IT brain responses. Furthermore, we found that V4 response and DCNN features captured different aspects of IT response information, while all DCNN features mostly captured the similar aspects. These results suggest that DCNN features cannot fully account for the image representation information of the brain responses, but encode the high-level semantic information of the image in a different way. This complementary between DCNN and brain representations highlights the promising potential and practical value of constructing brain-machine fusion models.
 
