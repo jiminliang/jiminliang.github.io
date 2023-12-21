@@ -23,7 +23,7 @@ The studies were conducted in collaboration with Professor Jianzhong Guo of Shaa
 
 This study demonstrates for the first time the capability of radiomics analysis in the evaluation of muscle atrophy using ultrasound images. The stability and informativeness of ultrasound image features were evaluated through a two-stage feature selection procedure. An adaptive longitudinal feature selection and grading network was developed for muscle atrophy evaluation. The results demonstrated the necessity and feasibility of constructing a graded model by fusing multi-stage models in the longitudinal evaluation of muscle atrophy.
 
-{{< figure src="flowchar_v4.jpg" >}}
+{{< figure src="flowchart_v4.jpg" >}}
 Analysis workflow. (a) Development of hindlimb unloading (HU) rat model and acquisition of ultrasound images. (b) Construction of muscle volume calculation model, extraction and selection of radiomics features. (c) Clustering analysis of ultrasound image radiomics features. (d) Construction of muscle atrophy grading models based on SVM and neural networks.
 
 Read our paper for more details:
