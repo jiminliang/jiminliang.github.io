@@ -53,7 +53,7 @@ sections:
   - block: markdown
     content:
       title: What is VAR? See the answer of copilot.
-      # text: |
-      
-{{< figure src="WhatisVAR-Copilot.jpg" >}}
+      text: |
+        ![What is VAR?](image.jpg "What is VAR")
+# {{< figure src="WhatisVAR-Copilot.jpg" >}}
 ---
