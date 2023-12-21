@@ -5,7 +5,7 @@ date: 2023-12-20
 #   focal_point: 'top'
 ---
 
-We developed deep learning methods for quantitative muscle atrophy evaluation using ultrasound images.
+We are developing deep learning methods for quantitative muscle atrophy evaluation using ultrasound images.
 
 <!--more-->
 
