@@ -61,7 +61,7 @@ sections:
       title: Brain-Machine Fusion
       subtitle: From brain-in-the-loop to brain-out-of-the-loop
       text: |
-        {{% cta cta_link="./highlights/fusion/" cta_text="Research Highlights →" %}}
+        {{% cta cta_link="./highlights-fusion.html" cta_text="Research Highlights →" %}}
     design:
       columns: '1'
 ---
