@@ -18,12 +18,14 @@ sections:
   
   - block: hero
     content:
-      title: What is VAR
+      title: What is VAR?
       image:
         filename: WhatisVAR-Copilot.jpg
       text: |
         <br>
         See copilot's answer.
+        <br>
+        {{% staticref "media/WhatisVAR-Copilot.jpg" "newtab" %}}View the large image {{% /staticref %}}
 
   - block: collection
     content:
