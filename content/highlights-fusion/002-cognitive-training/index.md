@@ -9,6 +9,8 @@ Boosting brain-computer interface performance through cognitive training: a brai
 
 <!--more-->
 
+<font size=3>
+
 - **Introduction**
 
 Previous efforts to improve the brain-computer interface (BCI) performance predominantly revolve around optimizing brain signal decoding algorithms, but the untapped potential of leveraging brain plasticity for optimization exists. In this study, we eliminate attentional blink (AB) through color-salient cognitive training and confirm the mechanism as an attention-based improvement. In addition, utilizing rapid serial visual presentation (RSVP)-based BCI, we evaluated both behavioral and electroencephalogram (EEG) decoding performance of subjects in high target percentage (with AB) and low target percentage (without AB) surveillance tasks before and after cognitive training respectively. The results consistently demonstrated a significant improvement among trained subjects. Further analysis attributes this improvement to the fact that enhanced brains undergoing cognitive training can generate more discriminative single-trial EEG. Our work highlights the feasibility of brain enhancement, represented by cognitive training, for improving BCI performance.
@@ -32,3 +34,4 @@ In addition, the most noteworthy and encouraging result of this study is that th
 
 We have validated the RSVP-based BCI performance achievable by trained users in scenarios with a 20\% target percentage, and where the target stimulus was deliberately set and AB was inevitable. We found that even at this level of difficulty, trained subjects can still reach a considerable performance. We also explored scenarios with a low target percentage that are currently widely used by researchers, and we found that even though state-of-the-art algorithms can decode and classify brain signals accurately, the performance of the BCI system can still be further improved by optimizing the brain signals.
 
+</font>
