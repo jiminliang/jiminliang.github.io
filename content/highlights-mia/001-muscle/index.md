@@ -1,11 +1,11 @@
 ---
-title: Brain-machine fusion - From brain-in-the-loop to brain-out-of-the-loop
+title: Quantitative Ultrasound Muscle Atrophy Evaluation
 date: 2023-12-20
 # image:
 #   focal_point: 'top'
 ---
 
-We proposed a brain-machine fusion approach to achieve the brain-in-the-loop modeling and brain-out-of-the-loop application.
+We developed deep learning methods for quantitative muscle atrophy evaluation using ultrasound images.
 
 <!--more-->
 
