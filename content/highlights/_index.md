@@ -30,5 +30,5 @@ sections:
     design:
       view: compact
       columns: '1'
-
-  ---
+      
+---
