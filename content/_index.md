@@ -49,4 +49,17 @@ sections:
       loop: true
       # Duration of transition between slides (in ms)
       interval: 4000
+
+  - block: hero
+    content:
+      title: What is VAR?
+      image:
+        filename: WhatisVAR-Copilot.jpg
+      text: |
+        <br>
+        
+        See copilot's answer.
+        <br>
+
+        {{% staticref "uploads/WhatisVAR-Copilot.jpg" "newtab" %}}View the large image {{% /staticref %}}
 ---
