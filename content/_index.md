@@ -53,10 +53,9 @@ sections:
   - block: markdown
     content:
       title: What is VAR? See the answer of copilot.
-    design:
-      background:
-        image: WhatisVAR-Copilot.jpg
-        position: center
+      align: center
+      text: |
+        ![](WhatisVAR-Copilot.jpg)
 
 ---
 
