@@ -56,12 +56,12 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
   
-  # - block: markdown
-  #   content:
-  #     title:
-  #     subtitle:
-  #     text: |
-  #       {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-  #   design:
-  #     columns: '1'
+  - block: markdown
+    content:
+      title: Brain-Machine Fusion
+      subtitle: From brain-in-the-loop to brain-out-of-the-loop
+      text: |
+        {{% cta cta_link="../hightlights/" cta_text="Research Highlights →" %}}
+    design:
+      columns: '1'
 ---
