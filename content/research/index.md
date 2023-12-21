@@ -40,6 +40,7 @@ sections:
       title: Brain-Machine Fusion
       subtitle: From brain-in-the-loop to brain-out-of-the-loop
       text: abstract here
+      url: ../highlights/
     design:
       columns: '1'
       background:
@@ -51,9 +52,6 @@ sections:
           position: center
           size: cover
           text_color_light: true
-        link:
-          text: Current Studies
-          url: ./highlights/          
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
