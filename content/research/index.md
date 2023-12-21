@@ -25,7 +25,7 @@ sections:
         <br>
         See copilot's answer.
         <br>
-        {{% staticref "media/WhatisVAR-Copilot.jpg" "newtab" %}}View the large image {{% /staticref %}}
+        {{% staticref "WhatisVAR-Copilot.jpg" "newtab" %}}View the large image {{% /staticref %}}
 
   - block: collection
     content:
