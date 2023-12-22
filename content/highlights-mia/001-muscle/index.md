@@ -21,7 +21,7 @@ The studies were conducted in collaboration with Professor Jianzhong Guo of Shaa
 
 - **Ultrasound radiomics for longitudinal evaluation of muscle atrophy** 
 
-This study demonstrates for the first time the capability of radiomics analysis in the evaluation of muscle atrophy using ultrasound images. The stability and informativeness of ultrasound image features were evaluated through a two-stage feature selection procedure. An adaptive longitudinal feature selection and grading network was developed for muscle atrophy evaluation. The results demonstrated the necessity and feasibility of constructing a graded model by fusing multi-stage models in the longitudinal evaluation of muscle atrophy.
+This study demonstrates for the first time the capability of radiomics analysis in the evaluation of muscle atrophy using ultrasound images. The stability and informativeness of ultrasound radiomics features were evaluated through a two-stage feature selection procedure. An adaptive longitudinal feature selection and grading network was developed for muscle atrophy evaluation. The results demonstrated the necessity and feasibility of constructing a graded model by fusing multi-stage models in the longitudinal evaluation of muscle atrophy.
 
 {{< figure src="flowchart_2022_TBME.jpg" >}}
 
@@ -42,5 +42,17 @@ In this study, we proposed a new ultrasound imaging-based method for quantifying
 Analysis workflow. (a) Construction of three data partitions with known individual (ID), muscle growth (GR), and muscle atrophy (AT) variance components. Positive and negative samples in each data partition are controlled by the sampling matrix. (b) Group-supervised contrastive disentanglement network (GCDNet) for disentangled representation learning of the IR, GR, AT, and residual (RE) components. (c) Quantitative evaluation of muscle growth and muscle atrophy. (d) Distillation network for simplified application of muscle atrophy evaluation.
 
 A research paper on this work has been submitted to IEEE Transactions on Biomedical Engineering.
+
+- **Self supervised temporal ultrasound reconstruction for muscle atrophy evaluation**
+
+In this work, we proposed a self-supervised temporal ultrasound reconstruction method based on masked autoencoder to explore the dynamic process of muscle atrophy. A score-position embedding was designed to realize the quantitative evaluation of muscle atrophy. Ultrasound images of the hind limb muscle of six macaque monkeys were acquired consecutively during 38 days of head-down bed rest experiments. Given an ultrasound image sequence, an asymmetric encoder-decoder structure was used to reconstruct the randomly masked images for the purpose of modelling the dynamic muscle atrophy process. We have demonstrated the feasibility of using the position indicator as muscle atrophy score, which can be used to predict the degree of muscle atrophy. **_This study achieves the quantitative evaluation of muscle atrophy in the absence of accurate evaluation criteria for muscle atrophy_**.
+
+{{< figure src="network_2023_PRCV.jpg" >}}
+
+Masked autoencoder on temporal ultrasound images. The input patches are embedded by the patch encoder. Position embeddings from position encoder are added to the embedded patches. The encoder operates on the set of visible patch embeddings. The decoder then processes the full set of encoded patch embeddings and mask tokens to reconstruct the input.
+
+Read our paper for more details:
+
+Yue Zhang, Getao Du, Yonghua Zhan, Kaitai Guo, Yang Zheng, Jianzhong Guo, Xiaoping Chen, and Jimin Liang, Self supervised temporal ultrasound reconstruction for muscle atrophy evaluation, 6th Chinese Conference on Pattern Recognition and Computer Vision, PRCV2023, Xiamen, China, October 13–15, 2023. 
 
 </font>
