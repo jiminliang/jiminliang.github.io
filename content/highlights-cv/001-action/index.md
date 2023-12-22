@@ -9,6 +9,8 @@ We developed deep learning methods to automatically discover action segments fro
 
 <!--more-->
 
+<font size=3>
+
 - **Introduction**
 
 The temporal action detection task aims to automatically locate the start and end times of actions in untrimmed videos and predict the corresponding action categories. This task has a wide range of applications in security surveillance, highlight extraction, and intelligent video editing. 
@@ -44,3 +46,5 @@ Overview of our method. (a) Baseline model. (b) Foreground-background separation
 Read our paper for more details:
 
 Yiping Tang, Junyao Ge, Kaitai Guo, Yang Zheng, Haihong Hu, Jimin Liang*, [Towards Better Utilization of Pseudo Labels for Weakly Supervised Temporal Action Localization](https://www.sciencedirect.com/science/article/pii/S0020025522015390), Information Sciences, 623:693-708, 2023.
+
+</font>
