@@ -49,6 +49,7 @@ We acquired continuous EEG data using an ActiCHamp EEG system supplied by the Br
 
 
 {{< figure src="Fig1.png" id="Fig1" >}}
+
 <!-- The figure can now be cross-referenced with a link in the form [A Figure](#figure-hello) -->
 Fig. 1. Left: the generation of stimulus set and statistical results between targets (T) and non-target (nT) stimuli in simple and complex scene groups. Right: the temporal structure of stimulus presentation. Both simple and complex stimulus task shared the same experimental procedure.
 
@@ -69,6 +70,7 @@ To investigate the capacity of DCNN features to fit the brain responses, the par
 To investigate whether the differences in the image representations of brain responses and DCNN features are related to image complexity, we used the classification sensitivity index ($d^{'}$) in Rajalingham et. al. (Journal of Neuroscience 38(33), 2018) to estimate the sample separability in different feature spaces. The higher the sensitivity index, the better the separability. The sensitivity indices of the brain responses and DCNN features for each stimulus image were computed separately. 
 
 {{< figure src="Fig3.png" id="Fig3" >}}
+
 Fig. 2. Complementarity analysis between the image representations of brain responses and DCNNs. (A) Visualization of RDMs at different levels of classification granularity, and similarity between the RDMs of the brain responses and the DCNN image features. V4 Consistency and IT Consistency represent the retest consistencies of V4 and IT brain responses, respectively. (B) Fitting ability of V4 brain responses and DCNN features to predict the IT responses. (C) Effects of object and scene complexity on classification performance (averaged sensitivity indices) of the brain responses and DCNN features for all stimulus images.
 
 **Results**
@@ -85,6 +87,7 @@ Notably, we found that the shallow DCNNs are better at capturing the IT response
 To explore the cross-modal complementarity between brain responses and DCNN features, we proposed a brain-machine information fusion model. The fusion model adopts a siamese network architecture to incorporate brain responses into the feature learning phase, which is pre-trained using the supervised contrastive learning strategy to learn the structured joint embeddings between the brain responses and DCNN features. After training, the fusion model can be applied to the downstream classification tasks in multimodal fusion setting or unimodal setting. The later enables the brain-out-of-the-loop application of the fusion model.
 
 {{< figure src="Fig2.png" id="Fig2" >}}
+
 <!-- The figure can now be cross-referenced with a link in the form [A Figure](#figure-hello) -->
 Fig. 3. Schematic diagram of the proposed brain-machine information fusion method
 

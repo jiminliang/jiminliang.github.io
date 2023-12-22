@@ -1,5 +1,5 @@
 ---
-title: Quantitative Ultrasound Muscle Atrophy Evaluation
+title: Quantitative ultrasound muscle atrophy evaluation
 date: 2023-12-20
 # image:
 #   focal_point: 'top'
