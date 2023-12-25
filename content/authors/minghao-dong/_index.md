@@ -71,6 +71,6 @@ user_groups:
   - Principal Investigators
 ---
 
-Minghao Dong is a professor of biomedical engineering at the Xidian University. His research interests include intelligent human-computer interaction, brain science and neuroimaging.
+Minghao Dong received the B.Sc., M.Sc. and Ph. D. degrees in electronic engineering from Xidian University, Xi'an, China, in 2006, 2009 and 2013, respectively. He joined Xidian University in 2013, where he is now a full professor in the School of Life Science and Technology. He currently leads the Human Cognition Enhancement research group, which develops novel human-machine interaction methods for human cognitive function training, especially in the domain of visual recognition and moving objects detection. In the year of 2020-2021, he was a research fellow at the Second Research Institute of China Aerospace Science and Industry Corporation (CASIC). His general areas of research are in brain-machine interface, neuroimaging, cognitive training and cognitive neuroscience. He has authored or coauthored more than 70 journal papers and 10 granted patents on those topics. He was the recipient of 2020 Henan Medical Science and Technology Award and 2012 Natural Science Award of Shaanxi Province.
 
 My name in Chinese is 董明皓.
