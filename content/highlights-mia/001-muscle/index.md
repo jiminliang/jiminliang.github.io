@@ -53,6 +53,6 @@ Masked autoencoder on temporal ultrasound images. The input patches are embedded
 
 Read our paper for more details:
 
-Yue Zhang, Getao Du, Yonghua Zhan, Kaitai Guo, Yang Zheng, Jianzhong Guo, Xiaoping Chen, and Jimin Liang, Self supervised temporal ultrasound reconstruction for muscle atrophy evaluation, 6th Chinese Conference on Pattern Recognition and Computer Vision, PRCV2023, Xiamen, China, October 13–15, 2023. 
+Yue Zhang, Getao Du, Yonghua Zhan, Kaitai Guo, Yang Zheng, Jianzhong Guo, Xiaoping Chen, and Jimin Liang, [Self supervised temporal ultrasound reconstruction for muscle atrophy evaluation](https://link.springer.com/chapter/10.1007/978-981-99-8546-3_22), 6th Chinese Conference on Pattern Recognition and Computer Vision, PRCV2023, Xiamen, China, October 13–15, 2023. 
 
 </font>
