@@ -1,5 +1,5 @@
 ---
-title: 20231218-How to manage publications
+title: How to manage publications
 date: 2023-12-18
 image:
   focal_point: 'top'

@@ -1,5 +1,5 @@
 ---
-title: 20231216-New website launched
+title: New website launched
 date: 2023-12-16
 image:
   focal_point: 'top'
