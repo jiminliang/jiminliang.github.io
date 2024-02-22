@@ -8,3 +8,7 @@ image:
 Our paper on Contrastive Disentanglement for Quantitative Ultrasound Muscle Atrophy Evaluation has been accpeted by **IEEE Transactions on Biomedical Engineering** - February 17, 2024. 
 
 <!--more-->
+
+Read more ...
+
+{{< cite page="/content/highlights-mia" view="citation" >}}
