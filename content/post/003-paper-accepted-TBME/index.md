@@ -1,6 +1,6 @@
 ---
 title: Paper accepted by TBME
-date: 2024-2-17
+date: 2024-02-17
 image:
   focal_point: 'top'
 ---
