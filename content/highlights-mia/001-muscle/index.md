@@ -5,7 +5,7 @@ date: 2023-12-20
 #   focal_point: 'top'
 ---
 
-We are developing deep learning methods for quantitative muscle atrophy evaluation using ultrasound images.
+We developed deep learning methods for quantitative muscle atrophy evaluation using ultrasound images.
 
 <!--more-->
 
@@ -41,7 +41,9 @@ In this study, we proposed a new ultrasound imaging-based method for quantifying
 
 Analysis workflow. (a) Construction of three data partitions with known individual (ID), muscle growth (GR), and muscle atrophy (AT) variance components. Positive and negative samples in each data partition are controlled by the sampling matrix. (b) Group-supervised contrastive disentanglement network (GCDNet) for disentangled representation learning of the IR, GR, AT, and residual (RE) components. (c) Quantitative evaluation of muscle growth and muscle atrophy. (d) Distillation network for simplified application of muscle atrophy evaluation.
 
-A research paper on this work has been submitted to IEEE Transactions on Biomedical Engineering.
+Read our paper for more details:
+
+Yue Zhang, Yonghua Zhan, Kaitai Guo, Yang Zheng, Liang Tang, Jianzhong Guo, Jimin Liang*, Contrastive Disentanglement for Quantitative Ultrasound Muscle Atrophy Evaluation, IEEE Transactions on Biomedical Engineering, 2024. (in press)
 
 - **Self supervised temporal ultrasound reconstruction for muscle atrophy evaluation**
 
