@@ -11,4 +11,4 @@ Our paper on Contrastive Disentanglement for Quantitative Ultrasound Muscle Atro
 
 Read more ...
 
-{{% cta cta_link="/content/highlights-mia/001-muscle" cta_text="Read more →" %}}
+{{% cta cta_link="/highlights-mia/001-muscle" cta_text="Read more →" %}}
