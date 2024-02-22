@@ -5,7 +5,7 @@ image:
   focal_point: 'top'
 ---
 
-How to manage the publication list
+How to manage the publication list - December 18, 2023. 
 
 <!--more-->
 
