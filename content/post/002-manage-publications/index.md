@@ -15,7 +15,7 @@ Read the docs [Auto Import Publications](https://docs.hugoblox.com/tutorial/resu
 
 The bib file shuld be named exactly the same as publications.bib and be placed in the root of the github repository.
 
-The first time the publications.bib is uplodated in the repository, do the following steps. 
+Upload the publications.bib into the repository and do the following steps. 
 
 (2) In the github codespace, sync the changes and wait until the actions in the repository are finished. 
 
