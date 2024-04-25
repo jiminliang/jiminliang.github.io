@@ -7,6 +7,10 @@ date: 2023-12-20
 
 We proposed a brain-machine fusion approach to achieve the brain-in-the-loop modeling and brain-out-of-the-loop application.
 
+This work has been accpted by **Information Fusion**:
+
+Shilan Quan, Jianpu Yan, Kaitai Guo, Yang Zheng, Minghao Dong, Jimin Liang*, Multimodal contrastive learning for brain-machine fusion: from brain-in-the-loop modeling to brain-out-of-the-loop application, Information Fusion, 2024. (In press)
+
 <!--more-->
 
 <font size=3>
