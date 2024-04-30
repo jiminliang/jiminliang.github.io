@@ -125,4 +125,4 @@ We have proposed a brain-machine fusion method for object classification that ex
 
 This work has been accpted by **Information Fusion**:
 
-Shilan Quan, Jianpu Yan, Kaitai Guo, Yang Zheng, Minghao Dong, Jimin Liang*, Multimodal contrastive learning for brain-machine fusion: from brain-in-the-loop modeling to brain-out-of-the-loop application, ***Information Fusion***, 2024. IF: 18.6 (In press)
+Shilan Quan, Jianpu Yan, Kaitai Guo, Yang Zheng, Minghao Dong, Jimin Liang*, [Multimodal contrastive learning for brain-machine fusion: from brain-in-the-loop modeling to brain-out-of-the-loop application](https://www.sciencedirect.com/science/article/abs/pii/S1566253524002252), ***Information Fusion***, 2024. IF: 18.6 (In press)
