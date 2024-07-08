@@ -36,6 +36,7 @@ We have validated the RSVP-based BCI performance achievable by trained users in 
 
 </font>
 
+<br/>
 
 This work has been publised in **Journal of Information and Intelligence**:
 
