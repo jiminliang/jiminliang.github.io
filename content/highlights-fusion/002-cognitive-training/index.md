@@ -36,6 +36,7 @@ We have validated the RSVP-based BCI performance achievable by trained users in 
 
 </font>
 
+
 This work has been publised in **Journal of Information and Intelligence**:
 
 Ziyuan Zhang, Ziyu Wang, Kaitai Guo, Yang Zheng, Minghao Dong, Jimin Liang*, [Boosting brain-computer interface performance through cognitive training: a brain-centric approach](https://www.sciencedirect.com/science/article/pii/S2949715924000635?via%3Dihub), ***Journal of Information and Intelligence***, 2024.
