@@ -35,3 +35,7 @@ In addition, the most noteworthy and encouraging result of this study is that th
 We have validated the RSVP-based BCI performance achievable by trained users in scenarios with a 20\% target percentage, and where the target stimulus was deliberately set and AB was inevitable. We found that even at this level of difficulty, trained subjects can still reach a considerable performance. We also explored scenarios with a low target percentage that are currently widely used by researchers, and we found that even though state-of-the-art algorithms can decode and classify brain signals accurately, the performance of the BCI system can still be further improved by optimizing the brain signals.
 
 </font>
+
+This work has been publised in **Journal of Information and Intelligence**:
+
+Ziyuan Zhang, Ziyu Wang, Kaitai Guo, Yang Zheng, Minghao Dong, Jimin Liang*, [Boosting brain-computer interface performance through cognitive training: a brain-centric approach](https://www.sciencedirect.com/science/article/pii/S2949715924000635?via%3Dihub), ***Journal of Information and Intelligence***, 2024.
