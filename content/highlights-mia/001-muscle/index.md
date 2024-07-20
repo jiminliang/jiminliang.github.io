@@ -43,7 +43,7 @@ Analysis workflow. (a) Construction of three data partitions with known individu
 
 Read our paper for more details:
 
-Yue Zhang, Yonghua Zhan, Kaitai Guo, Yang Zheng, Liang Tang, Jianzhong Guo, Jimin Liang*, [Contrastive Disentanglement for Quantitative Ultrasound Muscle Atrophy Evaluation](https://ieeexplore.ieee.org/document/10444061), IEEE Transactions on Biomedical Engineering, 2024.
+Yue Zhang, Yonghua Zhan, Kaitai Guo, Yang Zheng, Liang Tang, Jianzhong Guo, Jimin Liang*, [Contrastive Disentanglement for Quantitative Ultrasound Muscle Atrophy Evaluation](https://ieeexplore.ieee.org/document/10444061), IEEE Transactions on Biomedical Engineering, 71(8):2352-2366, 2024.
 
 - **Self supervised temporal ultrasound reconstruction for muscle atrophy evaluation**
 
