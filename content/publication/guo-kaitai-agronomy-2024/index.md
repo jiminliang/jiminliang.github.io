@@ -1,0 +1,45 @@
+---
+title: Efficient Adaptive Incremental Learning for Fruit and Vegetable Classification
+authors:
+- Kaitai Guo
+- Hongliang Chen
+- Yang Zheng
+- Qixin Liu
+- Shenghan Ren
+- Haihong Hu
+- Jimin Liang
+date: '2024-01-01'
+publishDate: '2024-08-08T05:07:34.358028Z'
+publication_types:
+- article-journal
+publication: '*Agronomy*'
+doi: 10.3390/agronomy14061275
+abstract: Traditional deep learning models for fruit and vegetable classification
+  are usually implemented via training on an unchanged dataset. However, changing
+  fruit and vegetable categories is a very common occurrence in the context of real
+  agricultural sales. When dealing with changes related to variety, deep learning
+  models need to be retrained on the entire updated dataset. The retraining process
+  is time-consuming and inefficient, and it may even cause the ‘catastrophic forgetting’
+  problem. In response to this challenge, the Adversarial Domain Adaptation Class
+  Incremental Learning (ADA-CIL) method is introduced. This approach employs adversarial
+  domain adaptation techniques combined with core-set selection strategies to effectively
+  extract and integrate cross-domain features. We utilize the ResNet34 architecture
+  as the backbone for feature extraction due to its deep residual learning framework,
+  which is robust in handling the complexities of large and varied image datasets.
+  It achieves a dynamic balance in learning between new and existing categories, significantly
+  enhancing the model’s generalization capabilities and information retention efficiency.
+  The FruVeg dataset, composed of three sub-datasets, includes over 120,000 color
+  images, covering more than 100 different categories of fruits and vegetables collected
+  from various domains and backgrounds. The experimental results on the FruVeg dataset
+  show that the ADA-CIL method achieves an average accuracy of 96.30%, a forgetting
+  rate of 2.96%, a cumulative accuracy of 96.26%, and a current accuracy of 98.60%.
+  The ADA-CIL method improves the average accuracy by 1.65% and 1.82% compared to
+  iCaRL and BiC, respectively, and it reduces the forgetting rate by 2.69% and 2.76%.
+  These performance metrics demonstrate the ADA-CIL method’s impressive ability to
+  handle incremental category and domain changes, highlighting its capability to effectively
+  maintain the intra-class stability and exhibit exceptional adaptability in dynamic
+  learning environments.
+links:
+- name: URL
+  url: https://www.mdpi.com/2073-4395/14/6/1275
+---
