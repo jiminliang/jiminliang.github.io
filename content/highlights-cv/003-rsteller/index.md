@@ -5,6 +5,8 @@ image:
   focal_point: 'top'
 ---
 
+<font size=3>
+
 ## Introduction
 
 Vision-language models (VLMs) show great promise for interpreting remote sensing (RS) imagery in human-like ways. However, training effective VLMs requires massive amounts of paired image-text data - a significant challenge in the RS domain. 
@@ -14,7 +16,9 @@ Our solution? **RSTeller** - an automated workflow that generates high-quality R
 - Semantic data from OpenStreetMap (OSM) 
 - Large language models (LLMs) to generate rich captions
 
-{{< figure src="dataset_comparison.jpg" >}}
+<center>
+<img src="dataset_comparison.jpg" width="500">
+</center>
 
 ## Key Contributions
 
@@ -69,7 +73,7 @@ Zero-shot retrieval:
 
 ### Ablation Study
 
-{{< figure src="ablation_study.jpg" >}}
+{{< figure src="ablation_study.png" >}}
 
 Key takeaways:
 1. Common knowledge (LAION-10M) prevents catastrophic forgetting

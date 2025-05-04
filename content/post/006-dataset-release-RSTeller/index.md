@@ -9,4 +9,4 @@ We relased [RSTeller](https://github.com/SlytherinGe/RSTeller), a dataset with 2
 
 <!--more-->
 
-<!-- {{% cta cta_link="/highlights-fusion/002-cognitive-training" cta_text="Read more ..." %}} -->
+{{% cta cta_link="/highlights-cv/003-rsteller" cta_text="Read more ..." %}}
