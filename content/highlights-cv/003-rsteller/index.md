@@ -53,7 +53,7 @@ Our solution? **RSTeller** - an automated workflow that generates high-quality R
 - **Scale**: 1.3M images, 2.6M captions
 - **Coverage**: Continental US, 0.6m GSD, RGB bands
 - **Semantic Richness**: MTLD score >100 (2x higher than alternatives)
-- **Diversity**: Covers 96K+ OSM keys and 155M+ tags
+- **Geographic Coverage**: United States
 
 ## Key Findings
 
@@ -119,9 +119,9 @@ Future directions:
 ## Conclusion
 
 RSTeller provides:
-✅ Automated pipeline for RS multimodal data
-✅ High-quality dataset (1.3M images, 2.6M captions)
-✅ Proven effectiveness for VLM training
-✅ Clear path for future scaling
+[✔] Automated pipeline for RS multimodal data
+[✔] High-quality dataset (1.3M images, 2.6M captions)
+[✔] Proven effectiveness for VLM training
+[✔] Clear path for future scaling
 
 The dataset and code are publicly available to advance RS VLM research. For further details, please refer to the paper, it is publicly available at [arxiv.org/abs/2408.14744](https://arxiv.org/abs/2408.14744).
