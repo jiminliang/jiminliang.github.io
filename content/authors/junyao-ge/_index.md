@@ -72,6 +72,6 @@ email: ''
 user_groups:
   - Grad Students
 ---
-My name in Chinese is 戈浚尧，which means "Junyao Ge" in English. I am a Ph.D. student in the Control Science and Engineering department at Xidian University, China. My research interests include deep learning, computer vision and remote sensing.
+My name in Chinese is 戈浚尧，which means "Junyao Ge" in English. I am a Ph.D. student in the School of Electronic Engineering at Xidian University, China. My research interests include deep learning, computer vision and remote sensing.
 My graduation destination is Huawei ICT department, where I will work on the development of multimodal large language models related to networking and security.
 My PhD thesis：Key Methods for Remote Sensing Image Interpretation Driven by Multimodal Large Language Models. It's Chinese name is 多模态大模型驱动的遥感图像解译关键方法研究.
