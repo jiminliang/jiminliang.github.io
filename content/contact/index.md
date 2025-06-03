@@ -20,8 +20,8 @@ sections:
         country: China
         country_code: CN
       coordinates:
-        latitude: '34.23433'
-        longitude: '108.9162'
+        latitude: '34.235936'
+        longitude: '108.913672'
       # directions: Office 234, the administration building.
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
