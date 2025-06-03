@@ -125,4 +125,6 @@ RSTeller provides:
 ✅ Proven effectiveness for VLM training  
 ✅ Clear path for future scaling
 
-The dataset and code are publicly available to advance RS VLM research. For further details, please refer to the paper, it is publicly available at [arxiv.org/abs/2408.14744](https://arxiv.org/abs/2408.14744).
+The dataset and code are publicly available to advance RS VLM research. For further details, please refer to the paper. This work has been publised in **ISPRS Journal of Photogrammetry and Remote Sensing**:
+
+Junyao Ge, Xu Zhang, Yang Zheng, Kaitai Guo, Jimin Liang*, [RSTeller: Scaling up visual language modeling in remote sensing with rich linguistic semantics from openly available data and large language models](https://www.sciencedirect.com/science/article/pii/S0924271625001832), ***ISPRS Journal of Photogrammetry and Remote Sensing***, 2025, 226: 146-163. IF: 10.6
