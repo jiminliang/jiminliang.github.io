@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc Research Associate
+role: Postdoc Research Associate (2021-2024)
 
 # Organizations/Affiliations
 organizations:
@@ -71,6 +71,4 @@ user_groups:
   - Alumni
 ---
 
-Ziyu Wang received the B.Sc. degree in the Basic Psychology and the Ph. D. degree in Aerospace Psychology from Shannxi Normal University, Xi’an, China, in 2014 and 2021 respectively. She is currently a postdoc research fellow at the School of Electronic Engineering, Xidian University. Her research primarily focuses on cognitive enhancement, brain science, and brain-machine fusion. She has authored or co-authored more than 10 journal papers. She currently leads a Youth Program of the National Natural Science Foundation in China and a Postdoctoral Science Foundation Project.
-
-My name in Chinese is 王梓宇.
+Ziyu Wang (王梓宇) received her B.Sc. degree in Basic Psychology and Ph.D. degree in Aerospace Psychology from Shaanxi Normal University, Xi’an, China, in 2014 and 2021, respectively. She is currently a Lecturer at the Institute of Social Psychology, School of Humanities and Social Science, Xi’an Jiaotong University. From 2021 to 2024, she was a postdoctoral research fellow at the School of Electronic Engineering, Xidian University. Her research interests include cognitive enhancement, brain science, and brain–machine interface integration.
