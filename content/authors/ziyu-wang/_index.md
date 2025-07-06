@@ -68,7 +68,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Alumni
 ---
 
 Ziyu Wang received the B.Sc. degree in the Basic Psychology and the Ph. D. degree in Aerospace Psychology from Shannxi Normal University, Xi’an, China, in 2014 and 2021 respectively. She is currently a postdoc research fellow at the School of Electronic Engineering, Xidian University. Her research primarily focuses on cognitive enhancement, brain science, and brain-machine fusion. She has authored or co-authored more than 10 journal papers. She currently leads a Youth Program of the National Natural Science Foundation in China and a Postdoctoral Science Foundation Project.

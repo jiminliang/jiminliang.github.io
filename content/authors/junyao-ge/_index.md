@@ -70,7 +70,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Alumni
 ---
 My name in Chinese is 戈浚尧, which corresponds to Junyao Ge in English. I am a Ph.D. student in the School of Electronic Engineering at Xidian University, China. My research interests include deep learning, computer vision, and remote sensing.
 
