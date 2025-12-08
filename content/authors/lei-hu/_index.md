@@ -71,7 +71,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Alumni
 ---
 
 Lei Hu received his B.Eng. degree from Xi’an University of Architecture and Technology in 2005, the M.Sc. degree from Northwest University in 2011, and the Ph.D. from Xidian University in 2022. His research interests include deep learning, computer vision and remote sensing image analysis.
