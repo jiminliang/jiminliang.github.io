@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Associate Research Fellow
+role: Associate Research Fellow (2022-2025)
 
 # Organizations/Affiliations
 organizations:
