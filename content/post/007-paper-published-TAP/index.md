@@ -1,6 +1,6 @@
 ---
 title: Paper published by IEEE Transactions on Antennas and Propagation 
-date: 2026-03-25
+date: 2026-02-28
 image:
   focal_point: 'top'
 ---
