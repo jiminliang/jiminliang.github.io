@@ -9,4 +9,3 @@ Our paper on [3D Surrogate Model for Electromagnetic Scattering Computation](htt
 
 <!--more-->
 
-{{% cta cta_link="/highlights-fusion/001-brain-fusion" cta_text="Read more ..." %}}
