@@ -18,7 +18,7 @@ sections:
 
   - block: collection
     content:
-      title: AI for Computational Electromagnetics (AI4CEM)
+      title: AI for CEM (AI4CEM)
       subtitle: 
       text:
       count: 5
