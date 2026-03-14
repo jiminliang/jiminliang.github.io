@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install academic==0.10.0
+          pip install -U academic
       - name: Run Academic (Bibtex To Markdown Converter)
         # Check `.bib` file exists for case when action runs on `.bib` deletion
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
