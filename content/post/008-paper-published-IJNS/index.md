@@ -1,5 +1,5 @@
 ---
-title: Simpler is better: Rethinking Attention in EEG Decoding 
+title: "Simpler is better: Rethinking Attention in EEG Decoding"
 date: 2026-03-23
 image:
   focal_point: 'top'
@@ -20,7 +20,6 @@ Despite extensive architectural engineering, performance gains remained limited.
 This observation led us to a fundamental question:
 
 Do we really need complex architectures for EEG decoding?
-
 
 To answer this, we removed the Transformer entirely and replaced it with a lightweight multilayer perceptron (MLP), while preserving domain-specific modeling components. The result was striking:
 
