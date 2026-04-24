@@ -21,6 +21,7 @@ This observation led us to a fundamental question:
 
 Do we really need complex architectures for EEG decoding?
 
+
 To answer this, we removed the Transformer entirely and replaced it with a lightweight multilayer perceptron (MLP), while preserving domain-specific modeling components. The result was striking:
 
 * The simplified MLP model matched or even outperformed the Transformer-based model
