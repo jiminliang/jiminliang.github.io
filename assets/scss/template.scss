@@ -1,4 +1,5 @@
-// Unify typography across list pages and author pages.
+// Unify typography across pages with only three scales:
+// body text ~= menu text, section titles slightly larger, page titles modestly larger.
 body,
 .article-style,
 .article-style p,
@@ -6,7 +7,7 @@ body,
 .universal-wrapper,
 .universal-wrapper p,
 .universal-wrapper li {
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.65;
 }
 
@@ -26,21 +27,34 @@ h6,
 h1,
 .universal-wrapper h1,
 #profile-page h1 {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
 }
 
 h3,
 #profile-page h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h2,
 h4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .universal-wrapper h1 {
   text-align: center;
+}
+
+// Keep author-page publication entries aligned with the Publications page density.
+#profile-page .article-widget p,
+#profile-page .article-widget li,
+#profile-page .article-widget a,
+#profile-page .article-widget h4 {
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+#profile-page .article-widget h4 {
+  font-weight: 400;
 }
 
 // Center the CTA shortcode button
