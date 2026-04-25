@@ -29,8 +29,6 @@ Some recent methods attempt to solve this by supervising models with pseudo boxe
 
 ## Our Method: Think2Seg-RS
 
-{{< figure src="framework.jpg" >}}
-
 Think2Seg-RS follows a decoupled reasoning-execution paradigm.
 
 1. A trainable large vision-language model receives the remote sensing image and the natural language query.
