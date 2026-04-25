@@ -18,6 +18,25 @@ sections:
 
   - block: collection
     content:
+      title: Computer Vision
+      subtitle: 
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: highlights-cv
+    design:
+      view: compact
+      columns: '1'
+
+  - block: collection
+    content:
       title: AI for CEM (AI4CEM)
       subtitle: 
       text:
@@ -34,7 +53,6 @@ sections:
     design:
       view: compact
       columns: '1'
-
 
   - block: collection
     content:
@@ -55,25 +73,6 @@ sections:
       view: compact
       columns: '1'
   
-  - block: collection
-    content:
-      title: Computer Vision
-      subtitle: 
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: highlights-cv
-    design:
-      view: compact
-      columns: '1'
-
   - block: collection
     content:
       title: Medical Image Analysis
