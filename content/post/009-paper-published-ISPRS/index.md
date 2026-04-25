@@ -11,7 +11,7 @@ Our paper on reasoning segmentation has been published by **ISPRS Journal of Pho
 <!--more-->
 ---
 
-Our latest paper, *“Bridging Semantics and Geometry: A Decoupled LVLM-SAM Framework for Reasoning Segmentation,”* has now been published in the *ISPRS Journal of Photogrammetry and Remote Sensing*.
+Our latest paper, *“[Bridging Semantics and Geometry: A Decoupled LVLM-SAM Framework for Reasoning Segmentation](https://www.sciencedirect.com/science/article/pii/S0924271626002091),”* has now been published in the *ISPRS Journal of Photogrammetry and Remote Sensing*.
 
 Remote sensing segmentation has made impressive progress, but most existing systems still work best when the target is explicitly described: a building, a road, a vehicle, or an object with a clear visual cue. Real-world queries are often much harder. A user may ask for *the sports area most suitable for hurdle racing*, or *the facility that should be monitored for hazardous leaks*. These are not simple category labels. They require reasoning.
 
