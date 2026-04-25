@@ -1,5 +1,5 @@
 ---
-title: AI for Computational Electromagnetics (AI4CEM)
+title: GTCSDF (TBD)
 date: 2026-03-13
 image:
   focal_point: 'top'
