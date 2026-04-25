@@ -1,9 +1,27 @@
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 // Center the CTA shortcode button
 .cta-group {
   justify-content: center;
+}
+
+// Keep section and author page headings aligned with the Research page scale
+#profile-page h1,
+#profile-page h3 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+#profile-page h1 {
+  font-size: 2.25rem;
+}
+
+#profile-page h3 {
+  font-size: 1.5rem;
 }
