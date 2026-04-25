@@ -81,5 +81,5 @@ user_groups:
   - Graduate Students
 ---
 
-蒋晓天Xiaotian Jiang (Graduate student Member, IEEE) was born in Zhejiang, China, in 2001. He received the B.Sc. degree in electronic information engineering from Xidian University, Xi'an, China, in 2023, where he is currently pursuing the Ph.D. degree in Control Science and Engineering with School of Electronic Engineering, Xidian University. His current research interests include computational electromagnetics, electromagnetics surrogate model and neural networks.
+蒋晓天 Xiaotian Jiang (Graduate student Member, IEEE) was born in Zhejiang, China, in 2001. He received the B.Sc. degree in electronic information engineering from Xidian University, Xi'an, China, in 2023, where he is currently pursuing the Ph.D. degree in Control Science and Engineering with School of Electronic Engineering, Xidian University. His current research interests include computational electromagnetics, electromagnetics surrogate model and neural networks.
 

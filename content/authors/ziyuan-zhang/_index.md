@@ -81,5 +81,5 @@ user_groups:
   - Graduate Students
 ---
 
-张子元Ziyuan Zhang was born in Shandong, China, in 1994. He received the B.Sc. degree in Biotechnology from Xidian University, Xi'an, China, in 2015. He is currently pursuing the Ph.D. degree in Control Science and Engineering at the School of Electronic Engineering, Xidian University. His current research interests include brain-computer interface, cognitive neuroscience, and EEG foundation models.
+张子元 Ziyuan Zhang was born in Shandong, China, in 1994. He received the B.Sc. degree in Biotechnology from Xidian University, Xi'an, China, in 2015. He is currently pursuing the Ph.D. degree in Control Science and Engineering at the School of Electronic Engineering, Xidian University. His current research interests include brain-computer interface, cognitive neuroscience, and EEG foundation models.
 
