@@ -14,7 +14,7 @@
     {{/* Show the About widget if an account exists for this user. */}}
     {{ if .File }}
       {{ $widget := "widgets/about.html" }}
-      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
+      {{ $username := (path.Base (path.Split .File.Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
       {{ $params := dict "root" $ "page" . "author" $username }}
       {{ partial $widget $params }}
     {{ end }}
@@ -26,7 +26,7 @@
     <div class="article-widget content-widget-hr">
       <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
       {{ range $query }}
-        {{ partial "li_citation" . }}
+        {{ partial "views/citation.html" (dict "item" .) }}
       {{ end }}
     </div>
     {{ end }}
