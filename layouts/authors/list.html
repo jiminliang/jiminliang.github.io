@@ -1,0 +1,118 @@
+{{- define "main" -}}
+<section class="pt-5">
+  <div class="container">
+    {{ $avatar := "" }}
+    {{ with .Resources.GetMatch "avatar*" }}
+      {{ $avatar = .RelPermalink }}
+    {{ end }}
+
+    <div class="row">
+      <div class="col-12 col-lg-4 mb-4">
+        {{ if $avatar }}
+        <div class="mb-3 text-center text-lg-start">
+          <img
+            src="{{ $avatar }}"
+            alt="{{ .Title }}"
+            style="max-width: 240px; width: 100%; height: auto; border-radius: 12px;"
+          >
+        </div>
+        {{ end }}
+
+        <h1 class="mb-2">{{ .Title }}</h1>
+
+        {{ with .Params.role }}
+        <p class="mb-2">{{ . }}</p>
+        {{ end }}
+
+        {{ with .Params.organizations }}
+        <div class="mb-3">
+          {{ range . }}
+            <div>
+              {{ with .url }}<a href="{{ . }}">{{ end }}
+              {{ .name }}
+              {{ with .url }}</a>{{ end }}
+            </div>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        {{ with .Params.social }}
+        <div class="mb-3">
+          {{ range . }}
+            <div><a href="{{ .link }}">{{ .icon }}</a></div>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        {{ with .Params.interests }}
+        <div class="mb-3">
+          <h3>Interests</h3>
+          <ul>
+            {{ range . }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{ with .Params.education.courses }}
+        <div class="mb-3">
+          <h3>Education</h3>
+          <ul>
+            {{ range . }}
+            <li>{{ .course }}, {{ .institution }}{{ with .year }} ({{ . }}){{ end }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="col-12 col-lg-8">
+        <div class="article-style">
+          {{ .Content }}
+        </div>
+
+        {{ $publications := where (where .Pages ".IsNode" false) "Section" "publication" }}
+        {{ $publications = sort $publications "Date" "desc" }}
+        {{ if gt (len $publications) 0 }}
+        <div class="article-widget content-widget-hr mt-5">
+          <h3>Latest</h3>
+          <div class="d-flex flex-column gap-4">
+            {{ range $publications }}
+            <div>
+              <h4 class="mb-1">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h4>
+
+              {{ with .Params.authors }}
+              <p class="mb-1">
+                {{ delimit . ", " }}
+              </p>
+              {{ end }}
+
+              {{ with .Params.publication }}
+              <p class="mb-1">{{ . | markdownify }}</p>
+              {{ end }}
+
+              <p class="mb-0">
+                <a href="{{ .RelPermalink }}">Details</a>
+                {{ with .Params.doi }}
+                  | <a href="https://doi.org/{{ replace . "https://doi.org/" "" }}">DOI</a>
+                {{ end }}
+                {{ with .Params.links }}
+                  {{ range . }}
+                    {{ $link := . }}
+                    {{ with $link.url }} | <a href="{{ . }}">{{ $link.name }}</a>{{ end }}
+                  {{ end }}
+                {{ end }}
+              </p>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{- end -}}
