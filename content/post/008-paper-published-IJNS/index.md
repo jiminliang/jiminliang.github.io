@@ -5,7 +5,7 @@ image:
   focal_point: 'top'
 ---
 
-Our paper on [EEG Classification for RSVP Task](https://www.worldscientific.com/doi/10.1142/S0129065726500309) has been published by **International Journal of Neural Systems** - March 23, 2026. 
+Our paper on EEG Classification for RSVP Task has been published by **[International Journal of Neural Systems](https://www.worldscientific.com/doi/10.1142/S0129065726500309)** - March 23, 2026. 
 
 <!--more-->
 

@@ -5,7 +5,7 @@ image:
   focal_point: 'top'
 ---
 
-Our paper on [3D Surrogate Model for Electromagnetic Scattering Computation](https://ieeexplore.ieee.org/document/11412392) has been published by **IEEE Transactions on Antennas and Propagation** - February 28, 2026. 
+Our paper on 3D Surrogate Model for Electromagnetic Scattering Computation has been published by **[IEEE Transactions on Antennas and Propagation](https://ieeexplore.ieee.org/document/11412392)** - February 28, 2026. 
 
 <!--more-->
 

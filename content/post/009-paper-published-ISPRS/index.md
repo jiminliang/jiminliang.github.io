@@ -6,7 +6,7 @@ image:
   focal_point: 'top'
 ---
 
-Our paper on [reasoning segmentation](https://arxiv.org/abs/2512.19302) has been published by **ISPRS Journal of Photogrammetry and Remote Sensing** - April 25, 2026. 
+Our paper on reasoning segmentation has been published by **ISPRS Journal of Photogrammetry and Remote Sensing** - April 25, 2026. 
 
 <!--more-->
 ---
