@@ -77,3 +77,5 @@ My name in Chinese is 戈浚尧, which corresponds to Junyao Ge in English. I am
 Upon graduation, I will join Huawei ICT Products & Solutions, where I will work on developing multimodal large language models for networking and security applications.
 
 My Ph.D. thesis title is: "Research on Key Methods for Remote Sensing Image Interpretation Driven by Multimodal Large Language Models." (Its Chinese title is: 多模态大模型驱动的遥感图像解译关键方法研究).
+
+Dr. Ge joined Huawei in 2025.

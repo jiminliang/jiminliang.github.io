@@ -72,3 +72,5 @@ user_groups:
 ---
 
 Ziyu Wang (王梓宇) received her B.Sc. degree in Basic Psychology and Ph.D. degree in Aerospace Psychology from Shaanxi Normal University, Xi’an, China, in 2014 and 2021, respectively. She is currently a Lecturer at the Institute of Social Psychology, School of Humanities and Social Science, Xi’an Jiaotong University. From 2021 to 2024, she was a postdoctoral research fellow at the School of Electronic Engineering, Xidian University. Her research interests include cognitive enhancement, brain science, and brain–machine interface integration.
+
+Dr. Wang joined the School of Humanities and Social Science of Xi'an Jiaotong University at the end of 2024. 
