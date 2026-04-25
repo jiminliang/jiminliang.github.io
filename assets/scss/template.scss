@@ -1,27 +1,57 @@
-// Make page header alignment consistent with widget page header alignment
-.universal-wrapper h1 {
-  text-align: center;
-  font-size: 2.25rem;
-  font-weight: 400;
-  line-height: 1.2;
+// Unify typography across list pages and author pages.
+body,
+.article-style,
+.article-style p,
+.article-style li,
+.universal-wrapper,
+.universal-wrapper p,
+.universal-wrapper li {
+  font-size: 1rem;
+  line-height: 1.65;
 }
 
-// Center the CTA shortcode button
-.cta-group {
-  justify-content: center;
-}
-
-// Keep section and author page headings aligned with the Research page scale
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.universal-wrapper h1,
 #profile-page h1,
 #profile-page h3 {
   font-weight: 400;
   line-height: 1.2;
 }
 
+h1,
+.universal-wrapper h1,
 #profile-page h1 {
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.6rem;
+}
+
+h3,
 #profile-page h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  justify-content: center;
 }
