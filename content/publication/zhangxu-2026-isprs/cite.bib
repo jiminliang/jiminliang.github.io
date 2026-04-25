@@ -1,0 +1,13 @@
+@article{Zhangxu_2026_ISPRS,
+ abstract = {Large Vision–Language Models (LVLMs) hold great promise for advancing optical remote sensing (RS) analysis, yet existing reasoning segmentation frameworks couple linguistic reasoning and pixel prediction through end-to-end supervised fine-tuning, leading to weak geometric grounding and limited generalization across tasks. To address this, we developed Think2Seg-RS, a decoupled framework that trains an LVLM prompter to control a frozen Segment Anything Model (SAM) via structured geometric prompts. Through a mask-only Group Relative Policy Optimization (GRPO) reinforcement learning objective driven strictly by final mask IoU, the LVLM learns to translate abstract semantic reasoning into spatially grounded actions, achieving state-of-the-art performance on the EarthReason dataset. Notably, Think2Seg-RS outperforms leading approaches such as RemoteReasoner and SegEarth-R1 on the EarthReason dataset by reaching a test cIoU of 75.60% and gIoU of 73.36%, yielding absolute improvements of 6.47% and 2.40% over the strongest baseline, respectively. Zero-shot evaluations across three referring segmentation benchmarks reveal a fundamental distinction in task inductive bias, exposing a distinct divide between semantic-level grounding—which aggregates all regions matching a conceptual intent—and instance-level tasks that demand discrete object separation. We further found that compact segmenters outperform larger ones under semantic-level supervision by mitigating textural over-segmentation, and that unconstrained negative prompting is unstable in heterogeneous aerial backgrounds. Together, these findings demonstrate that optimizing LVLMs through direct segmentation feedback offers a scalable framework for complex geospatial reasoning, effectively bridging the gap between abstract language understanding and precise pixel-level execution. Our code and model are available at https://github.com/Ricardo-XZ/Think2Seg-RS.},
+ author = {Xu Zhang and Junyao Ge and Yang Zheng and Kaitai Guo and Jimin Liang},
+ doi = {https://doi.org/10.1016/j.isprsjprs.2026.04.036},
+ issn = {0924-2716},
+ journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+ keywords = {Remote sensing, Reasoning segmentation, Large Vision Language Model, Segment Anything Model, Reinforcement learning},
+ pages = {217-235},
+ title = {Bridging semantics and geometry: A decoupled LVLM–SAM framework for reasoning segmentation in optical remote sensing},
+ url = {https://www.sciencedirect.com/science/article/pii/S0924271626002091},
+ volume = {237},
+ year = {2026}
+}
