@@ -8,7 +8,7 @@ image:
 Our paper on [EEG Classification for RSVP Task](https://www.worldscientific.com/doi/10.1142/S0129065726500309) has been published by **International Journal of Neural Systems** - March 23, 2026. 
 
 <!--more-->
----
+
 Our latest paper, “[A Few-Layer Multilayer Perceptron is Worth Attention for EEG Classification in RSVP Task](https://www.worldscientific.com/doi/10.1142/S0129065726500309),” has been published in the International Journal of Neural Systems  .
 
 In recent years, Transformer-based models have rapidly become the dominant paradigm across machine learning. Naturally, we followed this trend and set out to design increasingly sophisticated Transformer architectures for EEG decoding in rapid serial visual presentation (RSVP) tasks.
