@@ -10,7 +10,10 @@ date: '2022-08-01'
 publishDate: '2023-12-18T09:50:18.656572Z'
 publication_types:
 - article-journal
-publication: '*Review of Scientific Instruments*'
+publication: '*Review of Scientific Instruments*, 93(8): 084101'
+volume: '93'
+number: '8'
+pages: '084101'
 doi: 10.1063/5.0074709
 abstract: The Bradbury-Nelson gate (BNG) is a common device used for ion control in
   time-of-flight mass spectrometry and ion mobility spectrometry (IMS). A dual-location

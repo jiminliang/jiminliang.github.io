@@ -12,7 +12,9 @@ date: '2024-01-01'
 publishDate: '2024-05-09T09:07:40.756168Z'
 publication_types:
 - article-journal
-publication: '*Information Fusion*'
+publication: '*Information Fusion*, 110: 102447'
+volume: '110'
+pages: '102447'
 doi: https://doi.org/10.1016/j.inffus.2024.102447
 abstract: Harnessing the complementarity between the brain and artificial neural networks
   has shown great promise for the development of novel brain–machine fusion systems

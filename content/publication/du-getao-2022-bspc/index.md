@@ -13,7 +13,9 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.633292Z'
 publication_types:
 - article-journal
-publication: '*Biomedical Signal Processing and Control*'
+publication: '*Biomedical Signal Processing and Control*, 73: 103447'
+volume: '73'
+pages: '103447'
 doi: https://doi.org/10.1016/j.bspc.2021.103447
 abstract: Segmentation of the shank gastrocnemius (Gas) and soleus (Sol) muscles in
   ultrasound (US) images allows to extract the muscle features, which are important

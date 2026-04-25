@@ -14,7 +14,10 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.671808Z'
 publication_types:
 - article-journal
-publication: '*Andrology*'
+publication: '*Andrology*, 10(7): 1398-1410'
+volume: '10'
+number: '7'
+pages: '1398-1410'
 doi: https://doi.org/10.1111/andr.13238
 abstract: Abstract Background Psychogenic erectile dysfunction (pED) patients who
   are under their 40s in China consist of a major component of erectile dysfunction.

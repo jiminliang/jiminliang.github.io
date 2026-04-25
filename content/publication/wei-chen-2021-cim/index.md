@@ -12,7 +12,10 @@ date: '2021-01-01'
 publishDate: '2023-12-18T09:50:18.680268Z'
 publication_types:
 - article-journal
-publication: '*IEEE Computational Intelligence Magazine*'
+publication: '*IEEE Computational Intelligence Magazine*, 16(3): 33-49'
+volume: '16'
+number: '3'
+pages: '33-49'
 doi: 10.1109/MCI.2021.3084415
 abstract: Recently proposed neural architecture search (NAS) algorithms adopt neural
   predictors to accelerate architecture search. The capability of neural predictors

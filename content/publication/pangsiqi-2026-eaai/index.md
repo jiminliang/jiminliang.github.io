@@ -10,7 +10,9 @@ date: '2026-01-01'
 publishDate: '2026-04-25T00:32:53.511245Z'
 publication_types:
 - article-journal
-publication: '*Engineering Applications of Artificial Intelligence*, 176:114724'
+publication: '*Engineering Applications of Artificial Intelligence*, 176: 114724'
+volume: '176'
+pages: '114724'
 doi: https://doi.org/10.1016/j.engappai.2026.114724
 tags:
 - Millimeter-wave radar

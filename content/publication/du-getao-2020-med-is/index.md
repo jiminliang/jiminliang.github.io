@@ -10,7 +10,9 @@ date: '2020-01-01'
 publishDate: '2023-12-18T09:50:18.749633Z'
 publication_types:
 - article-journal
-publication: '*Journal of Imaging Science and Technology*'
+publication: '*Journal of Imaging Science and Technology*, 64: 20508-1-20508-12'
+volume: '64'
+pages: '20508-1-20508-12'
 abstract: Medical image analysis is performed by analyzing images obtained by medical
   imaging systems to solve clinical problems. The purpose is to extract effective
   information and improve the level of clinical diagnosis. In recent years, automatic

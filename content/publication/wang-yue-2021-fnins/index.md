@@ -14,7 +14,8 @@ date: '2021-01-01'
 publishDate: '2023-12-18T09:50:18.703676Z'
 publication_types:
 - article-journal
-publication: '*Frontiers in Neuroscience*'
+publication: '*Frontiers in Neuroscience*, 15'
+volume: '15'
 doi: 10.3389/fnins.2021.665084
 abstract: Visual processing refers to the process of perceiving, analyzing, synthesizing,
   manipulating, transforming, and thinking of visual objects. It is modulated by both

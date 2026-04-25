@@ -15,7 +15,9 @@ date: '2024-01-01'
 publishDate: '2024-08-15T01:27:51.862198Z'
 publication_types:
 - article-journal
-publication: '*Biomedical Signal Processing and Control*'
+publication: '*Biomedical Signal Processing and Control*, 98: 106765'
+volume: '98'
+pages: '106765'
 doi: https://doi.org/10.1016/j.bspc.2024.106765
 abstract: Accurate segmentation of hematoxylin-eosin (H&E) muscle fiber images is
   crucial for the diagnosis of weightless muscle atrophy. However, uneven contrast,

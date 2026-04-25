@@ -11,7 +11,9 @@ date: '2023-01-01'
 publishDate: '2023-12-18T09:50:18.588551Z'
 publication_types:
 - article-journal
-publication: '*Remote Sensing*'
+publication: '*Remote Sensing*, 15(8)'
+volume: '15'
+number: '8'
 doi: 10.3390/rs15082035
 abstract: Synthetic Aperture Radar (SAR) is an all-weather sensing technology that
   has proven its effectiveness for ship detection. However, detecting ships accurately

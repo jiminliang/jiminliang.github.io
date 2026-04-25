@@ -17,7 +17,10 @@ date: '2020-01-01'
 publishDate: '2023-12-18T09:50:18.741647Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Biomedical Engineering*'
+publication: '*IEEE Transactions on Biomedical Engineering*, 67(5): 1293-1302'
+volume: '67'
+number: '5'
+pages: '1293-1302'
 doi: 10.1109/TBME.2019.2935301
 abstract: 'Objective: Stimulated Raman projection tomography (SRPT), a recently developed
   label-free volumetric chemical imaging technology, has been reported to quantitatively

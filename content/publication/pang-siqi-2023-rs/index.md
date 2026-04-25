@@ -14,7 +14,9 @@ date: '2023-01-01'
 publishDate: '2023-12-18T09:50:18.581110Z'
 publication_types:
 - article-journal
-publication: '*Remote Sensing*'
+publication: '*Remote Sensing*, 15(18)'
+volume: '15'
+number: '18'
 doi: 10.3390/rs15184476
 abstract: Registration of optical and synthetic aperture radar (SAR) images is challenging
   because extracting located identically and unique features on both images are tricky.

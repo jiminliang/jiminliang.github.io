@@ -13,7 +13,9 @@ date: '2024-01-01'
 publishDate: '2023-12-18T09:50:18.546488Z'
 publication_types:
 - article-journal
-publication: '*Biomedical Signal Processing and Control*'
+publication: '*Biomedical Signal Processing and Control*, 87: 105473'
+volume: '87'
+pages: '105473'
 doi: https://doi.org/10.1016/j.bspc.2023.105473
 abstract: Accurate three-dimensional (3D) segmentation of the coronary artery is an
   essential step in the quantitative analysis of the coronary arteries. However, due

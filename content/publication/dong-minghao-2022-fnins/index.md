@@ -14,7 +14,8 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.663942Z'
 publication_types:
 - article-journal
-publication: '*Frontiers in Neuroscience*'
+publication: '*Frontiers in Neuroscience*, 16'
+volume: '16'
 doi: 10.3389/fnins.2022.904623
 abstract: Visual experience modulates the intensity of evoked brain activity in response
   to training-related stimuli. Spontaneous fluctuations in the restful brain actively

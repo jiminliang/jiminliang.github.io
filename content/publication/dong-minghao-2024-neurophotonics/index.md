@@ -17,7 +17,10 @@ date: '2024-01-01'
 publishDate: '2024-01-11T10:13:22.194420Z'
 publication_types:
 - article-journal
-publication: '*Neurophotonics*'
+publication: '*Neurophotonics*, 11(1): 015002'
+volume: '11'
+number: '1'
+pages: '015002'
 doi: 10.1117/1.NPh.11.1.015002
 tags:
 - fNIRS

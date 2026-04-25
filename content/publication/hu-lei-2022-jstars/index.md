@@ -13,8 +13,9 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.610726Z'
 publication_types:
 - article-journal
-publication: '*IEEE Journal of Selected Topics in Applied Earth Observations and Remote
-  Sensing*'
+publication: '*IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 15: 700-715'
+volume: '15'
+pages: '700-715'
 doi: 10.1109/JSTARS.2021.3138187
 abstract: Extracting objects of interest from remote sensing imagery is an essential
   part in various practical applications. The objects that people pay attention to

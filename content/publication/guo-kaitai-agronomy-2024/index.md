@@ -12,7 +12,9 @@ date: '2024-01-01'
 publishDate: '2024-08-08T05:07:34.358028Z'
 publication_types:
 - article-journal
-publication: '*Agronomy*'
+publication: '*Agronomy*, 14(6)'
+volume: '14'
+number: '6'
 doi: 10.3390/agronomy14061275
 abstract: Traditional deep learning models for fruit and vegetable classification
   are usually implemented via training on an unchanged dataset. However, changing

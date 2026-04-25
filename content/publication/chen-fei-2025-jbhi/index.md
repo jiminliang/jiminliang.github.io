@@ -11,7 +11,10 @@ date: '2025-01-01'
 publishDate: '2025-07-06T09:25:14.657762Z'
 publication_types:
 - article-journal
-publication: '*IEEE Journal of Biomedical and Health Informatics*'
+publication: '*IEEE Journal of Biomedical and Health Informatics*, 29(7): 4612-4622'
+volume: '29'
+number: '7'
+pages: '4612-4622'
 doi: 10.1109/JBHI.2024.3450669
 tags:
 - Image segmentation;Arteries;Three-dimensional displays;Noise measurement;Artificial

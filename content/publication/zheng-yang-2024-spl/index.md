@@ -10,7 +10,9 @@ date: '2024-01-01'
 publishDate: '2024-08-23T03:32:41.794784Z'
 publication_types:
 - article-journal
-publication: '*IEEE Signal Processing Letters*'
+publication: '*IEEE Signal Processing Letters*, 31: 2090-2094'
+volume: '31'
+pages: '2090-2094'
 doi: 10.1109/LSP.2024.3441490
 tags:
 - Convolution;Feature extraction;Logic gates;Event detection;Training;Task analysis;Decoding;Bidirectional

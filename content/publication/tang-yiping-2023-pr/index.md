@@ -12,7 +12,9 @@ date: '2023-01-01'
 publishDate: '2023-12-18T09:50:18.573067Z'
 publication_types:
 - article-journal
-publication: '*Pattern Recognition*'
+publication: '*Pattern Recognition*, 134: 109135'
+volume: '134'
+pages: '109135'
 doi: https://doi.org/10.1016/j.patcog.2022.109135
 abstract: Video representation is of significant importance for temporal action detection.
   The two sub-tasks of temporal action detection, i.e., action classification and

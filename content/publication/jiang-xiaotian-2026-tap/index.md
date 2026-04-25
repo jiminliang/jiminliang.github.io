@@ -11,7 +11,8 @@ date: '2026-01-01'
 publishDate: '2026-03-14T11:03:18.440552Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Antennas and Propagation*'
+publication: '*IEEE Transactions on Antennas and Propagation*, 1-1'
+pages: '1-1'
 doi: 10.1109/TAP.2026.3661600
 tags:
 - Surrogate model; three-dimensional electromagnetic scattering (3D EMS); radar cross

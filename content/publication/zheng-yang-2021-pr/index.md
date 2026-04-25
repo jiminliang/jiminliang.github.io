@@ -11,7 +11,9 @@ date: '2021-01-01'
 publishDate: '2023-12-18T09:50:18.719480Z'
 publication_types:
 - article-journal
-publication: '*Pattern Recognition*'
+publication: '*Pattern Recognition*, 113: 107755'
+volume: '113'
+pages: '107755'
 doi: https://doi.org/10.1016/j.patcog.2020.107755
 abstract: Comprehensive and accurate eye modeling is crucial to a variety of applications,
   including human-computer interaction, assistive technologies, and medical diagnosis.

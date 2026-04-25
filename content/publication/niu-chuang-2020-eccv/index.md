@@ -9,7 +9,8 @@ date: '2020-01-01'
 publishDate: '2024-02-21T10:13:30.789644Z'
 publication_types:
 - paper-conference
-publication: '*Computer Vision -- ECCV 2020*'
+publication: '*Computer Vision -- ECCV 2020*, 735--751'
+pages: '735--751'
 abstract: We propose a self-supervised Gaussian ATtention network for image Clustering
   (GATCluster). Rather than extracting intermediate features first and then performing
   traditional clustering algorithms, GATCluster directly outputs semantic cluster

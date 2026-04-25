@@ -10,7 +10,9 @@ date: '2023-01-01'
 publishDate: '2023-12-18T09:50:18.595757Z'
 publication_types:
 - article-journal
-publication: '*Sensors*'
+publication: '*Sensors*, 23(7)'
+volume: '23'
+number: '7'
 doi: 10.3390/s23073420
 abstract: The resolution of feature maps is a critical factor for accurate medical
   image segmentation. Most of the existing Transformer-based networks for medical

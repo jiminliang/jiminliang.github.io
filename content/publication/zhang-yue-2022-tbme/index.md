@@ -14,7 +14,10 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.603118Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Biomedical Engineering*'
+publication: '*IEEE Transactions on Biomedical Engineering*, 69(10): 3163-3174'
+volume: '69'
+number: '10'
+pages: '3163-3174'
 doi: 10.1109/TBME.2022.3162223
 abstract: 'Objective: Existing methods for muscle atrophy evaluation based on muscle
   size measures from ultrasound images are inadequate in precision. Radiomics has

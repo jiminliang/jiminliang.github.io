@@ -10,7 +10,8 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.648647Z'
 publication_types:
 - article-journal
-publication: '*Frontiers in Chemistry*'
+publication: '*Frontiers in Chemistry*, 10'
+volume: '10'
 doi: 10.3389/fchem.2022.1004615
 abstract: Ion mobility spectrometer (IMS) is a powerful chemical composition analysis
   tool working at atmospheric pressure that can be used to separate complex samples

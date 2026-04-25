@@ -11,7 +11,9 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.625822Z'
 publication_types:
 - article-journal
-publication: '*Neuroscience*'
+publication: '*Neuroscience*, 494: 132-139'
+volume: '494'
+pages: '132-139'
 doi: https://doi.org/10.1016/j.neuroscience.2022.05.013
 abstract: Transcranial direct current stimulation (tDCS) has been used to explore
   the causal relationship between specific brain regions and task switching. However,

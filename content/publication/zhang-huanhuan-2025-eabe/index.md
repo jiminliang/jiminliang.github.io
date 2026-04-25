@@ -12,7 +12,9 @@ date: '2025-01-01'
 publishDate: '2025-07-06T09:25:14.674433Z'
 publication_types:
 - article-journal
-publication: '*Engineering Analysis with Boundary Elements*'
+publication: '*Engineering Analysis with Boundary Elements*, 179: 106324'
+volume: '179'
+pages: '106324'
 doi: https://doi.org/10.1016/j.enganabound.2025.106324
 abstract: A deep neural network for the electromagnetic-thermal co-simulation of microstrip
   patch antenna arrays is proposed based on convolutional encoder–decoder (CED) architecture.

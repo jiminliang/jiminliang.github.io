@@ -12,7 +12,9 @@ date: '2020-01-01'
 publishDate: '2023-12-18T09:50:18.727032Z'
 publication_types:
 - article-journal
-publication: '*International Journal of Psychophysiology*'
+publication: '*International Journal of Psychophysiology*, 152: 26-35'
+volume: '152'
+pages: '26-35'
 doi: https://doi.org/10.1016/j.ijpsycho.2020.04.003
 abstract: Neuronal oscillatory activity has been considered to play a key role in
   face processing through its functional effect on information flow and exchange in

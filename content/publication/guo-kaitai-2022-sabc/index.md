@@ -12,7 +12,9 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.641090Z'
 publication_types:
 - article-journal
-publication: '*Sensors and Actuators B: Chemical*'
+publication: '*Sensors and Actuators B: Chemical*, 354: 131249'
+volume: '354'
+pages: '131249'
 doi: https://doi.org/10.1016/j.snb.2021.131249
 abstract: Many designs have been proposed to improve the sensitivity of ion mobility
   spectrometry (IMS) by modifying its electric field in recent years. However, most

@@ -11,8 +11,8 @@ date: '2024-01-01'
 publishDate: '2024-09-11T11:13:05.727414Z'
 publication_types:
 - paper-conference
-publication: '*IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing
-  Symposium*'
+publication: '*IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium*, 11177-11180'
+pages: '11177-11180'
 doi: 10.1109/IGARSS53475.2024.10640878
 tags:
 - Superresolution;Radar detection;Receiving antennas;Radar;Object detection;Millimeter

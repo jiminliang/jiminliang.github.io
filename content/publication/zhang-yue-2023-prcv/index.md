@@ -13,7 +13,8 @@ date: '2023-01-01'
 publishDate: '2024-02-21T09:46:35.077016Z'
 publication_types:
 - paper-conference
-publication: '*Pattern Recognition and Computer Vision - PRCV 2023*'
+publication: '*Pattern Recognition and Computer Vision - PRCV 2023*, 269--280'
+pages: '269--280'
 abstract: Muscle atrophy is a widespread disease that can reduce quality of life and
   increase morbidity and mortality. The development of non-invasive method to evaluate
   muscle atrophy is of great practical value. However, obtaining accurate criteria

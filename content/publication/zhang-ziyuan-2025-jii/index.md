@@ -12,7 +12,10 @@ date: '2025-01-01'
 publishDate: '2025-06-02T09:03:55.988322Z'
 publication_types:
 - article-journal
-publication: '*Journal of Information and Intelligence*'
+publication: '*Journal of Information and Intelligence*, 3(1): 19-35'
+volume: '3'
+number: '1'
+pages: '19-35'
 doi: https://doi.org/10.1016/j.jiixd.2024.06.003
 links:
 - name: URL

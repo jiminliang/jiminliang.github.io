@@ -11,7 +11,10 @@ date: '2023-01-01'
 publishDate: '2023-12-18T09:50:18.557720Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Neural Networks and Learning Systems*'
+publication: '*IEEE Transactions on Neural Networks and Learning Systems*, 34(11): 8441-8455'
+volume: '34'
+number: '11'
+pages: '8441-8455'
 doi: 10.1109/TNNLS.2022.3151160
 abstract: Neural architecture search (NAS) adopts a search strategy to explore the
   predefined search space to find superior architecture with the minimum searching

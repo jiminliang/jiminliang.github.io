@@ -12,7 +12,9 @@ date: '2025-01-01'
 publishDate: '2025-07-06T09:25:14.682268Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Automation Science and Engineering*'
+publication: '*IEEE Transactions on Automation Science and Engineering*, 22: 12470-12484'
+volume: '22'
+pages: '12470-12484'
 doi: 10.1109/TASE.2025.3545870
 tags:
 - Deep learning;Training;Gaze tracking;Feature extraction;Accuracy;Automation;Computational

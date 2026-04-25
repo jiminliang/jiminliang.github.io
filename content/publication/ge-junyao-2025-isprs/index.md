@@ -11,7 +11,9 @@ date: '2025-01-01'
 publishDate: '2025-05-28T12:41:40.414273Z'
 publication_types:
 - article-journal
-publication: '*ISPRS Journal of Photogrammetry and Remote Sensing*, 226:146-163'
+publication: '*ISPRS Journal of Photogrammetry and Remote Sensing*, 226: 146-163'
+volume: '226'
+pages: '146-163'
 doi: https://doi.org/10.1016/j.isprsjprs.2025.05.002
 tags:
 - Vision language model; Multimodal dataset; OpenStreetMap; Google earth engine; Large

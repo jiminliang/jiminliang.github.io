@@ -17,7 +17,9 @@ date: '2021-01-01'
 publishDate: '2023-12-18T09:50:18.711434Z'
 publication_types:
 - article-journal
-publication: '*Quantitative Imaging in Medicine and Surgery*'
+publication: '*Quantitative Imaging in Medicine and Surgery*, 11(7)'
+volume: '11'
+number: '7'
 abstract: 'Background: The precise assessment of myocardial infarction (MI) is crucial
   both for therapeutic interventions in old MI and the development of new and effective
   techniques to repair injured myocardium. A novel method was developed to assess

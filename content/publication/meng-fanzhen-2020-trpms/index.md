@@ -12,7 +12,10 @@ date: '2020-01-01'
 publishDate: '2023-12-18T09:50:18.756849Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Radiation and Plasma Medical Sciences*'
+publication: '*IEEE Transactions on Radiation and Plasma Medical Sciences*, 4(1): 81-90'
+volume: '4'
+number: '1'
+pages: '81-90'
 doi: 10.1109/TRPMS.2019.2926580
 abstract: The dual-head positron emission tomography (PET) systems have an importance
   role in the preclinical and clinical applications. This paper focuses on developing

@@ -12,7 +12,9 @@ date: '2023-01-01'
 publishDate: '2023-12-18T09:50:18.565291Z'
 publication_types:
 - article-journal
-publication: '*Information Sciences*'
+publication: '*Information Sciences*, 623: 693-708'
+volume: '623'
+pages: '693-708'
 doi: https://doi.org/10.1016/j.ins.2022.12.044
 abstract: Weakly supervised temporal action localization (WS-TAL) aims to simultaneously
   recognize and localize action instances of interest in untrimmed videos with the

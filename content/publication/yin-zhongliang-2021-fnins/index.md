@@ -13,7 +13,8 @@ date: '2021-01-01'
 publishDate: '2023-12-18T09:50:18.695943Z'
 publication_types:
 - article-journal
-publication: '*Frontiers in Neuroscience*'
+publication: '*Frontiers in Neuroscience*, 15'
+volume: '15'
 doi: 10.3389/fnins.2021.652920
 abstract: Face processing is a spatiotemporal dynamic process involving widely distributed
   and closely connected brain regions. Although previous studies have examined the

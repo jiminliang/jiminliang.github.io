@@ -10,7 +10,9 @@ date: '2024-01-01'
 publishDate: '2024-04-06T00:58:16.343291Z'
 publication_types:
 - article-journal
-publication: '*Neuroscience*'
+publication: '*Neuroscience*, 546: 41-52'
+volume: '546'
+pages: '41-52'
 doi: https://doi.org/10.1016/j.neuroscience.2024.03.004
 abstract: Task switching refers to a set of cognitive processes involved in shifting
   attention from one task to another. In recent years, researchers have applied transcranial

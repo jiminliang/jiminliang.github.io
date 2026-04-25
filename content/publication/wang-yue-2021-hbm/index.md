@@ -13,7 +13,10 @@ date: '2021-01-01'
 publishDate: '2023-12-18T09:50:18.687895Z'
 publication_types:
 - article-journal
-publication: '*Human Brain Mapping*'
+publication: '*Human Brain Mapping*, 42(14): 4538-4554'
+volume: '42'
+number: '14'
+pages: '4538-4554'
 doi: https://doi.org/10.1002/hbm.25563
 abstract: Abstract Visual expertise refers to proficiency in visual recognition. It
   is attributed to accumulated visual experience in a specific domain and manifests

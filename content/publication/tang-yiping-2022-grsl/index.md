@@ -11,7 +11,9 @@ date: '2022-01-01'
 publishDate: '2023-12-18T09:50:18.618300Z'
 publication_types:
 - article-journal
-publication: '*IEEE Geoscience and Remote Sensing Letters*'
+publication: '*IEEE Geoscience and Remote Sensing Letters*, 19: 1-5'
+volume: '19'
+pages: '1-5'
 doi: 10.1109/LGRS.2022.3147464
 abstract: Poleward moving auroral forms (PMAFs) are a common dayside auroral phenomenon,
   and the study of PMAFs has important implications for the exploration of the near-earth

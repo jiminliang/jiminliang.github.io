@@ -38,6 +38,9 @@ jobs:
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
         if: ${{ hashFiles('publications.bib') != '' }}
         run: academic import publications.bib content/publication/ --compact
+      - name: Post-process publication metadata
+        if: ${{ hashFiles('publications.bib') != '' }}
+        run: python scripts/postprocess_publications.py
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr
