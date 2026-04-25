@@ -67,6 +67,6 @@ Think2Seg-RS provides a practical way to move in this direction. By decoupling r
 
 Read our paper for more details:
 
-Xu Zhang, Junyao Ge, Yang Zheng, Kaitai Guo, Jimin Liang*, [Bridging Semantics and Geometry: A Decoupled LVLM-SAM Framework for Reasoning Segmentation in Remote Sensing](https://arxiv.org/abs/2512.19302), *ISPRS Journal of Photogrammetry and Remote Sensing*, 2026.
+Xu Zhang, Junyao Ge, Yang Zheng, Kaitai Guo, Jimin Liang*, [Bridging Semantics and Geometry: A Decoupled LVLM-SAM Framework for Reasoning Segmentation in Remote Sensing](https://www.sciencedirect.com/science/article/pii/S0924271626002091), *ISPRS Journal of Photogrammetry and Remote Sensing*, 2026.
 
 </font>
