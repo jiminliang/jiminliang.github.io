@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc Research Associate (2021-2024)
+role: Postdoc Research Associate (2021-2024), now with Xi'an Jiaotong University
 
 # Organizations/Affiliations
 organizations:

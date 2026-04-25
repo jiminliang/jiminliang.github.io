@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD student (2020-2025)
+role: PhD student (2020-2025), now at Huawei
 
 # Organizations/Affiliations
 organizations:
