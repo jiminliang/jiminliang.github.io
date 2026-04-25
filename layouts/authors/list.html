@@ -37,9 +37,24 @@
         {{ end }}
 
         {{ with .Params.social }}
-        <div class="mb-3">
+        <div class="mb-3 d-flex flex-wrap gap-3 align-items-center">
           {{ range . }}
-            <div><a href="{{ .link }}">{{ .icon }}</a></div>
+            {{ $iconPack := .icon_pack | default "fas" }}
+            {{ $iconClass := "" }}
+            {{ if eq $iconPack "ai" }}
+              {{ $iconClass = printf "ai ai-%s big-icon" .icon }}
+            {{ else if eq $iconPack "fab" }}
+              {{ $iconClass = printf "fab fa-%s big-icon" .icon }}
+            {{ else if eq $iconPack "fas" }}
+              {{ $iconClass = printf "fas fa-%s big-icon" .icon }}
+            {{ else if eq $iconPack "far" }}
+              {{ $iconClass = printf "far fa-%s big-icon" .icon }}
+            {{ else }}
+              {{ $iconClass = printf "%s %s big-icon" $iconPack .icon }}
+            {{ end }}
+            <a href="{{ .link }}" aria-label="{{ .icon }}">
+              <i class="{{ $iconClass }}"></i>
+            </a>
           {{ end }}
         </div>
         {{ end }}
