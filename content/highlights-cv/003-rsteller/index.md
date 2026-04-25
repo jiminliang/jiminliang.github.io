@@ -1,5 +1,5 @@
 ---
-title: Scaling Visual Language Models for Remote Sensing with Open Data and LLMs
+title: Scaling visual language models for remote sensing with open data and LLMs
 date: 2025-05-04
 image:
   focal_point: 'top'

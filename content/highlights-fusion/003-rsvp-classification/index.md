@@ -1,5 +1,5 @@
 ---
-title: RSVP-EEG classification
+title: "RSVP-EEG classification: simpler is better"
 date: 2026-03-23
 image:
   focal_point: 'top'
