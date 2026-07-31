@@ -1,5 +1,5 @@
 ---
-title: Remote Sensing Image Analysis with LLMs and VLMs
+title: Remote Sensing Image Analysis
 date: 2026-04-25
 aliases:
   - /highlights-cv/003-rsteller/
