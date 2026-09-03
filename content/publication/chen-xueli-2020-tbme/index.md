@@ -14,7 +14,7 @@ authors:
 - Jimin Liang
 - Jie Tian
 date: '2020-01-01'
-publishDate: '2023-12-18T09:50:18.741647Z'
+publishDate: '2026-09-03T09:20:42.369814Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Biomedical Engineering*, 67(5): 1293-1302'

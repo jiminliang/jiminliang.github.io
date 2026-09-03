@@ -9,7 +9,7 @@ authors:
 - Haihong Hu
 - Jimin Liang
 date: '2023-01-01'
-publishDate: '2023-12-18T09:50:18.573067Z'
+publishDate: '2026-09-03T09:20:42.210044Z'
 publication_types:
 - article-journal
 publication: '*Pattern Recognition*, 134: 109135'

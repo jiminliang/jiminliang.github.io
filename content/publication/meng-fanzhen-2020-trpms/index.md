@@ -9,7 +9,7 @@ authors:
 - Wei Qin
 - Jimin Liang
 date: '2020-01-01'
-publishDate: '2023-12-18T09:50:18.756849Z'
+publishDate: '2026-09-03T09:20:42.383557Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Radiation and Plasma Medical Sciences*, 4(1): 81-90'

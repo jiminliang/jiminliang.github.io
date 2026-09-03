@@ -7,13 +7,13 @@ authors:
 - Kaitai Guo
 - Jimin Liang
 - Minghao Dong
-date: 0-01-01
-publishDate: '2026-04-25T00:21:02.775832Z'
+date: '2026-01-01'
+publishDate: '2026-09-03T09:20:42.081827Z'
 publication_types:
 - article-journal
-publication: '*International Journal of Neural Systems*, 0(0): 2650030'
-volume: '0'
-number: '0'
+publication: '*International Journal of Neural Systems*, 36(09): 2650030'
+volume: '36'
+number: '09'
 pages: '2650030'
 doi: 10.1142/S0129065726500309
 links:

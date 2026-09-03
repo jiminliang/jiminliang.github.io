@@ -9,7 +9,7 @@ authors:
 - Xiaohao Wang
 - Kai Ni
 date: '2022-01-01'
-publishDate: '2023-12-18T09:50:18.641090Z'
+publishDate: '2026-09-03T09:20:42.279277Z'
 publication_types:
 - article-journal
 publication: '*Sensors and Actuators B: Chemical*, 354: 131249'

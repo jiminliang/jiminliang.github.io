@@ -9,11 +9,12 @@ authors:
 - Siqi Pang
 - Shenghan Ren
 - Jimin Liang
-date: '2026-01-01'
-publishDate: '2026-07-30T23:47:37.106002Z'
+date: '2027-01-01'
+publishDate: '2026-09-03T09:20:42.051413Z'
 publication_types:
 - article-journal
-publication: '*Expert Systems with Applications*, 133829'
+publication: '*Expert Systems with Applications*, 333: 133829'
+volume: '333'
 pages: '133829'
 doi: https://doi.org/10.1016/j.eswa.2026.133829
 abstract: 'Public mmWave radar datasets are collected under heterogeneous acquisition
