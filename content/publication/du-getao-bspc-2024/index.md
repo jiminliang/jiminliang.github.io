@@ -12,7 +12,7 @@ authors:
 - Xiaoping Chen
 - Yonghua Zhan
 date: '2024-01-01'
-publishDate: '2024-08-15T01:27:51.862198Z'
+publishDate: '2026-09-03T09:20:42.141315Z'
 publication_types:
 - article-journal
 publication: '*Biomedical Signal Processing and Control*, 98: 106765'

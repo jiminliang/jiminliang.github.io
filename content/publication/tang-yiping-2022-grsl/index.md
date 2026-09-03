@@ -8,7 +8,7 @@ authors:
 - Shenghan Ren
 - Jimin Liang
 date: '2022-01-01'
-publishDate: '2023-12-18T09:50:18.618300Z'
+publishDate: '2026-09-03T09:20:42.257912Z'
 publication_types:
 - article-journal
 publication: '*IEEE Geoscience and Remote Sensing Letters*, 19: 1-5'

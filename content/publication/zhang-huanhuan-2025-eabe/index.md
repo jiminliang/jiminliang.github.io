@@ -9,7 +9,7 @@ authors:
 - Ying Liu
 - Jimin Liang
 date: '2025-01-01'
-publishDate: '2025-07-06T09:25:14.674433Z'
+publishDate: '2026-09-03T09:20:42.117436Z'
 publication_types:
 - article-journal
 publication: '*Engineering Analysis with Boundary Elements*, 179: 106324'

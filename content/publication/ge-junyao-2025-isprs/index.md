@@ -8,7 +8,7 @@ authors:
 - Kaitai Guo
 - Jimin Liang
 date: '2025-01-01'
-publishDate: '2025-05-28T12:41:40.414273Z'
+publishDate: '2026-09-03T09:20:42.094002Z'
 publication_types:
 - article-journal
 publication: '*ISPRS Journal of Photogrammetry and Remote Sensing*, 226: 146-163'

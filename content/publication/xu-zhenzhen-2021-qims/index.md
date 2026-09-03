@@ -14,7 +14,7 @@ authors:
 - Jimin Liang
 - Feng Cao
 date: '2021-01-01'
-publishDate: '2023-12-18T09:50:18.711434Z'
+publishDate: '2026-09-03T09:20:42.342497Z'
 publication_types:
 - article-journal
 publication: '*Quantitative Imaging in Medicine and Surgery*, 11(7)'

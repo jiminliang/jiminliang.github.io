@@ -8,7 +8,7 @@ authors:
 - Haihong Hu
 - Jimin Liang
 date: '2023-01-01'
-publishDate: '2023-12-18T09:50:18.557720Z'
+publishDate: '2026-09-03T09:20:42.196637Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Neural Networks and Learning Systems*, 34(11): 8441-8455'

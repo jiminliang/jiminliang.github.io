@@ -12,7 +12,7 @@ authors:
 - Jimin Liang
 - Yonghua Zhan
 date: '2024-01-01'
-publishDate: '2024-04-25T10:45:58.255205Z'
+publishDate: '2026-09-03T09:20:42.163193Z'
 publication_types:
 - article-journal
 publication: '*Journal of Imaging Informatics in Medicine*'

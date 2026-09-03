@@ -7,7 +7,7 @@ authors:
 - Kai Ni
 - Xiaohao Wang
 date: '2022-08-01'
-publishDate: '2023-12-18T09:50:18.656572Z'
+publishDate: '2026-09-03T09:20:42.292997Z'
 publication_types:
 - article-journal
 publication: '*Review of Scientific Instruments*, 93(8): 084101'

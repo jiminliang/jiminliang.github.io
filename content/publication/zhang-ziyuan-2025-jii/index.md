@@ -9,7 +9,7 @@ authors:
 - Minghao Dong
 - Jimin Liang
 date: '2025-01-01'
-publishDate: '2025-06-02T09:03:55.988322Z'
+publishDate: '2026-09-03T09:20:42.099970Z'
 publication_types:
 - article-journal
 publication: '*Journal of Information and Intelligence*, 3(1): 19-35'
