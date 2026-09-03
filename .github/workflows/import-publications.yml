@@ -37,7 +37,7 @@ jobs:
         # Check `.bib` file exists for case when action runs on `.bib` deletion
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
         if: ${{ hashFiles('publications.bib') != '' }}
-        run: academic import publications.bib content/publication/ --compact
+        run: academic import publications.bib content/publication/ --overwrite --compact
       - name: Post-process publication metadata
         if: ${{ hashFiles('publications.bib') != '' }}
         run: python scripts/postprocess_publications.py
