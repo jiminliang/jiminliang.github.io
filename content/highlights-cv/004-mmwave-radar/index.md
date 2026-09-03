@@ -41,7 +41,7 @@ We pre-trained MetaARM on an aggregated corpus of five public radar datasets: RA
 
 MetaARM achieves **64.5% mAP@0.3** on RADDet, **49.5% Range-Azimuth mIoU** on CARRADA, and **85.0% AP** on CRUW. Under matched downstream settings, autoregressive pre-training consistently outperforms training from scratch, MAE pre-training, and joint supervised training. The benefit is especially pronounced when annotations are scarce: using only 10% of the RADDet labels, pre-training improves mAP@0.3 from 12.8% to 21.1%. These results suggest that metadata-conditioned next-token prediction is a practical route toward reusable radar encoders that can learn from otherwise incompatible public data sources.
 
-**Reference:** H. Chen, X. Jiang, K. Guo, Y. Zheng, S. Pang, S. Ren, and J. Liang, [“Autoregressive Pre-training for Heterogeneous mmWave Radar Perception using Mamba,”](https://www.sciencedirect.com/science/article/abs/pii/S0957417426027375) *Expert Systems with Applications*, article 133829, 2026. [https://doi.org/10.1016/j.eswa.2026.133829](https://doi.org/10.1016/j.eswa.2026.133829).
+**Reference:** H. Chen, X. Jiang, K. Guo, Y. Zheng, S. Pang, S. Ren, and J. Liang, [“Autoregressive Pre-training for Heterogeneous mmWave Radar Perception using Mamba,”](https://www.sciencedirect.com/science/article/abs/pii/S0957417426027375) *Expert Systems with Applications*, Volume 333, Part A, article 133829, 2027. [https://doi.org/10.1016/j.eswa.2026.133829](https://doi.org/10.1016/j.eswa.2026.133829).
 
 ## Research Outlook
 

@@ -90,6 +90,6 @@ Of course, many challenges remain. Better geometric diversity, support for non-P
 
 Read our paper for more details:
 
-Xiaotian Jiang, Huan Huan Zhang, Kaitai Guo, Yang Zheng, Jimin Liang, [Mesh-Based Deep Learning Surrogate Model for Rapid Wideband 3D Electromagnetic Scattering Computation](https://ieeexplore.ieee.org/document/11412392), *IEEE Transactions on Antennas and Propagation*, 2026.
+Xiaotian Jiang, Huan Huan Zhang, Kaitai Guo, Yang Zheng, Jimin Liang, [Mesh-Based Deep Learning Surrogate Model for Rapid Wideband 3D Electromagnetic Scattering Computation](https://ieeexplore.ieee.org/document/11412392), *IEEE Transactions on Antennas and Propagation*, 74(5): 4546-4561, 2026.
 
 </font>

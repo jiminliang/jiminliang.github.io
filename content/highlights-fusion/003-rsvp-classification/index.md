@@ -76,6 +76,6 @@ For us, this is the most interesting part of the story. Sometimes the real scien
 
 Read our paper for more details:
 
-Ziyuan Zhang, Yang Zheng, Kaitai Guo, Jimin Liang*, Minghao Dong, [A Few-Layer Multilayer Perceptron is Worth Attention for EEG Classification in Rapid Serial Visual Presentation Task](https://www.worldscientific.com/doi/10.1142/S0129065726500309), *International Journal of Neural Systems*, 2026.
+Ziyuan Zhang, Yang Zheng, Kaitai Guo, Jimin Liang*, Minghao Dong, [A Few-Layer Multilayer Perceptron is Worth Attention for EEG Classification in Rapid Serial Visual Presentation Task](https://www.worldscientific.com/doi/10.1142/S0129065726500309), *International Journal of Neural Systems*, 36(09):2650030, 2026.
 
 </font>
