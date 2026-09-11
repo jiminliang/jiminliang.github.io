@@ -9,7 +9,7 @@ authors:
 - Shenghan Ren
 - Jimin Liang
 date: '2025-01-01'
-publishDate: '2026-09-03T09:20:42.111703Z'
+publishDate: '2026-09-11T02:10:08.860981Z'
 publication_types:
 - article-journal
 publication: '*IEEE Sensors Journal*, 25(11): 19442-19450'

@@ -8,7 +8,7 @@ authors:
 - Yang Zheng
 - Jimin Liang
 date: '2026-01-01'
-publishDate: '2026-09-03T09:20:42.087610Z'
+publishDate: '2026-09-11T02:10:08.842982Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Antennas and Propagation*, 74(5): 4546-4561'

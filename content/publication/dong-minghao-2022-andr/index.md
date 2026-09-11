@@ -11,7 +11,7 @@ authors:
 - Xiangsheng Zhang
 - Minghao Dong
 date: '2022-01-01'
-publishDate: '2026-09-03T09:20:42.306726Z'
+publishDate: '2026-09-11T02:10:09.038493Z'
 publication_types:
 - article-journal
 publication: '*Andrology*, 10(7): 1398-1410'

@@ -10,7 +10,7 @@ authors:
 - Jimin Liang
 - Heng Zhao
 date: '2022-01-01'
-publishDate: '2026-09-03T09:20:42.272076Z'
+publishDate: '2026-09-11T02:10:09.017828Z'
 publication_types:
 - article-journal
 publication: '*Biomedical Signal Processing and Control*, 73: 103447'
