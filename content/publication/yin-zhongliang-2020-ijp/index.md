@@ -9,7 +9,7 @@ authors:
 - Shenghan Ren
 - Jimin Liang
 date: '2020-01-01'
-publishDate: '2026-09-03T09:20:42.356425Z'
+publishDate: '2026-09-11T02:10:09.178674Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Psychophysiology*, 152: 26-35'

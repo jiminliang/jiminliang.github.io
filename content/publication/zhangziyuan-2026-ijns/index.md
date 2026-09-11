@@ -8,7 +8,7 @@ authors:
 - Jimin Liang
 - Minghao Dong
 date: '2026-01-01'
-publishDate: '2026-09-03T09:20:42.081827Z'
+publishDate: '2026-09-11T02:10:08.839619Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Neural Systems*, 36(09): 2650030'

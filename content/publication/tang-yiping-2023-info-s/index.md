@@ -9,7 +9,7 @@ authors:
 - Haihong Hu
 - Jimin Liang
 date: '2023-01-01'
-publishDate: '2026-09-03T09:20:42.203112Z'
+publishDate: '2026-09-11T02:10:08.961468Z'
 publication_types:
 - article-journal
 publication: '*Information Sciences*, 623: 693-708'

@@ -10,7 +10,7 @@ authors:
 - Wei Zhang
 - Jimin Liang
 date: '2022-01-01'
-publishDate: '2026-09-03T09:20:42.250767Z'
+publishDate: '2026-09-11T02:10:08.995102Z'
 publication_types:
 - article-journal
 publication: '*IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 15: 700-715'

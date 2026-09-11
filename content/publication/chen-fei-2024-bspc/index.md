@@ -10,7 +10,7 @@ authors:
 - Feng Cao
 - Jimin Liang
 date: '2024-01-01'
-publishDate: '2026-09-03T09:20:42.189654Z'
+publishDate: '2026-09-11T02:10:08.953211Z'
 publication_types:
 - article-journal
 publication: '*Biomedical Signal Processing and Control*, 87: 105473'

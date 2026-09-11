@@ -7,7 +7,7 @@ authors:
 - Haihong Hu
 - Jimin Liang
 date: '2023-01-01'
-publishDate: '2026-09-03T09:20:42.230408Z'
+publishDate: '2026-09-11T02:10:08.983170Z'
 publication_types:
 - article-journal
 publication: '*Sensors*, 23(7)'

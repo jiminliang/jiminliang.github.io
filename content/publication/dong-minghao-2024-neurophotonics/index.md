@@ -14,7 +14,7 @@ authors:
 - Chaozhe Zhu
 - Minghao Dong
 date: '2024-01-01'
-publishDate: '2026-09-03T09:20:42.183274Z'
+publishDate: '2026-09-11T02:10:08.949331Z'
 publication_types:
 - article-journal
 publication: '*Neurophotonics*, 11(1): 015002'
