@@ -13,7 +13,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD student (2024-Now)
+role: Ph.D. Candidate (2024-Present)
 
 # Organizations/Affiliations
 organizations:
@@ -22,17 +22,17 @@ organizations:
     url: 'https://www.xidian.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My current research interests include computational electromagnetics, electromagnetic surrogate model and neural operators. We ain't never getting older.
+bio: Ph.D. student at Xidian University working on computational electromagnetics, electromagnetic surrogate modeling, 3-D microwave reconstruction, and neural operators.
 
 interests:
-  - Deep learning
-  - Neural operators
   - Computational electromagnetics
-  - Electromagnetic surrogate model
+  - Electromagnetic surrogate modeling
+  - 3-D microwave reconstruction
+  - Neural operators and graph neural networks
 
 education:
   courses:
-    - course: B.Eng. in Electronic Information Engineering
+    - course: B.Sc. in Electronic Information Engineering
       institution: Xidian University
       year: 2019-2023
     - course: M.Sc. in Electronic Science and Technology
@@ -81,5 +81,14 @@ user_groups:
   - Graduate Students
 ---
 
-蒋晓天 Xiaotian Jiang (Graduate student Member, IEEE) was born in Zhejiang, China, in 2001. He received the B.Sc. degree in electronic information engineering from Xidian University, Xi'an, China, in 2023, where he is currently pursuing the Ph.D. degree in Control Science and Engineering with School of Electronic Engineering, Xidian University. His current research interests include computational electromagnetics, electromagnetic surrogate model and neural operators.
+蒋晓天 Xiaotian Jiang (Graduate Student Member, IEEE) was born in Zhejiang, China, in 2001. He received the B.Sc. degree in electronic information engineering from Xidian University, Xi'an, China, in 2023, where he is currently pursuing the Ph.D. degree in control science and engineering with the School of Electronic Engineering.
+
+His current research interests include computational electromagnetics, electromagnetic surrogate modeling, 3-D microwave reconstruction, and neural networks. His broader research focuses on machine learning and neural-operator methods for electromagnetic scattering, microwave imaging, inverse parameter prediction, and 3-D geometry reconstruction and design. He serves as a reviewer for *IEEE Transactions on Antennas and Propagation* and *IEEE Transactions on Microwave Theory and Techniques*.
+
+## Awards and Honors
+
+- **Best Paper Award**, 2026 International Conference on Artificial Intelligence and Information (ICAI 2026), Sept. 2026.
+- **Outstanding Graduate of Shaanxi Province**.
+- **Xidian Special-Class Scholarship** (highest-tier university scholarship).
+- **Xidian Model Outstanding Student**.
 
