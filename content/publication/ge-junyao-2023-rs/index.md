@@ -8,7 +8,7 @@ authors:
 - Haihong Hu
 - Jimin Liang
 date: '2023-01-01'
-publishDate: '2026-09-11T02:10:08.979202Z'
+publishDate: '2026-11-02T05:44:23.054695Z'
 publication_types:
 - article-journal
 publication: '*Remote Sensing*, 15(8)'

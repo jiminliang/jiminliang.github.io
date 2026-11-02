@@ -12,8 +12,7 @@ date: '2026-11-01'
 publishDate: '2026-11-01T00:00:00+08:00'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Microwave Theory and Techniques*, accepted Nov.
-  1, 2026'
+publication: '*IEEE Transactions on Microwave Theory and Techniques*'
 doi: 10.1109/TMTT.2026.3750196
 tags:
 - Computational electromagnetics; dielectric scattering; microwave computer-aided

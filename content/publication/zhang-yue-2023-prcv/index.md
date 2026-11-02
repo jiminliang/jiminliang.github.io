@@ -10,7 +10,7 @@ authors:
 - Xiaoping Chen
 - Jimin Liang
 date: '2023-01-01'
-publishDate: '2026-09-11T02:10:08.987053Z'
+publishDate: '2026-11-02T05:44:23.064665Z'
 publication_types:
 - paper-conference
 publication: '*Pattern Recognition and Computer Vision - PRCV 2023*, 269--280'

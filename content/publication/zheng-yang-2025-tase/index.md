@@ -9,7 +9,7 @@ authors:
 - Kaitai Guo
 - Wai-Lun Lo
 date: '2025-01-01'
-publishDate: '2026-09-11T02:10:08.868435Z'
+publishDate: '2026-11-02T05:44:22.995281Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Automation Science and Engineering*, 22: 12470-12484'

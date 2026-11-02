@@ -7,7 +7,7 @@ authors:
 - Bing Zhang
 - Jimin Liang
 date: '2026-01-01'
-publishDate: '2026-09-11T02:10:08.827454Z'
+publishDate: '2026-11-02T05:44:22.954001Z'
 publication_types:
 - article-journal
 publication: '*Optics Communications*, 620: 133610'

@@ -9,7 +9,7 @@ authors:
 - Haihong Hu
 - Jimin Liang
 date: '2024-01-01'
-publishDate: '2026-09-11T02:10:08.927371Z'
+publishDate: '2026-11-02T05:44:23.009904Z'
 publication_types:
 - article-journal
 publication: '*Agronomy*, 14(6)'
