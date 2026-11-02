@@ -8,7 +8,7 @@ authors:
 - Feng Cao
 - Jimin Liang
 date: '2025-01-01'
-publishDate: '2026-09-11T02:10:08.857615Z'
+publishDate: '2026-11-02T05:44:22.984457Z'
 publication_types:
 - article-journal
 publication: '*IEEE Journal of Biomedical and Health Informatics*, 29(7): 4612-4622'

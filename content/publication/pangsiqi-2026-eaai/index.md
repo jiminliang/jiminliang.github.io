@@ -7,7 +7,7 @@ authors:
 - Yang Zheng
 - Jimin Liang
 date: '2026-01-01'
-publishDate: '2026-09-11T02:10:08.835980Z'
+publishDate: '2026-11-02T05:44:22.966738Z'
 publication_types:
 - article-journal
 publication: '*Engineering Applications of Artificial Intelligence*, 176: 114724'

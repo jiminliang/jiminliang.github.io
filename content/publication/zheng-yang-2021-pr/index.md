@@ -8,7 +8,7 @@ authors:
 - Zongxi Song
 - Desheng Wen
 date: '2021-01-01'
-publishDate: '2026-09-11T02:10:09.174795Z'
+publishDate: '2026-11-02T05:44:23.130970Z'
 publication_types:
 - article-journal
 publication: '*Pattern Recognition*, 113: 107755'

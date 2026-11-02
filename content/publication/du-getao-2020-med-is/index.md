@@ -7,7 +7,7 @@ authors:
 - Xueli Chen
 - Yonghua Zhan
 date: '2020-01-01'
-publishDate: '2026-09-11T02:10:09.190666Z'
+publishDate: '2026-11-02T05:44:23.147322Z'
 publication_types:
 - article-journal
 publication: '*Journal of Imaging Science and Technology*, 64: 20508-1-20508-12'
