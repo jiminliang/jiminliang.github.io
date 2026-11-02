@@ -77,6 +77,6 @@ Even with these boundaries, the engineering direction is clear: **AI can make co
 
 Read our paper for more details:
 
-Xiaotian Jiang, Junming Hou, Kaitai Guo, Yang Zheng, Jian Wei You, Jimin Liang, *A Condition-Aware Dielectric Neural Operator for Microwave Full-Wave Surrogate Modeling of 3-D Inhomogeneous Scattering*, **IEEE Transactions on Microwave Theory and Techniques**, accepted for publication, 2026. [Code and implementation details](https://github.com/cytosineXT/GT-DieleNO)
+Xiaotian Jiang, Junming Hou, Kaitai Guo, Yang Zheng, Jian Wei You, Jimin Liang, *A Condition-Aware Dielectric Neural Operator for Microwave Full-Wave Surrogate Modeling of 3-D Inhomogeneous Scattering*, **IEEE Transactions on Microwave Theory and Techniques**, accepted for publication Nov. 1, 2026. [DOI: 10.1109/TMTT.2026.3750196](https://doi.org/10.1109/TMTT.2026.3750196). [Code and implementation details](https://github.com/cytosineXT/GT-DieleNO)
 
 </font>
