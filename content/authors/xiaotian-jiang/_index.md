@@ -83,7 +83,7 @@ user_groups:
 
 蒋晓天 Xiaotian Jiang (Graduate Student Member, IEEE) was born in Zhejiang, China, in 2001. He received the B.Sc. degree in electronic information engineering from Xidian University, Xi'an, China, in 2023, where he is currently pursuing the Ph.D. degree in control science and engineering with the School of Electronic Engineering.
 
-His current research interests include computational electromagnetics, electromagnetic surrogate modeling, 3-D microwave reconstruction, and neural networks. His broader research focuses on machine learning and neural-operator methods for electromagnetic scattering, microwave imaging, inverse parameter prediction, and 3-D geometry reconstruction and design. He serves as a reviewer for *IEEE Transactions on Antennas and Propagation* and *IEEE Transactions on Microwave Theory and Techniques*.
+His current research interests include computational electromagnetics, electromagnetic surrogate modeling, 3-D microwave reconstruction, and neural networks. His broader research focuses on machine learning and neural-operator methods for electromagnetic scattering, microwave imaging, inverse parameter prediction, and 3-D geometry reconstruction and design. He serves as a reviewer for *IEEE Transactions on Antennas and Propagation*.
 
 ## Awards and Honors
 
