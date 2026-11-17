@@ -85,9 +85,12 @@ user_groups:
 
 His current research interests include computational electromagnetics, electromagnetic surrogate modeling, 3-D microwave reconstruction, and neural networks. His broader research focuses on machine learning and neural-operator methods for electromagnetic scattering, microwave imaging, inverse parameter prediction, and 3-D geometry reconstruction and design. He serves as a reviewer for *IEEE Transactions on Antennas and Propagation*.
 
-## Awards and Honors
+## Funding and Awards
 
-- **Best Paper Award**, 2026 International Conference on Artificial Intelligence and Information (ICAI 2026), Sept. 2026.
+- **Xidian University Graduate Innovation Fund**, Principal Investigator (sole investigator; RMB 30,000; Jan.-Dec. 2026).
+- **Xidian University Outstanding Doctoral Dissertation Support Fund**, Recipient (RMB 100,000; Sep. 2026-Jun. 2028).
+- **Best Paper Award**, 2026 International Conference on Artificial Intelligence and Information (ICAI 2026), Sep. 2026.
+  - Paper: "Physics-Informed Complex Graph-Transformer-CNN Network for Rapid 3D Electromagnetic Scattered Field Prediction" (first author).
 - **Outstanding Graduate of Shaanxi Province**.
 - **Xidian Special-Class Scholarship** (highest-tier university scholarship).
 - **Xidian Model Outstanding Student**.

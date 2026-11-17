@@ -1,11 +1,11 @@
 ---
-title: Paper accepted by IEEE Transactions on Microwave Theory and Techniques
-date: 2026-11-01
+title: Paper published in IEEE Transactions on Microwave Theory and Techniques
+date: 2026-11-16
 image:
   focal_point: 'top'
 ---
 
-Our paper on a condition-aware neural operator for 3D dielectric microwave scattering has been accepted by **[IEEE Transactions on Microwave Theory and Techniques](https://doi.org/10.1109/TMTT.2026.3750196)** - November 1, 2026.
+Our paper on a condition-aware neural operator for 3D dielectric microwave scattering is now available online as an Early Access article in **[IEEE Transactions on Microwave Theory and Techniques](https://ieeexplore.ieee.org/document/11795373)** - November 16, 2026.
 
 <!--more-->
 
@@ -15,6 +15,6 @@ In this work, we introduce **GT-DieleNO**, a Graph-Tetrahedral Dielectric Neural
 
 The study constructs a multi-object dielectric benchmark with 84,600 dense simulated microwave response tensors and evaluates interpolation, held-material prediction, unseen-geometry generalization, architecture ablations, sparse measured-data fitting, and runtime. For one dense 360 x 720 RCS map, GT-DieleNO achieves a conservative **146.2x** online speedup over the tested FEM solve. These results demonstrate how AI can complement computational microwave techniques by accelerating repeated analysis and candidate screening while retaining full-wave solvers for high-fidelity verification.
 
-The paper is accepted for publication with DOI [10.1109/TMTT.2026.3750196](https://doi.org/10.1109/TMTT.2026.3750196). Code and implementation details are available at [GT-DieleNO](https://github.com/cytosineXT/GT-DieleNO).
+The paper is available on IEEE Xplore as an Early Access article, pp. 1-15, with DOI [10.1109/TMTT.2026.3750196](https://doi.org/10.1109/TMTT.2026.3750196). Code and implementation details are available at [GT-DieleNO](https://github.com/cytosineXT/GT-DieleNO).
 
 {{% cta cta_link="/highlights-ai4cem/003-GTDieleNO" cta_text="Read more ..." %}}
