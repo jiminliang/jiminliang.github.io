@@ -89,8 +89,8 @@ His current research interests include computational electromagnetics, electroma
 
 - **Xidian University Graduate Innovation Fund**, Principal Investigator (sole investigator; RMB 30,000; Jan.-Dec. 2026).
 - **Xidian University Outstanding Doctoral Dissertation Support Fund**, Recipient (RMB 100,000; Sep. 2026-Jun. 2028).
-- **Best Paper Award**, 2026 International Conference on Artificial Intelligence and Information (ICAI 2026), Sep. 2026.
-  - Paper: "Physics-Informed Complex Graph-Transformer-CNN Network for Rapid 3D Electromagnetic Scattered Field Prediction" (first author).
+- **Best Paper Award (First Author)**, 2026 International Conference on Artificial Intelligence and Information (ICAI 2026), Sep. 2026.
+- **The Best Team Project Award (Team Leader)**, 2026 Summer CAVR Programme on Frontier Training in Electronic Information and Control Engineering, Centre for Augmented and Virtual Reality, Nanyang Technological University, Aug. 2026.
 - **Outstanding Graduate of Shaanxi Province**.
 - **Xidian Special-Class Scholarship** (highest-tier university scholarship).
 - **Xidian Model Outstanding Student**.
