@@ -7,7 +7,7 @@ authors:
 - Kaitai Guo
 - Jimin Liang
 date: '2024-01-01'
-publishDate: '2026-09-11T02:10:08.881683Z'
+publishDate: '2026-11-17T03:06:38.867011Z'
 publication_types:
 - article-journal
 publication: '*IEEE Signal Processing Letters*, 31: 2090-2094'
