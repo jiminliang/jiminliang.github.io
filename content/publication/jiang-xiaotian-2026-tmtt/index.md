@@ -8,12 +8,11 @@ authors:
 - Yang Zheng
 - Jian Wei You
 - Jimin Liang
-date: '2026-11-16'
-publishDate: '2026-11-16T00:00:00+08:00'
+date: '2026-01-01'
+publishDate: '2026-11-17T03:06:38.759400Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Microwave Theory and Techniques*, early access,
-  Nov. 2026, pp. 1-15'
+publication: '*IEEE Transactions on Microwave Theory and Techniques*, 1-15'
 pages: '1-15'
 doi: 10.1109/TMTT.2026.3750196
 tags:

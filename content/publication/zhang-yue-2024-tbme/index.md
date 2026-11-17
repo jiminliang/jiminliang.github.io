@@ -9,7 +9,7 @@ authors:
 - Jianzhong Guo
 - Jimin Liang
 date: '2024-01-01'
-publishDate: '2026-09-11T02:10:08.941408Z'
+publishDate: '2026-11-17T03:06:38.905168Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Biomedical Engineering*, 71(8): 2352-2366'
